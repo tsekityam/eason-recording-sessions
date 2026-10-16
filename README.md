@@ -19,7 +19,7 @@ Open http://localhost:8000 . The page loads `data/shows.json` from the same orig
 
 The site files live at the repository root. Publish from `main` either way:
 
-1. **GitHub Actions** (`.github/workflows/pages.yml`): Settings → Pages → Build and deployment → Source: **GitHub Actions**.
-2. **Branch**: Settings → Pages → Deploy from a branch → `main` → `/ (root)`.
+1. **GitHub Actions** (`.github/workflows/pages.yml`): pushes to `main` deploy the site. The workflow turns Pages on if it is not enabled yet (Source: **GitHub Actions**).
+2. **Branch**, if you prefer not to use Actions: Settings → Pages → Deploy from a branch → `main` → `/ (root)`.
 
 `kytse.com` is the username site custom domain. This project is served at `/eason-recording-sessions/`, so this repo has no `CNAME`.

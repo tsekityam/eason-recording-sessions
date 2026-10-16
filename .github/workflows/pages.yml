@@ -37,6 +37,9 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
+        with:
+          # Turns on Pages for this repo when it is not enabled yet.
+          enablement: true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
