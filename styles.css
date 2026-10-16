@@ -10,8 +10,7 @@
   --lamp-go: #1f9a45;
   --lamp-stop: #d7263d;
   --lamp-ink: #1c140c;
-  --heard: #8fd0aa;
-  --miss: #e7a092;
+  --stamp: #fff;
   --line: rgba(255, 236, 210, 0.1);
   --safe-top: env(safe-area-inset-top, 0px);
   --safe-bot: env(safe-area-inset-bottom, 0px);
@@ -186,23 +185,23 @@ button:focus-visible {
 .card.is-saved-heard,
 .card.is-heard {
   background: var(--lamp-go);
-  color: #f4fff6;
+  color: var(--stamp);
 }
 
 .card.is-saved-miss,
 .card.is-miss {
   background: var(--lamp-stop);
-  color: #fff7f6;
+  color: var(--stamp);
 }
 
 .card.is-heard {
   background: var(--lamp-go);
-  color: #f4fff6;
+  color: var(--stamp);
 }
 
 .card.is-miss {
   background: var(--lamp-stop);
-  color: #fff7f6;
+  color: var(--stamp);
 }
 
 .card.is-heard,
@@ -217,14 +216,6 @@ button:focus-visible {
 .card.is-saved-miss .when,
 .card.is-miss .when {
   color: rgba(255, 255, 255, 0.88);
-}
-
-.card.is-saved-heard .stamp-heard,
-.card.is-heard .stamp-heard,
-.card.is-saved-miss .stamp-miss,
-.card.is-miss .stamp-miss {
-  color: #fff;
-  border-color: #fff;
 }
 
 .card.is-saved-heard .stamp-heard,
@@ -280,21 +271,19 @@ button:focus-visible {
   font-size: 1.35rem;
   font-weight: 800;
   letter-spacing: 0.08em;
+  color: var(--stamp);
+  border-color: var(--stamp);
   opacity: 0;
   pointer-events: none;
 }
 
 .stamp-heard {
   left: 16px;
-  color: var(--heard);
-  border-color: var(--heard);
   transform: rotate(-16deg);
 }
 
 .stamp-miss {
   right: 16px;
-  color: var(--miss);
-  border-color: var(--miss);
   transform: rotate(16deg);
 }
 
@@ -318,13 +307,13 @@ button:focus-visible {
 
 .btn-miss {
   background: var(--lamp-stop);
-  color: #fff7f6;
+  color: var(--stamp);
   border: 1px solid transparent;
 }
 
 .btn-heard {
   background: var(--lamp-go);
-  color: #f4fff6;
+  color: var(--stamp);
   border: 1px solid transparent;
 }
 
