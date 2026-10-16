@@ -1,0 +1,1785 @@
+{
+  "event": "McDonald's Presents: Recording Sessions with Mr. Eason Chan",
+  "venue": "香港演藝學院歌劇院",
+  "shows": [
+    {
+      "id": "2026-12-12",
+      "date": "2026-12-12",
+      "weekday": "六",
+      "label": "陳奕迅",
+      "albums": [
+        {
+          "title": "陳奕迅",
+          "year": 1996,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%A5%95%E8%BF%85_(%E5%B0%88%E8%BC%AF)",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "時代曲"
+            },
+            {
+              "n": 2,
+              "title": "傷信"
+            },
+            {
+              "n": 3,
+              "title": "遊離份子"
+            },
+            {
+              "n": 4,
+              "title": "我怕你不肯"
+            },
+            {
+              "n": 5,
+              "title": "有意無意"
+            },
+            {
+              "n": 6,
+              "title": "安守本份"
+            },
+            {
+              "n": 7,
+              "title": "愛情，幼稚！"
+            },
+            {
+              "n": 8,
+              "title": "從未痴心"
+            },
+            {
+              "n": 9,
+              "title": "其實我記得"
+            },
+            {
+              "n": 10,
+              "title": "當心中有戀愛感覺"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "2026-12-13",
+      "date": "2026-12-13",
+      "weekday": "日",
+      "label": "與我常在",
+      "albums": [
+        {
+          "title": "與我常在",
+          "year": 1997,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/%E8%88%87%E6%88%91%E5%B8%B8%E5%9C%A8",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "現場直播"
+            },
+            {
+              "n": 2,
+              "title": "與我常在"
+            },
+            {
+              "n": 3,
+              "title": "愛沒有左右"
+            },
+            {
+              "n": 4,
+              "title": "生命有幾好"
+            },
+            {
+              "n": 5,
+              "title": "抱擁這分鐘"
+            },
+            {
+              "n": 6,
+              "title": "那一夜有沒有雪?（Demo Version）"
+            },
+            {
+              "n": 7,
+              "title": "伴遊"
+            },
+            {
+              "n": 8,
+              "title": "跟我走好嗎"
+            },
+            {
+              "n": 9,
+              "title": "今天等我來"
+            },
+            {
+              "n": 10,
+              "title": "敵人"
+            },
+            {
+              "n": 11,
+              "title": "那一夜有沒有說?"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "2026-12-16",
+      "date": "2026-12-16",
+      "weekday": "三",
+      "label": "I Had A Great Time!",
+      "albums": [
+        {
+          "title": "I Had A Great Time!",
+          "year": 2004,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/I_Had_A_Great_Time",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "24"
+            },
+            {
+              "n": 2,
+              "title": "八里公路"
+            },
+            {
+              "n": 3,
+              "title": "萬佛朝宗"
+            },
+            {
+              "n": 4,
+              "title": "放下來"
+            },
+            {
+              "n": 5,
+              "title": "愛你入骨"
+            },
+            {
+              "n": 6,
+              "title": "冤氣"
+            },
+            {
+              "n": 7,
+              "title": "最後今晚"
+            },
+            {
+              "n": 8,
+              "title": "不求人"
+            },
+            {
+              "n": 9,
+              "title": "一切還好"
+            },
+            {
+              "n": 10,
+              "title": "開不了心"
+            }
+          ],
+          "notes": "Album was not independently released in 2004; planned EE album later split across Great 5000 Secs / Sound & Sight compilations. Track order per zh.wikipedia reconstructed setlist."
+        }
+      ],
+      "notes": "Not a standalone retail album; songs later appeared on 2005–2006 EE new-song+hits compilations."
+    },
+    {
+      "id": "2026-12-17",
+      "date": "2026-12-17",
+      "weekday": "四",
+      "label": "The Easy Ride",
+      "albums": [
+        {
+          "title": "The Easy Ride",
+          "year": 2001,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/The_Easy_Ride",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "阿士匹靈"
+            },
+            {
+              "n": 2,
+              "title": "陽性反應"
+            },
+            {
+              "n": 3,
+              "title": "衝口而出"
+            },
+            {
+              "n": 4,
+              "title": "大開眼戒"
+            },
+            {
+              "n": 5,
+              "title": "我不好愛"
+            },
+            {
+              "n": 6,
+              "title": "熱帶雨林"
+            },
+            {
+              "n": 7,
+              "title": "人工智能"
+            },
+            {
+              "n": 8,
+              "title": "結束開始"
+            },
+            {
+              "n": 9,
+              "title": "活著多好"
+            },
+            {
+              "n": 10,
+              "title": "他一個人"
+            },
+            {
+              "n": 11,
+              "title": "不知所謂"
+            }
+          ],
+          "notes": "Track 4 also titled 打回原形（大開眼戒） on some releases; HK chart/common title 大開眼戒 used. Track 2 is a short instrumental."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "2026-12-19",
+      "date": "2026-12-19",
+      "weekday": "六",
+      "label": "H³M",
+      "albums": [
+        {
+          "title": "H³M",
+          "year": 2009,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/H%C2%B3M",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "Allegro, Opus 3.3 a.m."
+            },
+            {
+              "n": 2,
+              "title": "還有什麼可以送給你"
+            },
+            {
+              "n": 3,
+              "title": "於心有愧"
+            },
+            {
+              "n": 4,
+              "title": "今天只做一件事"
+            },
+            {
+              "n": 5,
+              "title": "一個旅人"
+            },
+            {
+              "n": 6,
+              "title": "七百年後"
+            },
+            {
+              "n": 7,
+              "title": "Life Goes On"
+            },
+            {
+              "n": 8,
+              "title": "太陽照常升起"
+            },
+            {
+              "n": 9,
+              "title": "不來也不去"
+            },
+            {
+              "n": 10,
+              "title": "沙龍"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "2026-12-20",
+      "date": "2026-12-20",
+      "weekday": "日",
+      "label": "Taste the Atmosphere, Stranger Under My Skin",
+      "albums": [
+        {
+          "title": "Taste the Atmosphere",
+          "year": 2010,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/Taste_the_Atmosphere",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "Welcome to the Future"
+            },
+            {
+              "n": 2,
+              "title": "講男講女"
+            },
+            {
+              "n": 3,
+              "title": "葉問風中轉"
+            },
+            {
+              "n": 4,
+              "title": "花花世界"
+            },
+            {
+              "n": 5,
+              "title": "我杯茶"
+            },
+            {
+              "n": 6,
+              "title": "超錯"
+            },
+            {
+              "n": 7,
+              "title": "葉問風中轉（Demo Version）"
+            },
+            {
+              "n": 8,
+              "title": "講男講女（NG Take）"
+            }
+          ],
+          "notes": "Tracks 7–8 are hidden tracks on the HK release."
+        },
+        {
+          "title": "Stranger Under My Skin",
+          "year": 2011,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/Stranger_Under_My_Skin",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "六月飛霜"
+            },
+            {
+              "n": 2,
+              "title": "Stranger Under My Skin"
+            },
+            {
+              "n": 3,
+              "title": "最後派對"
+            },
+            {
+              "n": 4,
+              "title": "苦瓜"
+            },
+            {
+              "n": 5,
+              "title": "沼氣"
+            },
+            {
+              "n": 6,
+              "title": "My Private Christmas Song"
+            },
+            {
+              "n": 7,
+              "title": "樂園"
+            },
+            {
+              "n": 8,
+              "title": "等你愛我"
+            },
+            {
+              "n": 9,
+              "title": "因為愛情"
+            }
+          ],
+          "notes": "Tracks 7–9 are Mandarin bonus tracks on the HK edition."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "2026-12-23",
+      "date": "2026-12-23",
+      "weekday": "三",
+      "label": "不想放手",
+      "albums": [
+        {
+          "title": "不想放手",
+          "year": 2008,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/%E4%B8%8D%E6%83%B3%E6%94%BE%E6%89%8B",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "27 Seconds"
+            },
+            {
+              "n": 2,
+              "title": "路...一直都在"
+            },
+            {
+              "n": 3,
+              "title": "獨居動物"
+            },
+            {
+              "n": 4,
+              "title": "倒帶人生"
+            },
+            {
+              "n": 5,
+              "title": "Aren't You Glad"
+            },
+            {
+              "n": 6,
+              "title": "7"
+            },
+            {
+              "n": 7,
+              "title": "不要說話"
+            },
+            {
+              "n": 8,
+              "title": "漂亮小姐"
+            },
+            {
+              "n": 9,
+              "title": "臭美"
+            },
+            {
+              "n": 10,
+              "title": "土星環"
+            },
+            {
+              "n": 11,
+              "title": "然後怎樣+Hidden Message"
+            }
+          ],
+          "notes": "Mandarin album. Track 1 is instrumental; track 5 is English."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "2026-12-24",
+      "date": "2026-12-24",
+      "weekday": "四",
+      "label": "4 A Change, 幸福 新生活",
+      "albums": [
+        {
+          "title": "4 A Change",
+          "year": 2002,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/4_a_Change_%26_Hits",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "King Kong"
+            },
+            {
+              "n": 2,
+              "title": "Lonely Christmas"
+            },
+            {
+              "n": 3,
+              "title": "第一類接觸"
+            },
+            {
+              "n": 4,
+              "title": "少見不怪"
+            }
+          ],
+          "notes": "Retail release title is 4 A Change & Hits (新曲+精選). Listed here are the four new songs branded as 「4 A Change」; the Hits disc duplicates material from other album nights."
+        },
+        {
+          "title": "幸福",
+          "year": 1999,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/%E5%B9%B8%E7%A6%8F_(%E8%BF%B7%E4%BD%A0%E5%B0%88%E8%BC%AF)",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "幸福摩天輪"
+            },
+            {
+              "n": 2,
+              "title": "飄飄飄飄"
+            },
+            {
+              "n": 3,
+              "title": "時光倒流二十年"
+            },
+            {
+              "n": 4,
+              "title": "忽然難過"
+            },
+            {
+              "n": 5,
+              "title": "專家話"
+            }
+          ],
+          "notes": "EP Disc 1 studio tracks only. Disc 2 is live covers of other artists' songs (recorded at concerts), omitted for studio-album focus."
+        },
+        {
+          "title": "新生活",
+          "year": 1998,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/%E6%96%B0%E7%94%9F%E6%B4%BB",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "終於一百日"
+            },
+            {
+              "n": 2,
+              "title": "新生活"
+            },
+            {
+              "n": 3,
+              "title": "游移的傷口（獨白）"
+            },
+            {
+              "n": 4,
+              "title": "我甚麼都沒有"
+            },
+            {
+              "n": 5,
+              "title": "地獄咒（獨白）"
+            },
+            {
+              "n": 6,
+              "title": "與我常在"
+            },
+            {
+              "n": 7,
+              "title": "抱擁這分鐘"
+            },
+            {
+              "n": 8,
+              "title": "天一半、地一半（獨白）"
+            },
+            {
+              "n": 9,
+              "title": "天下無雙"
+            },
+            {
+              "n": 10,
+              "title": "今天等我來"
+            },
+            {
+              "n": 11,
+              "title": "回絕（獨白）"
+            },
+            {
+              "n": 12,
+              "title": "傷信"
+            },
+            {
+              "n": 13,
+              "title": "我的快樂時代"
+            },
+            {
+              "n": 14,
+              "title": "多一點"
+            },
+            {
+              "n": 15,
+              "title": "時代曲"
+            },
+            {
+              "n": 16,
+              "title": "遊離份子"
+            },
+            {
+              "n": 17,
+              "title": "我怕你不肯"
+            },
+            {
+              "n": 18,
+              "title": "美滿人生"
+            },
+            {
+              "n": 19,
+              "title": "超人的主題曲"
+            }
+          ],
+          "notes": "新曲+精選; includes spoken interludes. New songs are primarily 終於一百日 and 新生活."
+        }
+      ],
+      "notes": "Poster text: 「4 A Change, 幸福 新生活」with a space between 幸福 and 新生活. No single album titled 幸福新生活 exists; treated as three releases: 4 A Change (4 new songs), EP《幸福》, and《新生活》新曲+精選."
+    },
+    {
+      "id": "2026-12-26",
+      "date": "2026-12-26",
+      "weekday": "六",
+      "label": "黑·白·灰",
+      "albums": [
+        {
+          "title": "黑·白·灰",
+          "year": 2003,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/%E9%BB%91%C2%B7%E7%99%BD%C2%B7%E7%81%B0",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "阿怪"
+            },
+            {
+              "n": 2,
+              "title": "我們都寂寞"
+            },
+            {
+              "n": 3,
+              "title": "兄妹"
+            },
+            {
+              "n": 4,
+              "title": "十年"
+            },
+            {
+              "n": 5,
+              "title": "要你的"
+            },
+            {
+              "n": 6,
+              "title": "世界"
+            },
+            {
+              "n": 7,
+              "title": "謝謝"
+            },
+            {
+              "n": 8,
+              "title": "像一句廣告"
+            },
+            {
+              "n": 9,
+              "title": "寂寞奏鳴曲"
+            },
+            {
+              "n": 10,
+              "title": "Last Order"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "2026-12-27",
+      "date": "2026-12-27",
+      "weekday": "日",
+      "label": "Special Thanks To...",
+      "albums": [
+        {
+          "title": "Special Thanks To...",
+          "year": 2002,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/Special_Thanks_To...",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "Special Thanks To 1"
+            },
+            {
+              "n": 2,
+              "title": "你的背包"
+            },
+            {
+              "n": 3,
+              "title": "謝謝儂"
+            },
+            {
+              "n": 4,
+              "title": "男人的錯"
+            },
+            {
+              "n": 5,
+              "title": "你會不會"
+            },
+            {
+              "n": 6,
+              "title": "故事"
+            },
+            {
+              "n": 7,
+              "title": "想哭"
+            },
+            {
+              "n": 8,
+              "title": "Special Thanks To 2"
+            },
+            {
+              "n": 9,
+              "title": "人造衛星"
+            },
+            {
+              "n": 10,
+              "title": "沒有手機的日子"
+            },
+            {
+              "n": 11,
+              "title": "跳蚤市場"
+            },
+            {
+              "n": 12,
+              "title": "狂人日記"
+            },
+            {
+              "n": 13,
+              "title": "Special Thanks To 3"
+            },
+            {
+              "n": 14,
+              "title": "給愛麗斯"
+            }
+          ],
+          "notes": "HK special edition includes Cantonese bonus 給愛麗斯 as track 14."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "2027-01-06",
+      "date": "2027-01-06",
+      "weekday": "三",
+      "label": "What's Going On...?",
+      "albums": [
+        {
+          "title": "What's Going On...?",
+          "year": 2006,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/What%27s_Going_On...%3F",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "裙下之臣"
+            },
+            {
+              "n": 2,
+              "title": "最後的嬉皮士"
+            },
+            {
+              "n": 3,
+              "title": "白玫瑰"
+            },
+            {
+              "n": 4,
+              "title": "黑擇明"
+            },
+            {
+              "n": 5,
+              "title": "富士山下"
+            },
+            {
+              "n": 6,
+              "title": "不如不見"
+            },
+            {
+              "n": 7,
+              "title": "心深傷透"
+            },
+            {
+              "n": 8,
+              "title": "解藥"
+            },
+            {
+              "n": 9,
+              "title": "天公地道"
+            },
+            {
+              "n": 10,
+              "title": "粵語殘片"
+            }
+          ],
+          "notes": "1st edition CD tracklist (10 songs). 2nd edition adds a live bonus CD, omitted here."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "2027-01-07",
+      "date": "2027-01-07",
+      "weekday": "四",
+      "label": "認了吧",
+      "albums": [
+        {
+          "title": "認了吧",
+          "year": 2007,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/%E8%AA%8D%E4%BA%86%E5%90%A7",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "煙味"
+            },
+            {
+              "n": 2,
+              "title": "淘汰"
+            },
+            {
+              "n": 3,
+              "title": "快樂男生"
+            },
+            {
+              "n": 4,
+              "title": "紅玫瑰"
+            },
+            {
+              "n": 5,
+              "title": "月黑風高"
+            },
+            {
+              "n": 6,
+              "title": "愛情轉移"
+            },
+            {
+              "n": 7,
+              "title": "好久不見"
+            },
+            {
+              "n": 8,
+              "title": "愛是一本書"
+            },
+            {
+              "n": 9,
+              "title": "第一個雅皮士"
+            },
+            {
+              "n": 10,
+              "title": "白色球鞋"
+            },
+            {
+              "n": 11,
+              "title": "月球上的人"
+            }
+          ],
+          "notes": "HK edition includes Cantonese bonus 月球上的人 as track 11."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "2027-01-09",
+      "date": "2027-01-09",
+      "weekday": "六",
+      "label": "Life Continues... / Time Flies",
+      "albums": [
+        {
+          "title": "Life Continues...",
+          "year": 2006,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/Life_Continues...",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "低調"
+            },
+            {
+              "n": 2,
+              "title": "人車誌"
+            },
+            {
+              "n": 3,
+              "title": "最佳損友"
+            },
+            {
+              "n": 4,
+              "title": "暴殄天物"
+            },
+            {
+              "n": 5,
+              "title": "落花流水"
+            },
+            {
+              "n": 6,
+              "title": "大得太快"
+            },
+            {
+              "n": 7,
+              "title": "想聽"
+            }
+          ],
+          "notes": "Includes bonus track 想聽."
+        },
+        {
+          "title": "Time Flies",
+          "year": 2010,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/Time_Flies_(%E9%99%B3%E5%A5%95%E8%BF%85%E8%BF%B7%E4%BD%A0%E5%B0%88%E8%BC%AF)",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "無人之境"
+            },
+            {
+              "n": 2,
+              "title": "大人"
+            },
+            {
+              "n": 3,
+              "title": "一絲不掛"
+            },
+            {
+              "n": 4,
+              "title": "陀飛輪"
+            },
+            {
+              "n": 5,
+              "title": "心腹"
+            },
+            {
+              "n": 6,
+              "title": "味之素"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "2027-01-10",
+      "date": "2027-01-10",
+      "weekday": "日",
+      "label": "Other Solidays ?",
+      "albums": [
+        {
+          "title": "Solidays",
+          "year": 2008,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/Solidays",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "歌·頌"
+            },
+            {
+              "n": 2,
+              "title": "阿牛"
+            },
+            {
+              "n": 3,
+              "title": "浮誇"
+            },
+            {
+              "n": 4,
+              "title": "葡萄成熟時"
+            },
+            {
+              "n": 5,
+              "title": "聽聽"
+            },
+            {
+              "n": 6,
+              "title": "人神鬥"
+            },
+            {
+              "n": 7,
+              "title": "低調"
+            },
+            {
+              "n": 8,
+              "title": "最佳損友"
+            },
+            {
+              "n": 9,
+              "title": "暴殄天物"
+            },
+            {
+              "n": 10,
+              "title": "落花流水"
+            },
+            {
+              "n": 11,
+              "title": "想聽"
+            },
+            {
+              "n": 12,
+              "title": "天下太平"
+            },
+            {
+              "n": 13,
+              "title": "裙下之臣"
+            },
+            {
+              "n": 14,
+              "title": "不如不見"
+            },
+            {
+              "n": 15,
+              "title": "黑擇明"
+            },
+            {
+              "n": 16,
+              "title": "天公地道"
+            },
+            {
+              "n": 17,
+              "title": "富士山下"
+            },
+            {
+              "n": 18,
+              "title": "粵語殘片"
+            },
+            {
+              "n": 19,
+              "title": "月球上的人"
+            },
+            {
+              "n": 20,
+              "title": "親近"
+            },
+            {
+              "n": 21,
+              "title": "熱島小夜曲"
+            },
+            {
+              "n": 22,
+              "title": "演唱會"
+            },
+            {
+              "n": 23,
+              "title": "變色龍"
+            },
+            {
+              "n": 24,
+              "title": "時代巨輪"
+            },
+            {
+              "n": 25,
+              "title": "Crying In The Party（Big Band Version）"
+            },
+            {
+              "n": 26,
+              "title": "只是近黃昏"
+            },
+            {
+              "n": 27,
+              "title": "後台"
+            }
+          ],
+          "notes": "Poster brands the night 「Other Solidays」 (sometimes with ?). No separate album of that exact title; tracklist is the 2008 Solidays 新曲+精選 (2CD). New songs: 歌·頌, 後台 (plus rearrangements/selections)."
+        }
+      ],
+      "notes": "Poster label is 「Other Solidays」; mapped to Solidays (2008)."
+    },
+    {
+      "id": "2027-01-23",
+      "date": "2027-01-23",
+      "weekday": "六",
+      "label": "天佑愛人",
+      "albums": [
+        {
+          "title": "天佑愛人",
+          "year": 1999,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/%E5%A4%A9%E4%BD%91%E6%84%9B%E4%BA%BA",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "昨日"
+            },
+            {
+              "n": 2,
+              "title": "今日"
+            },
+            {
+              "n": 3,
+              "title": "每一個明天"
+            },
+            {
+              "n": 4,
+              "title": "眼眉調"
+            },
+            {
+              "n": 5,
+              "title": "一"
+            },
+            {
+              "n": 6,
+              "title": "第五個現代化"
+            },
+            {
+              "n": 7,
+              "title": "快高長大"
+            },
+            {
+              "n": 8,
+              "title": "如果這一秒鐘你跟我講你不愛我"
+            },
+            {
+              "n": 9,
+              "title": "我的世界末日"
+            },
+            {
+              "n": 10,
+              "title": "貝多芬與我"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "2027-01-24",
+      "date": "2027-01-24",
+      "weekday": "日",
+      "label": "Listen To Eason Chan",
+      "albums": [
+        {
+          "title": "Listen To Eason Chan",
+          "year": 2007,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/Listen_To_Eason_Chan",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "瑪利奧派對"
+            },
+            {
+              "n": 2,
+              "title": "熱島小夜曲"
+            },
+            {
+              "n": 3,
+              "title": "閃"
+            },
+            {
+              "n": 4,
+              "title": "演唱會"
+            },
+            {
+              "n": 5,
+              "title": "滑鐵盧車站"
+            },
+            {
+              "n": 6,
+              "title": "Crying in the Party"
+            },
+            {
+              "n": 7,
+              "title": "狂熱革命"
+            },
+            {
+              "n": 8,
+              "title": "變色龍"
+            },
+            {
+              "n": 9,
+              "title": "時代巨輪"
+            },
+            {
+              "n": 10,
+              "title": "乜嘢啫"
+            },
+            {
+              "n": 11,
+              "title": "兄弟"
+            }
+          ],
+          "notes": "Disc 1 + Mandarin bonus 兄弟. Remix disc (Disc 2) omitted."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "2027-01-27",
+      "date": "2027-01-27",
+      "weekday": "三",
+      "label": "Nothing Really Matters",
+      "albums": [
+        {
+          "title": "Nothing Really Matters",
+          "year": 2000,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/Nothing_Really_Matters",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "送院途中"
+            },
+            {
+              "n": 2,
+              "title": "黑夜不再來"
+            },
+            {
+              "n": 3,
+              "title": "美麗有罪"
+            },
+            {
+              "n": 4,
+              "title": "戲迷情人"
+            },
+            {
+              "n": 5,
+              "title": "和平飯店"
+            },
+            {
+              "n": 6,
+              "title": "我感激"
+            },
+            {
+              "n": 7,
+              "title": "到此一遊"
+            },
+            {
+              "n": 8,
+              "title": "當這地球沒有花"
+            },
+            {
+              "n": 9,
+              "title": "Made in Hong Kong"
+            },
+            {
+              "n": 10,
+              "title": "愛上你是我眼睛的錯"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "2027-01-28",
+      "date": "2027-01-28",
+      "weekday": "四",
+      "label": "怎麼樣",
+      "albums": [
+        {
+          "title": "怎麼樣",
+          "year": 2005,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/%E6%80%8E%E9%BA%BC%E6%A8%A3",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "不能再等待"
+            },
+            {
+              "n": 2,
+              "title": "對不起 謝謝"
+            },
+            {
+              "n": 3,
+              "title": "Hippie"
+            },
+            {
+              "n": 4,
+              "title": "不然你要我怎麼樣"
+            },
+            {
+              "n": 5,
+              "title": "不睡"
+            },
+            {
+              "n": 6,
+              "title": "一夜銷魂"
+            },
+            {
+              "n": 7,
+              "title": "浮城"
+            },
+            {
+              "n": 8,
+              "title": "早開的長途班"
+            },
+            {
+              "n": 9,
+              "title": "聽聽"
+            },
+            {
+              "n": 10,
+              "title": "人神鬥"
+            }
+          ],
+          "notes": "Primarily Mandarin; tracks 9–10 are Cantonese."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "2027-01-30",
+      "date": "2027-01-30",
+      "weekday": "六",
+      "label": "The Line-Up",
+      "albums": [
+        {
+          "title": "The Line-Up",
+          "year": 2002,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/The_Line-Up",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "心裡有鬼"
+            },
+            {
+              "n": 2,
+              "title": "我有我愛你"
+            },
+            {
+              "n": 3,
+              "title": "明年今日"
+            },
+            {
+              "n": 4,
+              "title": "人來人往"
+            },
+            {
+              "n": 5,
+              "title": "季軍"
+            },
+            {
+              "n": 6,
+              "title": "隨意門"
+            },
+            {
+              "n": 7,
+              "title": "1874"
+            },
+            {
+              "n": 8,
+              "title": "防不勝防"
+            },
+            {
+              "n": 9,
+              "title": "兩名男子街頭相遇"
+            },
+            {
+              "n": 10,
+              "title": "黑面"
+            }
+          ],
+          "notes": "Originally a 2-disc set (Disc1 夕陽組合 / Disc2 雙Wong); order follows Wikipedia Disc1 then Disc2."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "2027-01-31",
+      "date": "2027-01-31",
+      "weekday": "日",
+      "label": "Live For Today",
+      "albums": [
+        {
+          "title": "Live For Today",
+          "year": 2003,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/Live_For_Today",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "幸災樂禍"
+            },
+            {
+              "n": 2,
+              "title": "Katrina"
+            },
+            {
+              "n": 3,
+              "title": "十面埋伏"
+            },
+            {
+              "n": 4,
+              "title": "呀邊個邊個"
+            },
+            {
+              "n": 5,
+              "title": "小孩不懂怕"
+            },
+            {
+              "n": 6,
+              "title": "謊言"
+            },
+            {
+              "n": 7,
+              "title": "真相"
+            },
+            {
+              "n": 8,
+              "title": "猜情尋"
+            },
+            {
+              "n": 9,
+              "title": "忘記歌詞"
+            },
+            {
+              "n": 10,
+              "title": "New Order"
+            },
+            {
+              "n": 11,
+              "title": "歲月如歌"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "2027-02-12",
+      "date": "2027-02-12",
+      "weekday": "五",
+      "label": "打得火熱",
+      "albums": [
+        {
+          "title": "打得火熱",
+          "year": 2000,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/%E6%89%93%E5%BE%97%E7%81%AB%E7%86%B1_(%E9%99%B3%E5%A5%95%E8%BF%85%E5%B0%88%E8%BC%AF)",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "K歌之王"
+            },
+            {
+              "n": 2,
+              "title": "打得火熱"
+            },
+            {
+              "n": 3,
+              "title": "新廣告歌"
+            },
+            {
+              "n": 4,
+              "title": "低等動物"
+            },
+            {
+              "n": 5,
+              "title": "綿綿"
+            },
+            {
+              "n": 6,
+              "title": "美麗謊言"
+            },
+            {
+              "n": 7,
+              "title": "吹微風"
+            },
+            {
+              "n": 8,
+              "title": "溫室效應"
+            },
+            {
+              "n": 9,
+              "title": "活躍症"
+            },
+            {
+              "n": 10,
+              "title": "下週同樣時間 (再見!)"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "2027-02-13",
+      "date": "2027-02-13",
+      "weekday": "六",
+      "label": "It's me 反正是我",
+      "albums": [
+        {
+          "title": "反正是我",
+          "year": 2001,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/%E5%8F%8D%E6%AD%A3%E6%98%AF%E6%88%91",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "Because You're Good To Me"
+            },
+            {
+              "n": 2,
+              "title": "低等動物"
+            },
+            {
+              "n": 3,
+              "title": "不如這樣"
+            },
+            {
+              "n": 4,
+              "title": "愛是懷疑"
+            },
+            {
+              "n": 5,
+              "title": "我也不會那麼做"
+            },
+            {
+              "n": 6,
+              "title": "K歌之王"
+            },
+            {
+              "n": 7,
+              "title": "沒有你"
+            },
+            {
+              "n": 8,
+              "title": "冤家"
+            },
+            {
+              "n": 9,
+              "title": "全世界失眠"
+            },
+            {
+              "n": 10,
+              "title": "Good Times"
+            }
+          ],
+          "notes": "Poster brands as 「It's me 反正是我」; standard album title is 反正是我 (Mandarin)."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "2027-02-16",
+      "date": "2027-02-16",
+      "weekday": "二",
+      "label": "上五樓的快活",
+      "albums": [
+        {
+          "title": "上五樓的快活",
+          "year": 2009,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/%E4%B8%8A%E4%BA%94%E6%A8%93%E7%9A%84%E5%BF%AB%E6%B4%BB",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "在你身邊"
+            },
+            {
+              "n": 2,
+              "title": "這樣的一個麻煩"
+            },
+            {
+              "n": 3,
+              "title": "多少"
+            },
+            {
+              "n": 4,
+              "title": "Nothing Ever Happened"
+            },
+            {
+              "n": 5,
+              "title": "你為什麼哭了呢"
+            },
+            {
+              "n": 6,
+              "title": "謀情害命"
+            },
+            {
+              "n": 7,
+              "title": "我甲你"
+            },
+            {
+              "n": 8,
+              "title": "心的距離"
+            },
+            {
+              "n": 9,
+              "title": "床頭燈"
+            },
+            {
+              "n": 10,
+              "title": "給你"
+            },
+            {
+              "n": 11,
+              "title": "從何說起"
+            }
+          ],
+          "notes": "HK/TW order. Track 7 is Taiwanese (台語); track 4 is English. Some regional editions differ slightly in order."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "2027-02-17",
+      "date": "2027-02-17",
+      "weekday": "三",
+      "label": "我的快樂時代",
+      "albums": [
+        {
+          "title": "我的快樂時代",
+          "year": 1998,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/%E6%88%91%E7%9A%84%E5%BF%AB%E6%A8%82%E6%99%82%E4%BB%A3",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "我的快樂時代"
+            },
+            {
+              "n": 2,
+              "title": "我甚麼都沒有"
+            },
+            {
+              "n": 3,
+              "title": "天下無雙"
+            },
+            {
+              "n": 4,
+              "title": "黃金時代"
+            },
+            {
+              "n": 5,
+              "title": "新曲+精選"
+            },
+            {
+              "n": 6,
+              "title": "愈想愈無謂"
+            },
+            {
+              "n": 7,
+              "title": "相信相依"
+            },
+            {
+              "n": 8,
+              "title": "兩種講法"
+            },
+            {
+              "n": 9,
+              "title": "請相信我"
+            },
+            {
+              "n": 10,
+              "title": "反高潮"
+            }
+          ],
+          "notes": "Studio CD only; live bonus disc omitted."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "2027-02-19",
+      "date": "2027-02-19",
+      "weekday": "五",
+      "label": "Shall We Dance? Shall We Talk!",
+      "albums": [
+        {
+          "title": "Shall We Dance? Shall We Talk!",
+          "year": 2001,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/Shall_We_Dance%3F_Shall_We_Talk!",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "嚟喇"
+            },
+            {
+              "n": 2,
+              "title": "Shall We Dance"
+            },
+            {
+              "n": 3,
+              "title": "Shall We Talk"
+            },
+            {
+              "n": 4,
+              "title": "2001"
+            },
+            {
+              "n": 5,
+              "title": "太空漫遊"
+            },
+            {
+              "n": 6,
+              "title": "失戀太少"
+            },
+            {
+              "n": 7,
+              "title": "單車"
+            },
+            {
+              "n": 8,
+              "title": "天使的禮物"
+            },
+            {
+              "n": 9,
+              "title": "Eason's Angel"
+            },
+            {
+              "n": 10,
+              "title": "怪物"
+            },
+            {
+              "n": 11,
+              "title": "孤獨探戈"
+            },
+            {
+              "n": 12,
+              "title": "信心花舍"
+            },
+            {
+              "n": 13,
+              "title": "黑暗中漫舞"
+            }
+          ],
+          "notes": "Includes short instrumentals 嚟喇, 2001, Eason's Angel. The hit commonly called 2001太空漫遊 is tracks 4+5. Bonus VCD song 遺失的國度 not included in main CD list."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "2027-02-20",
+      "date": "2027-02-20",
+      "weekday": "六",
+      "label": "U87",
+      "albums": [
+        {
+          "title": "U87",
+          "year": 2005,
+          "verified": true,
+          "source": "https://zh.wikipedia.org/wiki/U87_(%E4%B8%93%E8%BE%91)",
+          "tracks": [
+            {
+              "n": 1,
+              "title": "爛"
+            },
+            {
+              "n": 2,
+              "title": "阿牛"
+            },
+            {
+              "n": 3,
+              "title": "夕陽無限好"
+            },
+            {
+              "n": 4,
+              "title": "16月6日晴"
+            },
+            {
+              "n": 5,
+              "title": "浮誇"
+            },
+            {
+              "n": 6,
+              "title": "葡萄成熟時"
+            },
+            {
+              "n": 7,
+              "title": "三個人的探戈"
+            },
+            {
+              "n": 8,
+              "title": "不良嗜好"
+            },
+            {
+              "n": 9,
+              "title": "怕死"
+            },
+            {
+              "n": 10,
+              "title": "大個女"
+            },
+            {
+              "n": 11,
+              "title": "新美人主義"
+            },
+            {
+              "n": 12,
+              "title": "遇見了你"
+            }
+          ],
+          "notes": "HK edition includes Mandarin bonus tracks 新美人主義 and 遇見了你 (11–12)."
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}
