@@ -503,8 +503,8 @@
       }
       var rot = Math.max(-10, Math.min(10, dx / 22));
       cardEl.style.transform = "translateX(" + dx + "px) rotate(" + rot + "deg)";
-      cardEl.classList.toggle("is-heard", dx > 36);
-      cardEl.classList.toggle("is-miss", dx < -36);
+      cardEl.classList.toggle("is-heard", dx > 0);
+      cardEl.classList.toggle("is-miss", dx < 0);
       setStamp(dx);
     });
 
