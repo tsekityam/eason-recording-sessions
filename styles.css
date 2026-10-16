@@ -207,14 +207,6 @@ button:focus-visible {
   text-align: center;
 }
 
-.track-no {
-  margin: 0 0 14px;
-  color: var(--gold);
-  font-size: 0.78rem;
-  letter-spacing: 0.2em;
-  font-variant-numeric: tabular-nums;
-}
-
 .song-title {
   margin: 0;
   font-size: clamp(1.7rem, 7vw, 2.45rem);
@@ -227,20 +219,9 @@ button:focus-visible {
   margin-top: 22px;
 }
 
-.album,
 .when {
   margin: 0;
   line-height: 1.45;
-  overflow-wrap: break-word;
-}
-
-.album {
-  color: var(--gold-2);
-  font-size: 1rem;
-}
-
-.when {
-  margin-top: 4px;
   color: var(--muted);
   font-size: 0.95rem;
   font-variant-numeric: tabular-nums;

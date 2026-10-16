@@ -1,7 +1,8 @@
 /* Eason Chan recording-session swipe deck.
    Loads data/shows.json from this origin and stores answers in localStorage.
    Left / 未聽過 = unheard. Right / 聽過 = heard.
-   The same title on a later night is skipped. Demo / NG / Big Band versions stay. */
+   A repeated title keeps the first night. Album names are not shown.
+   Demo / NG / Big Band versions stay. */
 
 (function () {
   "use strict";
@@ -47,14 +48,7 @@
     return card.date + "（" + card.weekday + "）";
   }
 
-  function padTrack(n) {
-    var text = String(n);
-    return text.length < 2 ? "0" + text : text;
-  }
-
   function preferEntry(candidate, current) {
-    if (candidate.year !== current.year) return candidate.year < current.year;
-    if (candidate.albumCount !== current.albumCount) return candidate.albumCount < current.albumCount;
     if (candidate.date !== current.date) return candidate.date < current.date;
     return candidate.index < current.index;
   }
@@ -67,9 +61,7 @@
     });
     var entries = [];
     shows.forEach(function (show) {
-      var albumCount = (show.albums || []).length;
       (show.albums || []).forEach(function (album) {
-        var year = typeof album.year === "number" ? album.year : 9999;
         (album.tracks || []).forEach(function (track) {
           entries.push({
             index: entries.length,
@@ -78,8 +70,6 @@
             weekday: show.weekday || "",
             label: show.label || show.date,
             album: album.title,
-            year: year,
-            albumCount: albumCount,
             n: track.n,
             title: track.title
           });
@@ -290,13 +280,10 @@
     missStamp.setAttribute("aria-hidden", "true");
 
     var body = el("div", "card-body");
-    var number = el("p", "track-no", padTrack(card.n));
     var title = el("h1", "song-title", card.title);
     title.id = "song-title";
     var meta = el("div", "meta");
-    meta.appendChild(el("p", "album", card.album));
     meta.appendChild(el("p", "when", formatWhen(card)));
-    body.appendChild(number);
     body.appendChild(title);
     body.appendChild(meta);
 
@@ -323,7 +310,7 @@
     app.appendChild(actions);
     app.appendChild(hint);
     bindSwipe(cardEl);
-    announce(card.title + "。" + card.album + "。" + formatWhen(card) + "。" + position + " / " + total);
+    announce(card.title + "。" + formatWhen(card) + "。" + position + " / " + total);
   }
 
   function renderResults() {
