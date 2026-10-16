@@ -307,6 +307,18 @@ body.is-busy .actions button {
   letter-spacing: 0.02em;
 }
 
+.audio-tip {
+  margin: 10px 0 0;
+  padding: 10px 12px;
+  border-radius: 14px;
+  text-align: center;
+  color: var(--gold-2);
+  background: rgba(230, 177, 90, 0.14);
+  border: 1px solid rgba(230, 177, 90, 0.45);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
 .results {
   flex: 1;
   min-height: 0;

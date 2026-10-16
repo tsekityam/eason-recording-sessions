@@ -3,13 +3,16 @@
    Left / 未聽過 = unheard. Right / 聽過 = heard.
    A repeated title keeps the first night. Album names are not shown.
    Demo / NG / Big Band versions stay.
-   Horizontal swipe answers. Vertical swipe changes the song. */
+   Horizontal swipe answers. Vertical swipe changes the song.
+   A card with previewUrl starts its 30s preview on its own.
+   ▶ 試聽 pauses, resumes, or restarts that preview. */
 
 (function () {
   "use strict";
 
   var STORAGE_KEY = "eason-recording-sessions-v1";
   var SEP = "\u001f";
+  var AUDIO_TIP = "輕觸「試聽」或畫面任何位置一次，即可開啟預覽聲音。";
 
   var state = {
     eventName: "",
@@ -22,6 +25,182 @@
   };
 
   var generation = 0;
+
+  var preview = {
+    audio: null,
+    url: "",
+    button: null,
+    unlocked: false,
+    needsTip: false,
+    tipAnnounced: false,
+    pending: false,
+    playToken: 0
+  };
+
+  function sameSrc(src, url) {
+    if (!src || !url) return false;
+    if (src === url) return true;
+    try {
+      return new URL(src).href === new URL(url, document.baseURI).href;
+    } catch (error) {
+      return false;
+    }
+  }
+
+  function ensureAudio() {
+    if (preview.audio) return preview.audio;
+    var audio = new Audio();
+    audio.preload = "auto";
+    audio.playsInline = true;
+    audio.setAttribute("playsinline", "");
+    audio.addEventListener("ended", function () {
+      if (!audio.ended || preview.pending) return;
+      if (preview.button) preview.button.textContent = "▶ 試聽";
+    });
+    preview.audio = audio;
+    window.__easonAudio = audio;
+    return audio;
+  }
+
+  function isActivePreview(url) {
+    var audio = preview.audio;
+    if (!audio || !url || preview.url !== url || !sameSrc(audio.src, url)) return false;
+    if (audio.ended) return false;
+    return preview.pending || !audio.paused;
+  }
+
+  function hideAudioTip() {
+    preview.needsTip = false;
+    var tip = document.getElementById("audio-tip");
+    if (tip && tip.parentNode) tip.parentNode.removeChild(tip);
+  }
+
+  function showAudioTip() {
+    if (preview.unlocked) return;
+    preview.needsTip = true;
+    if (document.getElementById("audio-tip")) return;
+    var hint = document.querySelector(".hint");
+    if (!hint || !hint.parentNode) return;
+    hint.parentNode.insertBefore(makeAudioTip(), hint);
+  }
+
+  function makeAudioTip() {
+    var tip = el("p", "audio-tip", AUDIO_TIP);
+    tip.id = "audio-tip";
+    if (!preview.tipAnnounced) {
+      tip.setAttribute("role", "status");
+      preview.tipAnnounced = true;
+    }
+    return tip;
+  }
+
+  function handlePlayPromise(pendingPlay, token) {
+    if (pendingPlay && typeof pendingPlay.then === "function") {
+      pendingPlay.then(function () {
+        if (token !== preview.playToken) return;
+        preview.pending = false;
+        preview.unlocked = true;
+        hideAudioTip();
+        if (preview.button) preview.button.textContent = "❚❚ 暫停";
+      }).catch(function (err) {
+        if (token !== preview.playToken) return;
+        preview.pending = false;
+        if (preview.button) preview.button.textContent = "▶ 試聽";
+        if (err && err.name === "NotAllowedError") showAudioTip();
+      });
+      return;
+    }
+    preview.pending = false;
+    preview.unlocked = true;
+    hideAudioTip();
+    if (preview.button) preview.button.textContent = "❚❚ 暫停";
+  }
+
+  function stopPreview() {
+    preview.playToken += 1;
+    preview.pending = false;
+    preview.url = "";
+    if (preview.audio) {
+      preview.audio.pause();
+      try {
+        preview.audio.currentTime = 0;
+      } catch (error) {
+        // Seeking can throw before metadata arrives.
+      }
+    }
+    if (preview.button) preview.button.textContent = "▶ 試聽";
+    preview.button = null;
+  }
+
+  function startPreview(url, button) {
+    if (!url) {
+      stopPreview();
+      return;
+    }
+    var audio = ensureAudio();
+    if (isActivePreview(url)) {
+      preview.button = button || preview.button;
+      if (preview.button && (!audio.paused || preview.pending)) {
+        preview.button.textContent = "❚❚ 暫停";
+      }
+      return;
+    }
+    if (preview.button && preview.button !== button) preview.button.textContent = "▶ 試聽";
+    preview.playToken += 1;
+    var token = preview.playToken;
+    preview.url = url;
+    preview.button = button || null;
+    preview.pending = true;
+    audio.pause();
+    if (!sameSrc(audio.src, url)) audio.src = url;
+    try {
+      audio.currentTime = 0;
+    } catch (error) {
+      // Ignore until the new preview can seek.
+    }
+    if (preview.button && preview.unlocked) preview.button.textContent = "❚❚ 暫停";
+    handlePlayPromise(audio.play(), token);
+  }
+
+  function togglePreview(url, button) {
+    var audio = ensureAudio();
+    preview.button = button;
+    var same = preview.url === url && sameSrc(audio.src, url);
+    if (same && !audio.ended && (!audio.paused || preview.pending)) {
+      preview.playToken += 1;
+      preview.pending = false;
+      if (!audio.paused) {
+        preview.unlocked = true;
+        hideAudioTip();
+      }
+      audio.pause();
+      button.textContent = "▶ 試聽";
+      return;
+    }
+    if (same && !audio.ended && audio.currentTime > 0) {
+      preview.playToken += 1;
+      var token = preview.playToken;
+      preview.pending = true;
+      preview.url = url;
+      button.textContent = "❚❚ 暫停";
+      handlePlayPromise(audio.play(), token);
+      return;
+    }
+    startPreview(url, button);
+  }
+
+  function cueCardPreview(card) {
+    if (card && card.previewUrl) startPreview(card.previewUrl, null);
+    else stopPreview();
+  }
+
+  function maybeEnableCurrent() {
+    if (preview.unlocked || state.busy) return;
+    if (state.cursor < 0 || state.cursor >= state.cards.length) return;
+    var card = state.cards[state.cursor];
+    if (!card || !card.previewUrl) return;
+    startPreview(card.previewUrl, document.querySelector(".preview-btn"));
+  }
 
   function el(tag, className, text) {
     var node = document.createElement(tag);
@@ -261,6 +440,7 @@
   }
 
   function renderStatus(message) {
+    stopPreview();
     var app = document.getElementById("app");
     clearNode(app);
     app.appendChild(el("p", "status", message));
@@ -269,7 +449,6 @@
 
   function renderDeck() {
     var app = document.getElementById("app");
-    if (window.__easonAudio) { window.__easonAudio.pause(); window.__easonAudio = null; }
     var total = state.cards.length;
     var card = state.cards[state.cursor];
     var position = state.cursor + 1;
@@ -306,22 +485,19 @@
     body.appendChild(title);
     body.appendChild(meta);
     if (card.previewUrl) {
-      var playBtn = el("button", "preview-btn", "▶ 試聽");
+      var playingNow = isActivePreview(card.previewUrl);
+      var playBtn = el("button", "preview-btn", playingNow ? "❚❚ 暫停" : "▶ 試聽");
       playBtn.type = "button";
-      var audio = null;
       playBtn.addEventListener("pointerdown", function (e) { e.stopPropagation(); });
       playBtn.addEventListener("click", function (e) {
         e.stopPropagation();
-        if (!audio) {
-          audio = new Audio(card.previewUrl);
-          audio.addEventListener("ended", function () { playBtn.textContent = "▶ 試聽"; });
-          window.__easonAudio && window.__easonAudio.pause();
-          window.__easonAudio = audio;
-        }
-        if (audio.paused) { audio.play(); playBtn.textContent = "❚❚ 暫停"; }
-        else { audio.pause(); playBtn.textContent = "▶ 試聽"; }
+        togglePreview(card.previewUrl, playBtn);
       });
       body.appendChild(playBtn);
+      if (playingNow) preview.button = playBtn;
+      else startPreview(card.previewUrl, playBtn);
+    } else {
+      stopPreview();
     }
 
     cardEl.appendChild(heardStamp);
@@ -345,12 +521,14 @@
 
     app.appendChild(stage);
     app.appendChild(actions);
+    if (preview.needsTip && !preview.unlocked) app.appendChild(makeAudioTip());
     app.appendChild(hint);
     bindSwipe(cardEl);
     announce(card.title + "。" + formatWhen(card) + "。" + position + " / " + total);
   }
 
   function renderResults() {
+    stopPreview();
     var app = document.getElementById("app");
     var summary = summarize();
     clearNode(app);
@@ -415,6 +593,7 @@
     state.answers[cardId(card)] = kind;
     state.cursor = nextCursor(state.cursor + 1);
     saveAnswers();
+    cueCardPreview(state.cards[state.cursor]);
     if (typeof navigator.vibrate === "function") navigator.vibrate(10);
 
     var token = generation + 1;
@@ -446,6 +625,7 @@
 
     setBusy(true);
     state.cursor = next;
+    cueCardPreview(state.cards[state.cursor]);
     var token = generation + 1;
     generation = token;
     var cardEl = document.getElementById("song-card");
@@ -472,6 +652,7 @@
     setBusy(false);
     state.answers = {};
     state.cursor = 0;
+    stopPreview();
     try {
       localStorage.removeItem(STORAGE_KEY);
     } catch (error) {
@@ -502,6 +683,7 @@
       cardEl.style.transform = "";
       cardEl.classList.remove("is-heard", "is-miss");
       setStamp(0);
+      maybeEnableCurrent();
     }
 
     cardEl.addEventListener("pointerdown", function (event) {
@@ -595,7 +777,23 @@
     } else if (event.key === "ArrowDown") {
       event.preventDefault();
       moveSong(1);
+    } else {
+      maybeEnableCurrent();
     }
+  });
+
+  document.addEventListener("pointerup", function (event) {
+    var target = event.target;
+    if (!target || !target.closest) return;
+    if (target.closest(".preview-btn, #btn-miss, #btn-heard, #btn-reset, #btn-reset-results, #song-card")) return;
+    maybeEnableCurrent();
+  });
+
+  document.addEventListener("click", function (event) {
+    var target = event.target;
+    if (!target || !target.closest) return;
+    if (target.closest(".preview-btn")) return;
+    maybeEnableCurrent();
   });
 
   function init() {
