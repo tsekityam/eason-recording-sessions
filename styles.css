@@ -6,8 +6,10 @@
   --faint: #8a7f72;
   --gold: #e6b15a;
   --gold-2: #f3d7a4;
+  /* 聽過 and 未聽過 each keep one hue on every surface.
+     Gold is only the deck accent (progress, focus, hairline), never a heard color. */
   --heard: #8fd0aa;
-  --miss: #e7a092;
+  --miss: #f0b4a4;
   --line: rgba(255, 236, 210, 0.1);
   --safe-top: env(safe-area-inset-top, 0px);
   --safe-bot: env(safe-area-inset-bottom, 0px);
@@ -181,11 +183,11 @@ button:focus-visible {
 }
 
 .card.is-heard {
-  box-shadow: 0 0 0 2px rgba(143, 208, 170, 0.75), 0 22px 50px rgba(0, 0, 0, 0.38);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--heard) 78%, transparent), 0 22px 50px rgba(0, 0, 0, 0.38);
 }
 
 .card.is-miss {
-  box-shadow: 0 0 0 2px rgba(231, 160, 146, 0.8), 0 22px 50px rgba(0, 0, 0, 0.38);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--miss) 78%, transparent), 0 22px 50px rgba(0, 0, 0, 0.38);
 }
 
 .card::before {
@@ -283,16 +285,16 @@ button:focus-visible {
   transform: scale(0.98);
 }
 
-.btn-miss {
-  background: rgba(224, 120, 100, 0.14);
-  color: #ffd4cb;
-  border: 1px solid rgba(231, 160, 146, 0.55);
+.btn-miss,
+.btn-heard {
+  --state: var(--miss);
+  background: color-mix(in srgb, var(--state) 18%, transparent);
+  color: var(--state);
+  border: 1px solid color-mix(in srgb, var(--state) 62%, transparent);
 }
 
 .btn-heard {
-  background: var(--gold);
-  color: #2a2116;
-  border: 1px solid transparent;
+  --state: var(--heard);
 }
 
 body.is-busy .actions button {
@@ -347,7 +349,7 @@ body.is-busy .actions button {
 
 .overall strong,
 .result-score {
-  color: var(--gold-2);
+  color: var(--heard);
   font-weight: 700;
 }
 
@@ -379,14 +381,14 @@ body.is-busy .actions button {
   margin-top: 8px;
   height: 4px;
   border-radius: 99px;
-  background: rgba(255, 255, 255, 0.08);
+  background: color-mix(in srgb, var(--miss) 42%, transparent);
   overflow: hidden;
 }
 
 .meter > span {
   display: block;
   height: 100%;
-  background: var(--gold);
+  background: var(--heard);
 }
 
 .btn-reset-large {
