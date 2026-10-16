@@ -13,7 +13,7 @@ Swipe through every song in McDonald's Presents: Recording Sessions with Mr. Eas
 python3 -m http.server 8000
 ```
 
-Open http://localhost:8000 . The page loads `data/shows.json` from the same origin (26 shows, 30 albums, 321 tracks). Opening `index.html` as a file will not load the JSON.
+Open http://localhost:8000 . The page loads `data/shows.json` from the same origin (26 shows, 30 albums, 321 tracks). A repeated song title is shown once, on the earlier album, so the deck has 288 cards. Demo, NG Take, and Big Band versions stay. Opening `index.html` as a file will not load the JSON.
 
 ## Pages
 

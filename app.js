@@ -1,7 +1,7 @@
 /* Eason Chan recording-session swipe deck.
    Loads data/shows.json from this origin and stores answers in localStorage.
    Left / 未聽過 = unheard. Right / 聽過 = heard.
-   The same title on another night is a separate card. */
+   The same title on a later night is skipped. Demo / NG / Big Band versions stay. */
 
 (function () {
   "use strict";
@@ -52,29 +52,102 @@
     return text.length < 2 ? "0" + text : text;
   }
 
+  function preferEntry(candidate, current) {
+    if (candidate.year !== current.year) return candidate.year < current.year;
+    if (candidate.albumCount !== current.albumCount) return candidate.albumCount < current.albumCount;
+    if (candidate.date !== current.date) return candidate.date < current.date;
+    return candidate.index < current.index;
+  }
+
   function buildCatalog(data) {
     var shows = (data.shows || []).slice().sort(function (a, b) {
       if (a.date < b.date) return -1;
       if (a.date > b.date) return 1;
       return 0;
     });
-    var cards = [];
+    var entries = [];
     shows.forEach(function (show) {
+      var albumCount = (show.albums || []).length;
       (show.albums || []).forEach(function (album) {
+        var year = typeof album.year === "number" ? album.year : 9999;
         (album.tracks || []).forEach(function (track) {
-          cards.push({
+          entries.push({
+            index: entries.length,
             showId: show.id,
             date: show.date,
             weekday: show.weekday || "",
             label: show.label || show.date,
             album: album.title,
+            year: year,
+            albumCount: albumCount,
             n: track.n,
             title: track.title
           });
         });
       });
     });
-    return { shows: shows, cards: cards };
+
+    var groups = {};
+    entries.forEach(function (entry) {
+      if (!groups[entry.title]) groups[entry.title] = [];
+      groups[entry.title].push(entry);
+    });
+
+    var keptByIndex = {};
+    Object.keys(groups).forEach(function (title) {
+      var list = groups[title];
+      var best = list[0];
+      var i;
+      for (i = 1; i < list.length; i += 1) {
+        if (preferEntry(list[i], best)) best = list[i];
+      }
+      list.forEach(function (entry) {
+        keptByIndex[entry.index] = best;
+      });
+    });
+
+    var cards = [];
+    var alias = {};
+    entries.forEach(function (entry) {
+      var best = keptByIndex[entry.index];
+      var card = {
+        showId: entry.showId,
+        date: entry.date,
+        weekday: entry.weekday,
+        label: entry.label,
+        album: entry.album,
+        n: entry.n,
+        title: entry.title
+      };
+      if (best === entry) {
+        cards.push(card);
+      } else {
+        alias[cardId(card)] = cardId({
+          showId: best.showId,
+          album: best.album,
+          n: best.n,
+          title: best.title
+        });
+      }
+    });
+    return { shows: shows, cards: cards, alias: alias };
+  }
+
+  function applyAlias(alias) {
+    var changed = false;
+    Object.keys(alias).forEach(function (droppedId) {
+      var keptId = alias[droppedId];
+      var dropped = state.answers[droppedId];
+      if ((dropped === "heard" || dropped === "unheard") && state.answers[keptId] !== "heard" && state.answers[keptId] !== "unheard") {
+        state.answers[keptId] = dropped;
+        changed = true;
+      }
+      if (droppedId in state.answers) {
+        delete state.answers[droppedId];
+        changed = true;
+      }
+    });
+    if (changed) saveAnswers();
   }
 
   function nextCursor(from) {
@@ -465,6 +538,7 @@
         state.shows = catalog.shows;
         state.cards = catalog.cards;
         state.answers = loadAnswers();
+        applyAlias(catalog.alias || {});
         state.cursor = nextCursor(0);
         render();
       })
