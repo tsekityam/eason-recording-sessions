@@ -464,9 +464,8 @@
     var missStamp = cardEl.querySelector(".stamp-miss");
 
     function setStamp(delta) {
-      var amount = Math.min(1, Math.abs(delta) / 110);
-      heardStamp.style.opacity = delta > 0 ? String(amount) : "0";
-      missStamp.style.opacity = delta < 0 ? String(amount) : "0";
+      heardStamp.style.opacity = delta > 0 ? "1" : "0";
+      missStamp.style.opacity = delta < 0 ? "1" : "0";
     }
 
     function snapBack() {

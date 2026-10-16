@@ -213,22 +213,22 @@ button:focus-visible {
 }
 
 .card.is-saved-heard .when,
-.card.is-saved-heard .mark,
 .card.is-heard .when,
-.card.is-heard .mark,
 .card.is-saved-miss .when,
-.card.is-saved-miss .mark,
-.card.is-miss .when,
-.card.is-miss .mark {
+.card.is-miss .when {
   color: rgba(255, 255, 255, 0.88);
 }
 
+.card.is-saved-heard .mark,
+.card.is-heard .mark,
+.card.is-saved-miss .mark,
+.card.is-miss .mark,
 .card.is-saved-heard .stamp-heard,
 .card.is-heard .stamp-heard,
 .card.is-saved-miss .stamp-miss,
 .card.is-miss .stamp-miss {
-  color: #fff;
-  border-color: #fff;
+  color: var(--lamp-ink);
+  border-color: var(--lamp-ink);
 }
 
 .card::before {
