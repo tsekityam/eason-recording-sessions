@@ -72,7 +72,9 @@
             label: show.label || show.date,
             album: album.title,
             n: track.n,
-            title: track.title
+            title: track.title,
+            previewUrl: track.previewUrl || "",
+            artworkUrl: album.artworkUrl || ""
           });
         });
       });
@@ -108,7 +110,9 @@
         label: entry.label,
         album: entry.album,
         n: entry.n,
-        title: entry.title
+        title: entry.title,
+        previewUrl: entry.previewUrl,
+        artworkUrl: entry.artworkUrl
       };
       if (best === entry) {
         cards.push(card);
@@ -265,6 +269,7 @@
 
   function renderDeck() {
     var app = document.getElementById("app");
+    if (window.__easonAudio) { window.__easonAudio.pause(); window.__easonAudio = null; }
     var total = state.cards.length;
     var card = state.cards[state.cursor];
     var position = state.cursor + 1;
@@ -291,8 +296,33 @@
       if (chosen === "unheard") mark.classList.add("is-miss");
       meta.appendChild(mark);
     }
+    if (card.artworkUrl) {
+      var art = el("img", "artwork");
+      art.src = card.artworkUrl.replace("600x600bb", "200x200bb");
+      art.alt = "";
+      art.draggable = false;
+      body.appendChild(art);
+    }
     body.appendChild(title);
     body.appendChild(meta);
+    if (card.previewUrl) {
+      var playBtn = el("button", "preview-btn", "▶ 試聽");
+      playBtn.type = "button";
+      var audio = null;
+      playBtn.addEventListener("pointerdown", function (e) { e.stopPropagation(); });
+      playBtn.addEventListener("click", function (e) {
+        e.stopPropagation();
+        if (!audio) {
+          audio = new Audio(card.previewUrl);
+          audio.addEventListener("ended", function () { playBtn.textContent = "▶ 試聽"; });
+          window.__easonAudio && window.__easonAudio.pause();
+          window.__easonAudio = audio;
+        }
+        if (audio.paused) { audio.play(); playBtn.textContent = "❚❚ 暫停"; }
+        else { audio.pause(); playBtn.textContent = "▶ 試聽"; }
+      });
+      body.appendChild(playBtn);
+    }
 
     cardEl.appendChild(heardStamp);
     cardEl.appendChild(missStamp);

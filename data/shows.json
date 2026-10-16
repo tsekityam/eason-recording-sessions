@@ -12,7 +12,7 @@
           "title": "陳奕迅",
           "year": 1996,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%A5%95%E8%BF%85_(%E5%B0%88%E8%BC%AF)",
+          "source": "wikipedia",
           "tracks": [
             {
               "n": 1,
@@ -54,7 +54,9 @@
               "n": 10,
               "title": "當心中有戀愛感覺"
             }
-          ]
+          ],
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%A5%95%E8%BF%85_(%E5%B0%88%E8%BC%AF)",
+          "note": "Not available with tracks on iTunes HK; tracklist from Wikipedia (Only candidate was 陳奕迅2010 Duo演唱會 (live), rejected; 1996 debut not on iTunes HK)"
         }
       ],
       "notes": ""
@@ -69,53 +71,101 @@
           "title": "與我常在",
           "year": 1997,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/%E8%88%87%E6%88%91%E5%B8%B8%E5%9C%A8",
           "tracks": [
             {
               "n": 1,
-              "title": "現場直播"
+              "title": "現場直播",
+              "disc": 1,
+              "trackNumber": 1,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2f/0c/20/2f0c2014-70d5-56c5-4430-178a4232573f/mzaf_11250997875453362307.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%8F%BE%E5%A0%B4%E7%9B%B4%E6%92%AD/892735096?i=892735120&uo=4"
             },
             {
               "n": 2,
-              "title": "與我常在"
+              "title": "與我常在",
+              "disc": 1,
+              "trackNumber": 2,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/16/8e/66/168e66ba-a463-6e19-74f8-6d0a17decc23/mzaf_414750093947394826.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E8%88%87%E6%88%91%E5%B8%B8%E5%9C%A8/892735096?i=892735125&uo=4"
             },
             {
               "n": 3,
-              "title": "愛沒有左右"
+              "title": "愛沒有左右",
+              "disc": 1,
+              "trackNumber": 3,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6c/e0/54/6ce0548c-873e-f47e-3d99-58bc913cac3d/mzaf_12423478373990145978.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%84%9B%E6%B2%92%E6%9C%89%E5%B7%A6%E5%8F%B3/892735096?i=892735127&uo=4"
             },
             {
               "n": 4,
-              "title": "生命有幾好"
+              "title": "生命有幾好",
+              "disc": 1,
+              "trackNumber": 4,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/7c/77/437c77a0-bd50-a338-6c99-216eb2740f60/mzaf_18113652878538300862.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%94%9F%E5%91%BD%E6%9C%89%E5%B9%BE%E5%A5%BD/892735096?i=892735128&uo=4"
             },
             {
               "n": 5,
-              "title": "抱擁這分鐘"
+              "title": "抱擁這分鐘",
+              "disc": 1,
+              "trackNumber": 5,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/97/62/60/97626084-9702-7b55-80c4-3086f2b3189a/mzaf_7848693083851920787.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%8A%B1%E6%93%81%E9%80%99%E5%88%86%E9%90%98/892735096?i=892735129&uo=4"
             },
             {
               "n": 6,
-              "title": "那一夜有沒有雪?（Demo Version）"
+              "title": "那一夜有沒有雪? (Demo Version)",
+              "disc": 1,
+              "trackNumber": 6,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/75/f5/e5/75f5e58d-b6fa-7831-5725-1911ae37c283/mzaf_4561716575588426568.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E9%82%A3%E4%B8%80%E5%A4%9C%E6%9C%89%E6%B2%92%E6%9C%89%E9%9B%AA-demo-version/892735096?i=892735130&uo=4"
             },
             {
               "n": 7,
-              "title": "伴遊"
+              "title": "伴遊",
+              "disc": 1,
+              "trackNumber": 7,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cc/38/62/cc386218-15fd-af99-2e19-74f42615a227/mzaf_16073864598486915399.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%BC%B4%E9%81%8A/892735096?i=892735131&uo=4"
             },
             {
               "n": 8,
-              "title": "跟我走好嗎"
+              "title": "跟我走好嗎",
+              "disc": 1,
+              "trackNumber": 8,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/44/51/94/44519476-d3be-bedf-54b5-eb8bd014c14b/mzaf_10919594518411711190.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E8%B7%9F%E6%88%91%E8%B5%B0%E5%A5%BD%E5%97%8E/892735096?i=892735132&uo=4"
             },
             {
               "n": 9,
-              "title": "今天等我來"
+              "title": "今天等我來",
+              "disc": 1,
+              "trackNumber": 9,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a9/b0/da/a9b0da53-b9cd-c772-8c18-498b0b33b026/mzaf_8561398813629429326.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%BB%8A%E5%A4%A9%E7%AD%89%E6%88%91%E4%BE%86/892735096?i=892735133&uo=4"
             },
             {
               "n": 10,
-              "title": "敵人"
+              "title": "敵人",
+              "disc": 1,
+              "trackNumber": 10,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/dd/04/23/dd04232c-4cf0-55cf-526f-6c15f257a07a/mzaf_10706987678332148518.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%95%B5%E4%BA%BA/892735096?i=892735134&uo=4"
             },
             {
               "n": 11,
-              "title": "那一夜有沒有說?"
+              "title": "那一夜有沒有說?",
+              "disc": 1,
+              "trackNumber": 11,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/75/47/a2/7547a28b-1deb-e470-5f80-2894c2c5ec74/mzaf_6904645084975150444.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E9%82%A3%E4%B8%80%E5%A4%9C%E6%9C%89%E6%B2%92%E6%9C%89%E8%AA%AA/892735096?i=892735136&uo=4"
             }
-          ]
+          ],
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/%E8%88%87%E6%88%91%E5%B8%B8%E5%9C%A8",
+          "source": "itunes",
+          "collectionId": 892735096,
+          "collectionViewUrl": "https://music.apple.com/hk/album/%E8%88%87%E6%88%91%E5%B8%B8%E5%9C%A8/892735096?uo=4",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fc/fe/2d/fcfe2de2-89f2-1c72-e35b-6f39f365982b/825646268054.jpg/600x600bb.jpg"
         }
       ],
       "notes": ""
@@ -130,7 +180,7 @@
           "title": "I Had A Great Time!",
           "year": 2004,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/I_Had_A_Great_Time",
+          "source": "wikipedia",
           "tracks": [
             {
               "n": 1,
@@ -173,7 +223,9 @@
               "title": "開不了心"
             }
           ],
-          "notes": "Album was not independently released in 2004; planned EE album later split across Great 5000 Secs / Sound & Sight compilations. Track order per zh.wikipedia reconstructed setlist."
+          "notes": "Album was not independently released in 2004; planned EE album later split across Great 5000 Secs / Sound & Sight compilations. Track order per zh.wikipedia reconstructed setlist.",
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/I_Had_A_Great_Time",
+          "note": "Not available with tracks on iTunes HK; tracklist from Wikipedia"
         }
       ],
       "notes": "Not a standalone retail album; songs later appeared on 2005–2006 EE new-song+hits compilations."
@@ -188,54 +240,102 @@
           "title": "The Easy Ride",
           "year": 2001,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/The_Easy_Ride",
           "tracks": [
             {
               "n": 1,
-              "title": "阿士匹靈"
+              "title": "阿士匹靈",
+              "disc": 1,
+              "trackNumber": 1,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/61/ed/f3/61edf3d3-468e-c993-7fa8-6bd1ac197bb7/mzaf_9227374178920212151.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E9%98%BF%E5%A3%AB%E5%8C%B9%E9%9D%88/542634698?i=542634700&uo=4"
             },
             {
               "n": 2,
-              "title": "陽性反應"
+              "title": "陽性反應",
+              "disc": 1,
+              "trackNumber": 2,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/04/a0/4d/04a04dcc-4663-d7c2-19ed-c7da1e4f050c/mzaf_8550587099005894029.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E9%99%BD%E6%80%A7%E5%8F%8D%E6%87%89/542634698?i=542634701&uo=4"
             },
             {
               "n": 3,
-              "title": "衝口而出"
+              "title": "衝口而出",
+              "disc": 1,
+              "trackNumber": 3,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fd/d3/d8/fdd3d885-abbb-da5f-798d-bb48c263786a/mzaf_14262040458705759065.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E8%A1%9D%E5%8F%A3%E8%80%8C%E5%87%BA/542634698?i=542634702&uo=4"
             },
             {
               "n": 4,
-              "title": "大開眼戒"
+              "title": "大開眼戒",
+              "disc": 1,
+              "trackNumber": 4,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/68/e9/01/68e9015b-c1d4-6386-ff1b-f78dffd2b312/mzaf_4511522594944284487.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%A4%A7%E9%96%8B%E7%9C%BC%E6%88%92/542634698?i=542634703&uo=4"
             },
             {
               "n": 5,
-              "title": "我不好愛"
+              "title": "我不好愛",
+              "disc": 1,
+              "trackNumber": 5,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ca/e3/5d/cae35d2b-8cce-8b92-b51a-deaf9778854f/mzaf_7073967488998436310.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%88%91%E4%B8%8D%E5%A5%BD%E6%84%9B/542634698?i=542634704&uo=4"
             },
             {
               "n": 6,
-              "title": "熱帶雨林"
+              "title": "熱帶雨林",
+              "disc": 1,
+              "trackNumber": 6,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/36/9f/29/369f293e-e93e-29cd-5692-bcb65781b79a/mzaf_3646718996094605230.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%86%B1%E5%B8%B6%E9%9B%A8%E6%9E%97/542634698?i=542634705&uo=4"
             },
             {
               "n": 7,
-              "title": "人工智能"
+              "title": "人工智能",
+              "disc": 1,
+              "trackNumber": 7,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fa/17/2f/fa172f29-304d-7900-a262-053224782752/mzaf_10399021634272334934.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/542634698?i=542634706&uo=4"
             },
             {
               "n": 8,
-              "title": "結束開始"
+              "title": "結束開始",
+              "disc": 1,
+              "trackNumber": 8,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b1/ce/7b/b1ce7bc4-776e-872b-ad1c-58631d72f48c/mzaf_16053613385566728533.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%B5%90%E6%9D%9F%E9%96%8B%E5%A7%8B/542634698?i=542634707&uo=4"
             },
             {
               "n": 9,
-              "title": "活著多好"
+              "title": "活著多好",
+              "disc": 1,
+              "trackNumber": 9,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/30/c3/25/30c3253c-9f9d-91af-c838-ad939b340154/mzaf_15278938291920338153.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%B4%BB%E8%91%97%E5%A4%9A%E5%A5%BD/542634698?i=542634708&uo=4"
             },
             {
               "n": 10,
-              "title": "他一個人"
+              "title": "他一個人",
+              "disc": 1,
+              "trackNumber": 10,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9d/38/0e/9d380e6a-0b2c-eb33-ed9b-d946e3cbd39f/mzaf_7744501943644964138.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%BB%96%E4%B8%80%E5%80%8B%E4%BA%BA/542634698?i=542634729&uo=4"
             },
             {
               "n": 11,
-              "title": "不知所謂"
+              "title": "不知所謂",
+              "disc": 1,
+              "trackNumber": 11,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/af/9c/24/af9c245a-97e9-efb4-15d3-c20dda246c7c/mzaf_4610357852899603062.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%B8%8D%E7%9F%A5%E6%89%80%E8%AC%82/542634698?i=542634730&uo=4"
             }
           ],
-          "notes": "Track 4 also titled 打回原形（大開眼戒） on some releases; HK chart/common title 大開眼戒 used. Track 2 is a short instrumental."
+          "notes": "Track 4 also titled 打回原形（大開眼戒） on some releases; HK chart/common title 大開眼戒 used. Track 2 is a short instrumental.",
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/The_Easy_Ride",
+          "source": "itunes",
+          "collectionId": 542634698,
+          "collectionViewUrl": "https://music.apple.com/hk/album/the-easy-ride/542634698?uo=4",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0b/5e/7e/0b5e7ec5-c8f6-b852-27e0-e6de63bd861c/EEG1044-THE_EASY_RIDE-.jpg/600x600bb.jpg"
         }
       ],
       "notes": ""
@@ -250,49 +350,93 @@
           "title": "H³M",
           "year": 2009,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/H%C2%B3M",
           "tracks": [
             {
               "n": 1,
-              "title": "Allegro, Opus 3.3 a.m."
+              "title": "Allegro Opus 3.3am",
+              "disc": 1,
+              "trackNumber": 1,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/12/50/da/1250da73-aa58-b6b9-fa82-c26107a01c30/mzaf_16173162919027275248.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/allegro-opus-3-3am/1443774258?i=1443774263&uo=4"
             },
             {
               "n": 2,
-              "title": "還有什麼可以送給你"
+              "title": "還有什麼可以送給你",
+              "disc": 1,
+              "trackNumber": 2,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/51/d4/87/51d487d6-159f-af51-b914-5ca10123cf99/mzaf_337931188795436366.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E9%82%84%E6%9C%89%E4%BB%80%E9%BA%BC%E5%8F%AF%E4%BB%A5%E9%80%81%E7%B5%A6%E4%BD%A0/1443774258?i=1443774272&uo=4"
             },
             {
               "n": 3,
-              "title": "於心有愧"
+              "title": "於心有愧",
+              "disc": 1,
+              "trackNumber": 3,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e5/1c/79/e51c7987-18af-2947-4614-8ac1073f256f/mzaf_13386243469109942115.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%96%BC%E5%BF%83%E6%9C%89%E6%84%A7/1443774258?i=1443774275&uo=4"
             },
             {
               "n": 4,
-              "title": "今天只做一件事"
+              "title": "今天只做一件事",
+              "disc": 1,
+              "trackNumber": 4,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ae/71/e4/ae71e4c6-5f97-0c39-0cfd-213a08716054/mzaf_14728373592518140185.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%BB%8A%E5%A4%A9%E5%8F%AA%E5%81%9A%E4%B8%80%E4%BB%B6%E4%BA%8B/1443774258?i=1443774276&uo=4"
             },
             {
               "n": 5,
-              "title": "一個旅人"
+              "title": "一個旅人",
+              "disc": 1,
+              "trackNumber": 5,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/74/90/d9/7490d9f7-7182-e1b6-11bc-ab8e36d68182/mzaf_2929805370070445612.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%B8%80%E5%80%8B%E6%97%85%E4%BA%BA/1443774258?i=1443774279&uo=4"
             },
             {
               "n": 6,
-              "title": "七百年後"
+              "title": "七百年後",
+              "disc": 1,
+              "trackNumber": 6,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/83/ca/3b/83ca3b2d-e05e-720e-ae72-28989798d378/mzaf_15497458643170341699.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%B8%83%E7%99%BE%E5%B9%B4%E5%BE%8C/1443774258?i=1443774312&uo=4"
             },
             {
               "n": 7,
-              "title": "Life Goes On"
+              "title": "Life Goes On",
+              "disc": 1,
+              "trackNumber": 7,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/12/3a/45/123a4555-a7d6-d404-87fe-565b66aca978/mzaf_14790776466101181131.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/life-goes-on/1443774258?i=1443774313&uo=4"
             },
             {
               "n": 8,
-              "title": "太陽照常升起"
+              "title": "太陽照常升起",
+              "disc": 1,
+              "trackNumber": 8,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e4/54/e0/e454e0c1-a72f-e9ab-8b3f-252f9ac9b5f4/mzaf_12133394052411404775.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%A4%AA%E9%99%BD%E7%85%A7%E5%B8%B8%E5%8D%87%E8%B5%B7/1443774258?i=1443774315&uo=4"
             },
             {
               "n": 9,
-              "title": "不來也不去"
+              "title": "不來也不去",
+              "disc": 1,
+              "trackNumber": 9,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cf/60/23/cf6023d0-e5c6-30be-727f-a620c48f6b1a/mzaf_13158809811489200365.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%B8%8D%E4%BE%86%E4%B9%9F%E4%B8%8D%E5%8E%BB/1443774258?i=1443774317&uo=4"
             },
             {
               "n": 10,
-              "title": "沙龍"
+              "title": "沙龍",
+              "disc": 1,
+              "trackNumber": 10,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/74/a8/31/74a8315d-4d78-beda-3f10-c124011f3a66/mzaf_1924158487288450525.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%B2%99%E9%BE%8D/1443774258?i=1443774319&uo=4"
             }
-          ]
+          ],
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/H%C2%B3M",
+          "source": "itunes",
+          "collectionId": 1443774258,
+          "collectionViewUrl": "https://music.apple.com/hk/album/h3m/1443774258?uo=4",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9b/7f/ba/9b7fba53-66ed-a724-4b8e-956f9274e9c3/00602527019031.rgb.jpg/600x600bb.jpg"
         }
       ],
       "notes": ""
@@ -307,87 +451,163 @@
           "title": "Taste the Atmosphere",
           "year": 2010,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/Taste_the_Atmosphere",
           "tracks": [
             {
               "n": 1,
-              "title": "Welcome to the Future"
+              "title": "Welcome To The Future (feat. 薩頂頂)",
+              "disc": 1,
+              "trackNumber": 1,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f9/2a/98/f92a9886-d6a1-7283-ec70-f6f3d4672966/mzaf_4572999106097952544.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/welcome-to-the-future-feat-%E8%96%A9%E9%A0%82%E9%A0%82/1604745788?i=1604746014&uo=4"
             },
             {
               "n": 2,
-              "title": "講男講女"
+              "title": "講男講女",
+              "disc": 1,
+              "trackNumber": 2,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ec/ab/ac/ecabac85-c824-827d-c785-329700ae16c2/mzaf_11246696264067818984.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E8%AC%9B%E7%94%B7%E8%AC%9B%E5%A5%B3/1604745788?i=1604746090&uo=4"
             },
             {
               "n": 3,
-              "title": "葉問風中轉"
+              "title": "葉問風中轉",
+              "disc": 1,
+              "trackNumber": 3,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/51/b3/b4/51b3b4b6-1f9a-438d-1617-88ed7a5cbb88/mzaf_17163590405169049180.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E8%91%89%E5%95%8F%E9%A2%A8%E4%B8%AD%E8%BD%89/1604745788?i=1604746096&uo=4"
             },
             {
               "n": 4,
-              "title": "花花世界"
+              "title": "花花世界",
+              "disc": 1,
+              "trackNumber": 4,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/71/b6/e0/71b6e0c3-3280-994a-05d1-1156be0a063f/mzaf_16907790048524365990.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E8%8A%B1%E8%8A%B1%E4%B8%96%E7%95%8C/1604745788?i=1604746296&uo=4"
             },
             {
               "n": 5,
-              "title": "我杯茶"
+              "title": "我杯茶 (feat. 莫文蔚)",
+              "disc": 1,
+              "trackNumber": 5,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/52/aa/96/52aa96af-f536-b9f7-5468-b63ed755123f/mzaf_16840739511085321607.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%88%91%E6%9D%AF%E8%8C%B6-feat-%E8%8E%AB%E6%96%87%E8%94%9A/1604745788?i=1604746307&uo=4"
             },
             {
               "n": 6,
-              "title": "超錯"
+              "title": "超錯",
+              "disc": 1,
+              "trackNumber": 6,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/58/33/0f/58330fcd-841c-14e0-4664-f0698e248103/mzaf_6915793960938337061.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E8%B6%85%E9%8C%AF/1604745788?i=1604746316&uo=4"
             },
             {
               "n": 7,
-              "title": "葉問風中轉（Demo Version）"
+              "title": "葉問風中轉 (Demo Version)",
+              "disc": 1,
+              "trackNumber": 7,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8c/7f/f0/8c7ff00c-fd52-05c5-40a4-7b279519b4bb/mzaf_15427914772640659472.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E8%91%89%E5%95%8F%E9%A2%A8%E4%B8%AD%E8%BD%89-demo-version/1604745788?i=1604746321&uo=4"
             },
             {
               "n": 8,
-              "title": "講男講女（NG Take）"
+              "title": "講男講女 (NG take)",
+              "disc": 1,
+              "trackNumber": 8,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8d/eb/b4/8debb497-0361-035e-e87c-6e7bf25e6548/mzaf_10459595852245847229.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E8%AC%9B%E7%94%B7%E8%AC%9B%E5%A5%B3-ng-take/1604745788?i=1604746600&uo=4"
             }
           ],
-          "notes": "Tracks 7–8 are hidden tracks on the HK release."
+          "notes": "Tracks 7–8 are hidden tracks on the HK release.",
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/Taste_the_Atmosphere",
+          "source": "itunes",
+          "collectionId": 1604745788,
+          "collectionViewUrl": "https://music.apple.com/hk/album/taste-the-atmosphere/1604745788?uo=4",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ee/70/40/ee7040cb-f6b4-c604-438a-449c004c017f/22UMGIM03909.rgb.jpg/600x600bb.jpg"
         },
         {
           "title": "Stranger Under My Skin",
           "year": 2011,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/Stranger_Under_My_Skin",
           "tracks": [
             {
               "n": 1,
-              "title": "六月飛霜"
+              "title": "六月飛霜",
+              "disc": 1,
+              "trackNumber": 1,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b4/dc/ff/b4dcff10-2770-dcd4-0db7-ac556553c0a0/mzaf_17394476941764166704.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%85%AD%E6%9C%88%E9%A3%9B%E9%9C%9C/1443711302?i=1443711514&uo=4"
             },
             {
               "n": 2,
-              "title": "Stranger Under My Skin"
+              "title": "Stranger Under My Skin",
+              "disc": 1,
+              "trackNumber": 2,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/12/1e/5c/121e5cd3-9470-1795-ece8-f8c8c85df6d7/mzaf_11203486321615323827.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/stranger-under-my-skin/1443711302?i=1443711686&uo=4"
             },
             {
               "n": 3,
-              "title": "最後派對"
+              "title": "最後派對",
+              "disc": 1,
+              "trackNumber": 3,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1e/73/c8/1e73c8b1-1b18-e022-cb83-3bc14d9edb04/mzaf_10830479216418960586.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%9C%80%E5%BE%8C%E6%B4%BE%E5%B0%8D/1443711302?i=1443711690&uo=4"
             },
             {
               "n": 4,
-              "title": "苦瓜"
+              "title": "苦瓜",
+              "disc": 1,
+              "trackNumber": 4,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0f/67/62/0f6762f7-7baa-bd20-6ffb-e0d9652da35b/mzaf_9097701474657992785.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E8%8B%A6%E7%93%9C/1443711302?i=1443711694&uo=4"
             },
             {
               "n": 5,
-              "title": "沼氣"
+              "title": "沼氣",
+              "disc": 1,
+              "trackNumber": 5,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b3/1c/82/b31c8284-0e0a-3b26-0df2-3a0325a200cb/mzaf_7445937185551827362.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%B2%BC%E6%B0%A3/1443711302?i=1443711699&uo=4"
             },
             {
               "n": 6,
-              "title": "My Private Christmas Song"
+              "title": "My Private Christmas Song",
+              "disc": 1,
+              "trackNumber": 6,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/71/af/d9/71afd994-42f6-9505-5436-5e6c41fd69f5/mzaf_16884924079088602892.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/my-private-christmas-song/1443711302?i=1443711885&uo=4"
             },
             {
               "n": 7,
-              "title": "樂園"
+              "title": "樂園 (國)",
+              "disc": 2,
+              "trackNumber": 1,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/70/4b/61/704b61da-ffe1-0fb4-2753-845ea2ee4f09/mzaf_1449899632978192365.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%A8%82%E5%9C%92-%E5%9C%8B/1443711302?i=1443711894&uo=4"
             },
             {
               "n": 8,
-              "title": "等你愛我"
+              "title": "等你愛我 (國)",
+              "disc": 2,
+              "trackNumber": 2,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/02/7e/f9027e0f-8d20-0b4d-c8ad-9c387d968d01/mzaf_6967698115986676579.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%AD%89%E4%BD%A0%E6%84%9B%E6%88%91-%E5%9C%8B/1443711302?i=1443711899&uo=4"
             },
             {
               "n": 9,
-              "title": "因為愛情"
+              "title": "因為愛情",
+              "disc": 2,
+              "trackNumber": 3,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/11/1d/07/111d07d7-3e1c-62b0-288a-df3a111890ac/mzaf_17563851161635682563.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%9B%A0%E7%82%BA%E6%84%9B%E6%83%85/1443711302?i=1443711905&uo=4"
             }
           ],
-          "notes": "Tracks 7–9 are Mandarin bonus tracks on the HK edition."
+          "notes": "Tracks 7–9 are Mandarin bonus tracks on the HK edition.",
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/Stranger_Under_My_Skin",
+          "source": "itunes",
+          "collectionId": 1443711302,
+          "collectionViewUrl": "https://music.apple.com/hk/album/stranger-under-my-skin/1443711302?uo=4",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f3/c8/cb/f3c8cb79-da10-eed6-4c9e-03bb8e5f40fc/00602488996495.rgb.jpg/600x600bb.jpg"
         }
       ],
       "notes": ""
@@ -402,54 +622,70 @@
           "title": "不想放手",
           "year": 2008,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/%E4%B8%8D%E6%83%B3%E6%94%BE%E6%89%8B",
           "tracks": [
             {
               "n": 1,
-              "title": "27 Seconds"
+              "title": "27 Seconds (Music Box of 然後怎樣)",
+              "disc": 1,
+              "trackNumber": 1,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a7/a5/52/a7a5522b-b585-7338-7ccd-13eababe6fb0/mzaf_9278010814286218008.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/27-seconds-music-box-of-%E7%84%B6%E5%BE%8C%E6%80%8E%E6%A8%A3/1443493887?i=1443494033&uo=4"
             },
             {
               "n": 2,
-              "title": "路...一直都在"
+              "title": "倒帶人生",
+              "disc": 1,
+              "trackNumber": 4,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bc/38/40/bc3840bc-0f48-18e6-8e7a-ed6630deaa76/mzaf_18152933298256132640.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%80%92%E5%B8%B6%E4%BA%BA%E7%94%9F/1443493887?i=1443494445&uo=4"
             },
             {
               "n": 3,
-              "title": "獨居動物"
+              "title": "Aren't You Glad (英)",
+              "disc": 1,
+              "trackNumber": 5,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c7/a0/46/c7a0465c-da54-57a8-dfe1-57776dacbfb6/mzaf_8294805325599902002.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/arent-you-glad-%E8%8B%B1/1443493887?i=1443494452&uo=4"
             },
             {
               "n": 4,
-              "title": "倒帶人生"
+              "title": "不要說話",
+              "disc": 1,
+              "trackNumber": 7,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/61/8f/41/618f416b-df6e-3e60-8e52-835a5b99da0b/mzaf_1488352674225219764.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%B8%8D%E8%A6%81%E8%AA%AA%E8%A9%B1/1443493887?i=1443494467&uo=4"
             },
             {
               "n": 5,
-              "title": "Aren't You Glad"
+              "title": "漂亮小姐",
+              "disc": 1,
+              "trackNumber": 8,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/39/f8/41/39f841bc-1d10-aa1a-bc31-40f73036e514/mzaf_9309399843033556268.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%BC%82%E4%BA%AE%E5%B0%8F%E5%A7%90/1443493887?i=1443494629&uo=4"
             },
             {
               "n": 6,
-              "title": "7"
+              "title": "土星環",
+              "disc": 1,
+              "trackNumber": 10,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/95/0c/30/950c3095-f537-4f48-2bc2-fb8f731c448b/mzaf_5633056406891046617.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%9C%9F%E6%98%9F%E7%92%B0/1443493887?i=1443494861&uo=4"
             },
             {
               "n": 7,
-              "title": "不要說話"
-            },
-            {
-              "n": 8,
-              "title": "漂亮小姐"
-            },
-            {
-              "n": 9,
-              "title": "臭美"
-            },
-            {
-              "n": 10,
-              "title": "土星環"
-            },
-            {
-              "n": 11,
-              "title": "然後怎樣+Hidden Message"
+              "title": "然後怎樣",
+              "disc": 1,
+              "trackNumber": 11,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d3/f9/8b/d3f98b5c-b5b6-c6f1-bc29-6796da460a99/mzaf_10304468052287777678.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%84%B6%E5%BE%8C%E6%80%8E%E6%A8%A3/1443493887?i=1443494872&uo=4"
             }
           ],
-          "notes": "Mandarin album. Track 1 is instrumental; track 5 is English."
+          "notes": "Mandarin album. Track 1 is instrumental; track 5 is English.",
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/%E4%B8%8D%E6%83%B3%E6%94%BE%E6%89%8B",
+          "source": "itunes",
+          "collectionId": 1443493887,
+          "collectionViewUrl": "https://music.apple.com/hk/album/%E4%B8%8D%E6%83%B3%E6%94%BE%E6%89%8B/1443493887?uo=4",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/55/b6/0e/55b60e2d-95a6-2dbc-2957-56d0d3c5e7ea/08UMGIM12074.rgb.jpg/600x600bb.jpg"
         }
       ],
       "notes": ""
@@ -464,7 +700,7 @@
           "title": "4 A Change",
           "year": 2002,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/4_a_Change_%26_Hits",
+          "source": "wikipedia",
           "tracks": [
             {
               "n": 1,
@@ -483,121 +719,243 @@
               "title": "少見不怪"
             }
           ],
-          "notes": "Retail release title is 4 A Change & Hits (新曲+精選). Listed here are the four new songs branded as 「4 A Change」; the Hits disc duplicates material from other album nights."
+          "notes": "Retail release title is 4 A Change & Hits (新曲+精選). Listed here are the four new songs branded as 「4 A Change」; the Hits disc duplicates material from other album nights.",
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/4_a_Change_%26_Hits",
+          "note": "Not available with tracks on iTunes HK; tracklist from Wikipedia"
         },
         {
           "title": "幸福",
           "year": 1999,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/%E5%B9%B8%E7%A6%8F_(%E8%BF%B7%E4%BD%A0%E5%B0%88%E8%BC%AF)",
           "tracks": [
             {
               "n": 1,
-              "title": "幸福摩天輪"
+              "title": "幸福摩天輪",
+              "disc": 1,
+              "trackNumber": 1,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/de/cb/33/decb3392-daf5-2f06-e60e-711e4b7c8911/mzaf_15536241046014922355.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%B9%B8%E7%A6%8F%E6%91%A9%E5%A4%A9%E8%BC%AA/892514705?i=892514706&uo=4"
             },
             {
               "n": 2,
-              "title": "飄飄飄飄"
+              "title": "飄飄飄飄",
+              "disc": 1,
+              "trackNumber": 2,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a8/10/a2/a810a2c9-8a0f-5e00-567a-ebda7d9ebcf2/mzaf_17114887011095949963.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E9%A3%84%E9%A3%84%E9%A3%84%E9%A3%84/892514705?i=892514707&uo=4"
             },
             {
               "n": 3,
-              "title": "時光倒流二十年"
+              "title": "時光倒流二十年",
+              "disc": 1,
+              "trackNumber": 3,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cf/5c/65/cf5c652b-4cd7-b422-8670-0a15e31bbc1c/mzaf_7410169583906790689.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%99%82%E5%85%89%E5%80%92%E6%B5%81%E4%BA%8C%E5%8D%81%E5%B9%B4/892514705?i=892514708&uo=4"
             },
             {
               "n": 4,
-              "title": "忽然難過"
+              "title": "忽然難過",
+              "disc": 1,
+              "trackNumber": 4,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/8d/86/778d867c-0c39-e61e-29c1-9b9a77fbf9fc/mzaf_12292467709181976240.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%BF%BD%E7%84%B6%E9%9B%A3%E9%81%8E/892514705?i=892514709&uo=4"
             },
             {
               "n": 5,
-              "title": "專家話"
+              "title": "專家話",
+              "disc": 1,
+              "trackNumber": 5,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e0/e0/53/e0e05380-907c-8e5c-f9d0-235576f549ff/mzaf_4484010607839791716.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%B0%88%E5%AE%B6%E8%A9%B1/892514705?i=892514710&uo=4"
+            },
+            {
+              "n": 6,
+              "title": "情誡 (Live Version)",
+              "disc": 1,
+              "trackNumber": 6,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/34/ce/ef/34ceef1d-7fbf-9523-3cd4-4eb5cf7fd965/mzaf_17251465967534781821.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%83%85%E8%AA%A1-live-version/892514705?i=892514711&uo=4"
+            },
+            {
+              "n": 7,
+              "title": "有了你 (Live Version)",
+              "disc": 1,
+              "trackNumber": 7,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/08/de/ac/08deacf4-dfa4-f526-7fec-d0ef26b25b1c/mzaf_4437642389577470950.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%9C%89%E4%BA%86%E4%BD%A0-live-version/892514705?i=892514712&uo=4"
+            },
+            {
+              "n": 8,
+              "title": "春光乍洩 (Live Version)",
+              "disc": 1,
+              "trackNumber": 8,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/65/c9/79/65c97978-f725-ec8c-5ec1-82b067ba22e7/mzaf_2693183444595374450.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%98%A5%E5%85%89%E4%B9%8D%E6%B4%A9-live-version/892514705?i=892514713&uo=4"
+            },
+            {
+              "n": 9,
+              "title": "改造人 (Live Version)",
+              "disc": 1,
+              "trackNumber": 9,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6a/3e/87/6a3e87f7-57d5-e7fb-e42e-bddab2c23b14/mzaf_10083988424186542587.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%94%B9%E9%80%A0%E4%BA%BA-live-version/892514705?i=892514714&uo=4"
+            },
+            {
+              "n": 10,
+              "title": "垃圾 (Live Version)",
+              "disc": 1,
+              "trackNumber": 10,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b7/a5/0c/b7a50cd5-a954-9fdd-191d-961b96d21720/mzaf_3323590784324002701.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%9E%83%E5%9C%BE-live-version/892514705?i=892514715&uo=4"
+            },
+            {
+              "n": 11,
+              "title": "非走不可 (Live Version)",
+              "disc": 1,
+              "trackNumber": 11,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/02/86/6f/02866fd7-77d9-7827-1007-15d24ec9f880/mzaf_12225492320803928689.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E9%9D%9E%E8%B5%B0%E4%B8%8D%E5%8F%AF-live-version/892514705?i=892514716&uo=4"
+            },
+            {
+              "n": 12,
+              "title": "超人迪加/屎撈人",
+              "disc": 1,
+              "trackNumber": 12,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/90/3e/a2/903ea2d5-e00c-a2a7-ed6e-c6fbe66716ee/mzaf_11244528510791586675.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E8%B6%85%E4%BA%BA%E8%BF%AA%E5%8A%A0-%E5%B1%8E%E6%92%88%E4%BA%BA/892514705?i=892514717&uo=4"
             }
           ],
-          "notes": "EP Disc 1 studio tracks only. Disc 2 is live covers of other artists' songs (recorded at concerts), omitted for studio-album focus."
+          "notes": "EP Disc 1 studio tracks only. Disc 2 is live covers of other artists' songs (recorded at concerts), omitted for studio-album focus.",
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/%E5%B9%B8%E7%A6%8F_(%E8%BF%B7%E4%BD%A0%E5%B0%88%E8%BC%AF)",
+          "source": "itunes",
+          "collectionId": 892514705,
+          "collectionViewUrl": "https://music.apple.com/hk/album/%E5%B9%B8%E7%A6%8F/892514705?uo=4",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/db/75/93/db7593a8-63a3-1c20-a367-76cc205b6376/825646268405.jpg/600x600bb.jpg"
         },
         {
           "title": "新生活",
           "year": 1998,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/%E6%96%B0%E7%94%9F%E6%B4%BB",
           "tracks": [
             {
               "n": 1,
-              "title": "終於一百日"
+              "title": "我甚麼都沒有 (Live)",
+              "disc": 1,
+              "trackNumber": 1,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/33/15/d5/3315d515-04da-359a-4285-81866a123f16/mzaf_3218185545790625610.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%88%91%E7%94%9A%E9%BA%BC%E9%83%BD%E6%B2%92%E6%9C%89-live/1484716666?i=1484716667&uo=4"
             },
             {
               "n": 2,
-              "title": "新生活"
+              "title": "今天等我來 (Live)",
+              "disc": 1,
+              "trackNumber": 2,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5d/fa/f9/5dfaf971-eb00-4226-887c-6c0340384130/mzaf_3994789782551193946.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%BB%8A%E5%A4%A9%E7%AD%89%E6%88%91%E4%BE%86-live/1484716666?i=1484716670&uo=4"
             },
             {
               "n": 3,
-              "title": "游移的傷口（獨白）"
+              "title": "時代曲 (Live)",
+              "disc": 1,
+              "trackNumber": 3,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/50/e2/22/50e222de-fd90-6452-69fa-7744f8da9443/mzaf_8939039586183833873.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%99%82%E4%BB%A3%E6%9B%B2-live/1484716666?i=1484716676&uo=4"
             },
             {
               "n": 4,
-              "title": "我甚麼都沒有"
+              "title": "Se Vuol ballare (Aria from \"Le Nozze di Figaro\") [Live]",
+              "disc": 1,
+              "trackNumber": 4,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/59/ef/45/59ef4558-4287-332d-cf22-61d6b57bef79/mzaf_16171968331641893209.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/se-vuol-ballare-aria-from-le-nozze-di-figaro-live/1484716666?i=1484716679&uo=4"
             },
             {
               "n": 5,
-              "title": "地獄咒（獨白）"
+              "title": "拜訪 (Live)",
+              "disc": 1,
+              "trackNumber": 5,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f7/36/e1/f736e193-b54d-c0cb-0ebb-f76c62af820e/mzaf_16144697431968111736.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%8B%9C%E8%A8%AA-live/1484716666?i=1484716684&uo=4"
             },
             {
               "n": 6,
-              "title": "與我常在"
+              "title": "愛拼才會贏 (Live)",
+              "disc": 1,
+              "trackNumber": 6,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ff/d9/e3/ffd9e3f3-9b4f-970b-20d8-0c51b1873ae8/mzaf_1535467906706176041.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%84%9B%E6%8B%BC%E6%89%8D%E6%9C%83%E8%B4%8F-live/1484716666?i=1484716779&uo=4"
             },
             {
               "n": 7,
-              "title": "抱擁這分鐘"
+              "title": "終於一百日 (Live)",
+              "disc": 1,
+              "trackNumber": 7,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/14/7a/68/147a688a-8bcd-4bc4-32e4-de4cb3c5829d/mzaf_3699486016376780921.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%B5%82%E6%96%BC%E4%B8%80%E7%99%BE%E6%97%A5-live/1484716666?i=1484716782&uo=4"
             },
             {
               "n": 8,
-              "title": "天一半、地一半（獨白）"
+              "title": "新生活 (Live)",
+              "disc": 1,
+              "trackNumber": 8,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3c/0e/26/3c0e264e-6ceb-d0eb-bdcf-99c8c7003bb1/mzaf_6658762393895634963.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%96%B0%E7%94%9F%E6%B4%BB-live/1484716666?i=1484716789&uo=4"
             },
             {
               "n": 9,
-              "title": "天下無雙"
+              "title": "超人的主題曲 (Live)",
+              "disc": 1,
+              "trackNumber": 9,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6c/80/86/6c808619-c9a4-0e54-0744-3bfb71a91e0b/mzaf_8444991280714083281.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E8%B6%85%E4%BA%BA%E7%9A%84%E4%B8%BB%E9%A1%8C%E6%9B%B2-live/1484716666?i=1484716790&uo=4"
             },
             {
               "n": 10,
-              "title": "今天等我來"
+              "title": "我的快樂時代 (Live)",
+              "disc": 1,
+              "trackNumber": 10,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c1/c7/45/c1c7454b-bf6c-b050-4b2a-393f72bdb0c9/mzaf_13539843344257158245.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%88%91%E7%9A%84%E5%BF%AB%E6%A8%82%E6%99%82%E4%BB%A3-live/1484716666?i=1484716792&uo=4"
             },
             {
               "n": 11,
-              "title": "回絕（獨白）"
+              "title": "傷信 (Live)",
+              "disc": 1,
+              "trackNumber": 11,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/30/be/36/30be36e9-931e-b5de-995f-cd16d0f9728d/mzaf_10002020054918340016.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%82%B7%E4%BF%A1-live/1484716666?i=1484716793&uo=4"
             },
             {
               "n": 12,
-              "title": "傷信"
+              "title": "天下無雙 (Live)",
+              "disc": 1,
+              "trackNumber": 12,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/47/4c/44/474c44bd-543d-bdb6-4488-20df10fb73fb/mzaf_2562827818956235639.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%A4%A9%E4%B8%8B%E7%84%A1%E9%9B%99-live/1484716666?i=1484716795&uo=4"
             },
             {
               "n": 13,
-              "title": "我的快樂時代"
+              "title": "與我常在 (Live)",
+              "disc": 1,
+              "trackNumber": 13,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5a/cd/b1/5acdb1de-ca61-edb0-350b-7901aa274398/mzaf_13633946091211268837.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E8%88%87%E6%88%91%E5%B8%B8%E5%9C%A8-live/1484716666?i=1484716796&uo=4"
             },
             {
               "n": 14,
-              "title": "多一點"
-            },
-            {
-              "n": 15,
-              "title": "時代曲"
-            },
-            {
-              "n": 16,
-              "title": "遊離份子"
-            },
-            {
-              "n": 17,
-              "title": "我怕你不肯"
-            },
-            {
-              "n": 18,
-              "title": "美滿人生"
-            },
-            {
-              "n": 19,
-              "title": "超人的主題曲"
+              "title": "抱擁這分鐘 (Live)",
+              "disc": 1,
+              "trackNumber": 14,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8e/cf/c2/8ecfc2fc-056a-d22b-9edd-532f8bf33deb/mzaf_11263209819600942470.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%8A%B1%E6%93%81%E9%80%99%E5%88%86%E9%90%98-live/1484716666?i=1484716799&uo=4"
             }
           ],
-          "notes": "新曲+精選; includes spoken interludes. New songs are primarily 終於一百日 and 新生活."
+          "notes": "新曲+精選; includes spoken interludes. New songs are primarily 終於一百日 and 新生活.",
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/%E6%96%B0%E7%94%9F%E6%B4%BB",
+          "source": "itunes",
+          "collectionId": 1484716666,
+          "collectionViewUrl": "https://music.apple.com/hk/album/%E6%96%B0%E7%94%9F%E6%B4%BB-live/1484716666?uo=4",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/fb/27/70/fb27701d-f4d8-b86c-6c19-4710c5a49eed/190295563981.jpg/600x600bb.jpg"
         }
       ],
       "notes": "Poster text: 「4 A Change, 幸福 新生活」with a space between 幸福 and 新生活. No single album titled 幸福新生活 exists; treated as three releases: 4 A Change (4 new songs), EP《幸福》, and《新生活》新曲+精選."
@@ -612,49 +970,93 @@
           "title": "黑·白·灰",
           "year": 2003,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/%E9%BB%91%C2%B7%E7%99%BD%C2%B7%E7%81%B0",
           "tracks": [
             {
               "n": 1,
-              "title": "阿怪"
+              "title": "阿怪",
+              "disc": 1,
+              "trackNumber": 1,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/31/c4/e9/31c4e90a-9466-d096-6ce4-64c38341a9de/mzaf_15076600979518229519.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E9%98%BF%E6%80%AA/542923554?i=542923710&uo=4"
             },
             {
               "n": 2,
-              "title": "我們都寂寞"
+              "title": "我們都寂寞",
+              "disc": 1,
+              "trackNumber": 2,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1a/94/e5/1a94e5c7-c416-e1b0-34f7-f5513df4bdcb/mzaf_1684219755088393281.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%88%91%E5%80%91%E9%83%BD%E5%AF%82%E5%AF%9E/542923554?i=542923713&uo=4"
             },
             {
               "n": 3,
-              "title": "兄妹"
+              "title": "兄妹",
+              "disc": 1,
+              "trackNumber": 3,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/89/b9/20/89b920dc-a258-8545-414d-59f23c7b622b/mzaf_2525110542083703929.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%85%84%E5%A6%B9/542923554?i=542923716&uo=4"
             },
             {
               "n": 4,
-              "title": "十年"
+              "title": "十年",
+              "disc": 1,
+              "trackNumber": 4,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a0/2f/29/a02f2922-9375-059c-9a3c-e53bc407b955/mzaf_12688901698901632999.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%8D%81%E5%B9%B4/542923554?i=542923776&uo=4"
             },
             {
               "n": 5,
-              "title": "要你的"
+              "title": "要你的",
+              "disc": 1,
+              "trackNumber": 5,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/db/df/ab/dbdfab13-9553-3095-c20e-35563aab7981/mzaf_4147641283681770245.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E8%A6%81%E4%BD%A0%E7%9A%84/542923554?i=542923777&uo=4"
             },
             {
               "n": 6,
-              "title": "世界"
+              "title": "世界",
+              "disc": 1,
+              "trackNumber": 6,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d1/09/e5/d109e5e0-c5d5-c72a-0d10-fe87031bed41/mzaf_6549491667134818227.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%B8%96%E7%95%8C/542923554?i=542923779&uo=4"
             },
             {
               "n": 7,
-              "title": "謝謝"
+              "title": "謝謝",
+              "disc": 1,
+              "trackNumber": 7,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6a/d8/35/6ad835fd-c6db-efbf-c7a5-35e9d3ebca02/mzaf_9370813710423018645.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E8%AC%9D%E8%AC%9D/542923554?i=542923782&uo=4"
             },
             {
               "n": 8,
-              "title": "像一句廣告"
+              "title": "像一句廣告",
+              "disc": 1,
+              "trackNumber": 8,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b9/af/49/b9af49bf-6b75-c038-463c-299e4fcaddc3/mzaf_14796568817009005202.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%83%8F%E4%B8%80%E5%8F%A5%E5%BB%A3%E5%91%8A/542923554?i=542923784&uo=4"
             },
             {
               "n": 9,
-              "title": "寂寞奏鳴曲"
+              "title": "寂寞奏鳴曲",
+              "disc": 1,
+              "trackNumber": 9,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cc/d4/2e/ccd42e0b-6369-7530-473d-29b181106e47/mzaf_11478752379339327627.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%AF%82%E5%AF%9E%E5%A5%8F%E9%B3%B4%E6%9B%B2/542923554?i=542923785&uo=4"
             },
             {
               "n": 10,
-              "title": "Last Order"
+              "title": "Last Order",
+              "disc": 1,
+              "trackNumber": 10,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/9e/2f/d59e2fe9-83db-79eb-6bf4-8f128d54495c/mzaf_18012398393029665468.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/last-order/542923554?i=542923852&uo=4"
             }
-          ]
+          ],
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/%E9%BB%91%C2%B7%E7%99%BD%C2%B7%E7%81%B0",
+          "source": "itunes",
+          "collectionId": 542923554,
+          "collectionViewUrl": "https://music.apple.com/hk/album/%E9%BB%91-%E7%99%BD-%E7%81%B0/542923554?uo=4",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/bc/f9/4b/bcf94bb9-64c8-82f5-782c-e8154bb545b6/EEGT3018V1-_._._Eason_-.jpg/600x600bb.jpg"
         }
       ],
       "notes": ""
@@ -669,66 +1071,94 @@
           "title": "Special Thanks To...",
           "year": 2002,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/Special_Thanks_To...",
           "tracks": [
             {
               "n": 1,
-              "title": "Special Thanks To 1"
+              "title": "Special Thanks To 1",
+              "disc": 1,
+              "trackNumber": 1,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9b/dd/28/9bdd28b4-95a2-54bf-5f4e-8297a4092c8b/mzaf_1963820054540167876.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/special-thanks-to-1/542612232?i=542612238&uo=4"
             },
             {
               "n": 2,
-              "title": "你的背包"
+              "title": "謝謝儂",
+              "disc": 1,
+              "trackNumber": 2,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7c/4f/d9/7c4fd985-83a8-a931-813c-6dbcbea9c707/mzaf_8557832528633420666.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E8%AC%9D%E8%AC%9D%E5%84%82/542612232?i=542612239&uo=4"
             },
             {
               "n": 3,
-              "title": "謝謝儂"
+              "title": "男人的錯",
+              "disc": 1,
+              "trackNumber": 3,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/63/e0/9d/63e09de2-85f9-7410-6832-33de1866fc52/mzaf_8998659159718594421.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%94%B7%E4%BA%BA%E7%9A%84%E9%8C%AF/542612232?i=542612240&uo=4"
             },
             {
               "n": 4,
-              "title": "男人的錯"
+              "title": "你會不會",
+              "disc": 1,
+              "trackNumber": 4,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/aa/f2/66/aaf26657-3e00-d016-682a-1f35610f6691/mzaf_3270109519568634820.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%BD%A0%E6%9C%83%E4%B8%8D%E6%9C%83/542612232?i=542612241&uo=4"
             },
             {
               "n": 5,
-              "title": "你會不會"
+              "title": "故事",
+              "disc": 1,
+              "trackNumber": 5,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b6/d0/8b/b6d08b98-3cea-7aaf-6488-1cb17951400a/mzaf_5503281628272851664.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%95%85%E4%BA%8B/542612232?i=542612242&uo=4"
             },
             {
               "n": 6,
-              "title": "故事"
+              "title": "人造衛星",
+              "disc": 1,
+              "trackNumber": 6,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b0/37/84/b03784d3-2dcc-f5f8-a992-56875b2ab4ef/mzaf_1540835718876781532.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%BA%BA%E9%80%A0%E8%A1%9B%E6%98%9F/542612232?i=542612243&uo=4"
             },
             {
               "n": 7,
-              "title": "想哭"
+              "title": "沒有手機的日子",
+              "disc": 1,
+              "trackNumber": 7,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a1/1a/1d/a11a1d29-6c93-18dd-cc04-40ce26d9027d/mzaf_12827361118518271319.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%B2%92%E6%9C%89%E6%89%8B%E6%A9%9F%E7%9A%84%E6%97%A5%E5%AD%90/542612232?i=542612244&uo=4"
             },
             {
               "n": 8,
-              "title": "Special Thanks To 2"
+              "title": "跳蚤市場",
+              "disc": 1,
+              "trackNumber": 8,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7a/e6/bc/7ae6bc28-fa3a-5cdc-84f1-59c533a77859/mzaf_12687169871525621952.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E8%B7%B3%E8%9A%A4%E5%B8%82%E5%A0%B4/542612232?i=542612245&uo=4"
             },
             {
               "n": 9,
-              "title": "人造衛星"
+              "title": "狂人日記",
+              "disc": 1,
+              "trackNumber": 9,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a2/f4/af/a2f4af5d-3e81-807b-e30c-43760c53c285/mzaf_1114326895440293712.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%8B%82%E4%BA%BA%E6%97%A5%E8%A8%98/542612232?i=542612246&uo=4"
             },
             {
               "n": 10,
-              "title": "沒有手機的日子"
-            },
-            {
-              "n": 11,
-              "title": "跳蚤市場"
-            },
-            {
-              "n": 12,
-              "title": "狂人日記"
-            },
-            {
-              "n": 13,
-              "title": "Special Thanks To 3"
-            },
-            {
-              "n": 14,
-              "title": "給愛麗斯"
+              "title": "給愛麗斯",
+              "disc": 1,
+              "trackNumber": 10,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/41/84/6a/41846a1c-b7a6-126a-b69b-636d18abe31f/mzaf_13468362332443083667.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%B5%A6%E6%84%9B%E9%BA%97%E6%96%AF/542612232?i=542612247&uo=4"
             }
           ],
-          "notes": "HK special edition includes Cantonese bonus 給愛麗斯 as track 14."
+          "notes": "HK special edition includes Cantonese bonus 給愛麗斯 as track 14.",
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/Special_Thanks_To...",
+          "source": "itunes",
+          "collectionId": 542612232,
+          "collectionViewUrl": "https://music.apple.com/hk/album/special-thanks-to-%E9%A6%99%E6%B8%AF%E7%89%88/542612232?uo=4",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5a/f9/4b/5af94bd3-c034-9bb4-66f0-3badb572dcd1/EEGT3013V1-SPECIAL_THANKS_TO-.jpg/600x600bb.jpg"
         }
       ],
       "notes": ""
@@ -743,50 +1173,94 @@
           "title": "What's Going On...?",
           "year": 2006,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/What%27s_Going_On...%3F",
           "tracks": [
             {
               "n": 1,
-              "title": "裙下之臣"
+              "title": "裙下之臣",
+              "disc": 1,
+              "trackNumber": 1,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/dd/f7/4c/ddf74c0d-e8c6-4815-f3c9-8feb303021c1/mzaf_4347578767513413745.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E8%A3%99%E4%B8%8B%E4%B9%8B%E8%87%A3/1443345687?i=1443345839&uo=4"
             },
             {
               "n": 2,
-              "title": "最後的嬉皮士"
+              "title": "最後的嬉皮士",
+              "disc": 1,
+              "trackNumber": 2,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a5/1a/63/a51a6378-0c6f-16f1-4232-f4d503e11842/mzaf_16972926787969639200.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%9C%80%E5%BE%8C%E7%9A%84%E5%AC%89%E7%9A%AE%E5%A3%AB/1443345687?i=1443346010&uo=4"
             },
             {
               "n": 3,
-              "title": "白玫瑰"
+              "title": "白玫瑰",
+              "disc": 1,
+              "trackNumber": 3,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/44/13/b1/4413b132-6f00-6f70-b508-af9ff9dd9928/mzaf_12498966791403054879.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%99%BD%E7%8E%AB%E7%91%B0/1443345687?i=1443346022&uo=4"
             },
             {
               "n": 4,
-              "title": "黑擇明"
+              "title": "黑擇明",
+              "disc": 1,
+              "trackNumber": 4,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3e/da/46/3eda46d6-fffd-4c15-e815-b28e9ce80f35/mzaf_15151899567293895149.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E9%BB%91%E6%93%87%E6%98%8E/1443345687?i=1443346095&uo=4"
             },
             {
               "n": 5,
-              "title": "富士山下"
+              "title": "富士山下",
+              "disc": 1,
+              "trackNumber": 5,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/66/2d/72/662d7254-49b7-a34f-dcf8-5a06bd0156eb/mzaf_7144034984817217622.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%AF%8C%E5%A3%AB%E5%B1%B1%E4%B8%8B/1443345687?i=1443346107&uo=4"
             },
             {
               "n": 6,
-              "title": "不如不見"
+              "title": "不如不見",
+              "disc": 1,
+              "trackNumber": 6,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/40/46/f9404645-cdb6-88ea-7fd9-51ed48f14b4c/mzaf_11404224415185417147.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%B8%8D%E5%A6%82%E4%B8%8D%E8%A6%8B/1443345687?i=1443346242&uo=4"
             },
             {
               "n": 7,
-              "title": "心深傷透"
+              "title": "心深傷透",
+              "disc": 1,
+              "trackNumber": 7,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/55/4a/5f/554a5ffe-201e-e02e-4e24-501db3e1daca/mzaf_10935688491645496226.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%BF%83%E6%B7%B1%E5%82%B7%E9%80%8F/1443345687?i=1443346274&uo=4"
             },
             {
               "n": 8,
-              "title": "解藥"
+              "title": "解藥",
+              "disc": 1,
+              "trackNumber": 8,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5a/92/7c/5a927c4c-7fac-6a8c-da20-4096101aeff8/mzaf_13068868077768048888.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E8%A7%A3%E8%97%A5/1443345687?i=1443346280&uo=4"
             },
             {
               "n": 9,
-              "title": "天公地道"
+              "title": "天公地道",
+              "disc": 1,
+              "trackNumber": 9,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/14/02/10/140210a7-fc1d-8115-6d49-21756f0edfd6/mzaf_6913388011018144977.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%A4%A9%E5%85%AC%E5%9C%B0%E9%81%93/1443345687?i=1443346285&uo=4"
             },
             {
               "n": 10,
-              "title": "粵語殘片"
+              "title": "粵語殘片",
+              "disc": 1,
+              "trackNumber": 10,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/30/fb/bb/30fbbba0-650e-e2ff-a5ae-810011d51033/mzaf_17152850955280574984.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%B2%B5%E8%AA%9E%E6%AE%98%E7%89%87/1443345687?i=1443346289&uo=4"
             }
           ],
-          "notes": "1st edition CD tracklist (10 songs). 2nd edition adds a live bonus CD, omitted here."
+          "notes": "1st edition CD tracklist (10 songs). 2nd edition adds a live bonus CD, omitted here.",
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/What%27s_Going_On...%3F",
+          "source": "itunes",
+          "collectionId": 1443345687,
+          "collectionViewUrl": "https://music.apple.com/hk/album/whats-going-on/1443345687?uo=4",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/44/d3/57/44d35752-0906-6a22-ebc4-32d9553fa0fb/00602517176997.rgb.jpg/600x600bb.jpg"
         }
       ],
       "notes": ""
@@ -801,54 +1275,102 @@
           "title": "認了吧",
           "year": 2007,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/%E8%AA%8D%E4%BA%86%E5%90%A7",
           "tracks": [
             {
               "n": 1,
-              "title": "煙味"
+              "title": "煙味 (國)",
+              "disc": 1,
+              "trackNumber": 1,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/71/a6/84/71a6840a-0f25-3dbd-5115-482991fc1978/mzaf_7810247502533288931.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%85%99%E5%91%B3-%E5%9C%8B/1443816775?i=1443816780&uo=4"
             },
             {
               "n": 2,
-              "title": "淘汰"
+              "title": "淘汰 (國)",
+              "disc": 1,
+              "trackNumber": 2,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0d/6d/c9/0d6dc904-21dc-744b-1799-a9a1f2545463/mzaf_3027636038107645453.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%B7%98%E6%B1%B0-%E5%9C%8B/1443816775?i=1443816782&uo=4"
             },
             {
               "n": 3,
-              "title": "快樂男生"
+              "title": "快樂男生 (國)",
+              "disc": 1,
+              "trackNumber": 3,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c8/63/d2/c863d236-81f4-a8c1-ea7b-914f031d9f6f/mzaf_16111860064148040016.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%BF%AB%E6%A8%82%E7%94%B7%E7%94%9F-%E5%9C%8B/1443816775?i=1443816783&uo=4"
             },
             {
               "n": 4,
-              "title": "紅玫瑰"
+              "title": "紅玫瑰 (國)",
+              "disc": 1,
+              "trackNumber": 4,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6e/bf/ca/6ebfca32-387f-8d2b-891a-10770810d2ec/mzaf_4634747678453687087.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%B4%85%E7%8E%AB%E7%91%B0-%E5%9C%8B/1443816775?i=1443816787&uo=4"
             },
             {
               "n": 5,
-              "title": "月黑風高"
+              "title": "月黑風高 (國)",
+              "disc": 1,
+              "trackNumber": 5,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/da/1f/28/da1f28b6-2c6a-bb60-9239-82c17cd9ac29/mzaf_14863291659363295182.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%9C%88%E9%BB%91%E9%A2%A8%E9%AB%98-%E5%9C%8B/1443816775?i=1443816789&uo=4"
             },
             {
               "n": 6,
-              "title": "愛情轉移"
+              "title": "愛情轉移 (國)",
+              "disc": 1,
+              "trackNumber": 6,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/db/62/43/db624324-94de-26f4-468f-f83099e876e0/mzaf_11450757556055793828.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%84%9B%E6%83%85%E8%BD%89%E7%A7%BB-%E5%9C%8B/1443816775?i=1443817002&uo=4"
             },
             {
               "n": 7,
-              "title": "好久不見"
+              "title": "好久不見",
+              "disc": 1,
+              "trackNumber": 7,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/07/1f/1f/071f1f75-6b42-e932-e8a3-cf5f1e019b6d/mzaf_15016512238504534591.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%A5%BD%E4%B9%85%E4%B8%8D%E8%A6%8B/1443816775?i=1443817004&uo=4"
             },
             {
               "n": 8,
-              "title": "愛是一本書"
+              "title": "愛是一本書 (國)",
+              "disc": 1,
+              "trackNumber": 8,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b1/03/7a/b1037a11-b874-7269-a587-e13eff916533/mzaf_9554816885007215908.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%84%9B%E6%98%AF%E4%B8%80%E6%9C%AC%E6%9B%B8-%E5%9C%8B/1443816775?i=1443817006&uo=4"
             },
             {
               "n": 9,
-              "title": "第一個雅皮士"
+              "title": "第一個雅皮士 (國)",
+              "disc": 1,
+              "trackNumber": 9,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ff/41/18/ff411896-6804-f3d2-9542-c0774288431c/mzaf_8145876145598145878.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%AC%AC%E4%B8%80%E5%80%8B%E9%9B%85%E7%9A%AE%E5%A3%AB-%E5%9C%8B/1443816775?i=1443817007&uo=4"
             },
             {
               "n": 10,
-              "title": "白色球鞋"
+              "title": "白色球鞋 (國)",
+              "disc": 1,
+              "trackNumber": 10,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7b/30/6f/7b306fed-2fba-8760-5e3e-5621561492e7/mzaf_13893103283622715185.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%99%BD%E8%89%B2%E7%90%83%E9%9E%8B-%E5%9C%8B/1443816775?i=1443817009&uo=4"
             },
             {
               "n": 11,
-              "title": "月球上的人"
+              "title": "月球上的人 (Bonus Track)",
+              "disc": 1,
+              "trackNumber": 11,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f9/21/54/f9215414-3089-f188-a09f-fe94635c58dc/mzaf_758223327650765262.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%9C%88%E7%90%83%E4%B8%8A%E7%9A%84%E4%BA%BA-bonus-track/1443816775?i=1443817011&uo=4"
             }
           ],
-          "notes": "HK edition includes Cantonese bonus 月球上的人 as track 11."
+          "notes": "HK edition includes Cantonese bonus 月球上的人 as track 11.",
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/%E8%AA%8D%E4%BA%86%E5%90%A7",
+          "source": "itunes",
+          "collectionId": 1443816775,
+          "collectionViewUrl": "https://music.apple.com/hk/album/%E8%AA%8D%E4%BA%86%E5%90%A7-hong-kong-version/1443816775?uo=4",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/73/20/ce/7320cee7-4b9e-7d7a-d7e9-407f2cfc93e3/00602517338814.rgb.jpg/600x600bb.jpg"
         }
       ],
       "notes": ""
@@ -863,70 +1385,114 @@
           "title": "Life Continues...",
           "year": 2006,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/Life_Continues...",
           "tracks": [
             {
               "n": 1,
-              "title": "低調"
+              "title": "低調",
+              "disc": 1,
+              "trackNumber": 1,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/08/83/a9/0883a98d-d8b9-3ef5-eeae-6dc3369baba7/mzaf_15698725641021142579.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%BD%8E%E8%AA%BF/1442912707?i=1442912975&uo=4"
             },
             {
               "n": 2,
-              "title": "人車誌"
+              "title": "人車誌",
+              "disc": 1,
+              "trackNumber": 2,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/50/ff/c350ff49-291e-549c-5a5f-43b73813ae04/mzaf_12609296888519479133.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%BA%BA%E8%BB%8A%E8%AA%8C/1442912707?i=1442913152&uo=4"
             },
             {
               "n": 3,
-              "title": "最佳損友"
+              "title": "最佳損友",
+              "disc": 1,
+              "trackNumber": 3,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b6/66/df/b666df56-39c9-3cd1-cd2e-2881b2ca9b79/mzaf_17358562237749671714.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%9C%80%E4%BD%B3%E6%90%8D%E5%8F%8B/1442912707?i=1442913348&uo=4"
             },
             {
               "n": 4,
-              "title": "暴殄天物"
+              "title": "暴殄天物",
+              "disc": 1,
+              "trackNumber": 4,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/de/d7/71/ded77128-223e-16af-1f77-d82cb7fa864e/mzaf_7860641897644884599.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%9A%B4%E6%AE%84%E5%A4%A9%E7%89%A9/1442912707?i=1442913362&uo=4"
             },
             {
               "n": 5,
-              "title": "落花流水"
+              "title": "落花流水",
+              "disc": 1,
+              "trackNumber": 5,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/59/07/b5/5907b5ad-d106-31af-b594-80e8192395b6/mzaf_460696150848561563.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E8%90%BD%E8%8A%B1%E6%B5%81%E6%B0%B4/1442912707?i=1442913410&uo=4"
             },
             {
               "n": 6,
-              "title": "大得太快"
+              "title": "大得太快",
+              "disc": 1,
+              "trackNumber": 6,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2a/07/56/2a0756d6-841e-fec6-caf6-48d060019f4f/mzaf_12348705154076796895.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%A4%A7%E5%BE%97%E5%A4%AA%E5%BF%AB/1442912707?i=1442913416&uo=4"
             },
             {
               "n": 7,
-              "title": "想聽"
+              "title": "想聽",
+              "disc": 1,
+              "trackNumber": 7,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b4/f2/cc/b4f2cc10-7e28-b4f4-7bcd-b1580561ae58/mzaf_11221905464035093745.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%83%B3%E8%81%BD/1442912707?i=1442913418&uo=4"
             }
           ],
-          "notes": "Includes bonus track 想聽."
+          "notes": "Includes bonus track 想聽.",
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/Life_Continues...",
+          "source": "itunes",
+          "collectionId": 1442912707,
+          "collectionViewUrl": "https://music.apple.com/hk/album/life-continues/1442912707?uo=4",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/a4/fa/86/a4fa86d6-c23a-c37f-1251-00376ff144cd/00602498378830.rgb.jpg/600x600bb.jpg"
         },
         {
           "title": "Time Flies",
           "year": 2010,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/Time_Flies_(%E9%99%B3%E5%A5%95%E8%BF%85%E8%BF%B7%E4%BD%A0%E5%B0%88%E8%BC%AF)",
           "tracks": [
             {
               "n": 1,
-              "title": "無人之境"
+              "title": "大人",
+              "disc": 1,
+              "trackNumber": 1,
+              "previewUrl": "https://video-ssl.itunes.apple.com/itunes-assets/Video128/v4/d9/47/e9/d947e95b-3ff9-096c-4d6e-1513c7f68866/mzvf_3043437539738092589.640x348.h264lc.U.p.m4v",
+              "trackViewUrl": "https://music.apple.com/hk/music-video/%E5%A4%A7%E4%BA%BA/1446016951?uo=4"
             },
             {
               "n": 2,
-              "title": "大人"
+              "title": "一絲不掛",
+              "disc": 1,
+              "trackNumber": 2,
+              "previewUrl": "https://video-ssl.itunes.apple.com/itunes-assets/Video128/v4/3a/eb/43/3aeb4333-1858-5db9-7cff-5532429c2b9f/mzvf_1178678440005043344.640x316.h264lc.U.p.m4v",
+              "trackViewUrl": "https://music.apple.com/hk/music-video/%E4%B8%80%E7%B5%B2%E4%B8%8D%E6%8E%9B/1446016956?uo=4"
             },
             {
               "n": 3,
-              "title": "一絲不掛"
+              "title": "陀飛輪",
+              "disc": 1,
+              "trackNumber": 3,
+              "previewUrl": "https://video-ssl.itunes.apple.com/itunes-assets/Video118/v4/f7/08/09/f708098a-b6ff-f7f5-b9fd-142c14cbfb8e/mzvf_8437138462343123738.640x332.h264lc.U.p.m4v",
+              "trackViewUrl": "https://music.apple.com/hk/music-video/%E9%99%80%E9%A3%9B%E8%BC%AA/1446016957?uo=4"
             },
             {
               "n": 4,
-              "title": "陀飛輪"
-            },
-            {
-              "n": 5,
-              "title": "心腹"
-            },
-            {
-              "n": 6,
-              "title": "味之素"
+              "title": "味之素",
+              "disc": 1,
+              "trackNumber": 4,
+              "previewUrl": "https://video-ssl.itunes.apple.com/itunes-assets/Video128/v4/34/32/69/343269b8-2988-20ec-844a-195b29039fd1/mzvf_7751168901853531651.640x258.h264lc.U.p.m4v",
+              "trackViewUrl": "https://music.apple.com/hk/music-video/%E5%91%B3%E4%B9%8B%E7%B4%A0/1446016960?uo=4"
             }
-          ]
+          ],
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/Time_Flies_(%E9%99%B3%E5%A5%95%E8%BF%85%E8%BF%B7%E4%BD%A0%E5%B0%88%E8%BC%AF)",
+          "source": "itunes",
+          "collectionId": 1446016948,
+          "collectionViewUrl": "https://music.apple.com/hk/album/time-flies/1446016948?uo=4",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/ce/1d/8f/ce1d8f6c-99fe-4f44-e77a-f2af0104942f/00602488991223.rgb.jpg/600x600bb.jpg"
         }
       ],
       "notes": ""
@@ -941,7 +1507,7 @@
           "title": "Solidays",
           "year": 2008,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/Solidays",
+          "source": "wikipedia",
           "tracks": [
             {
               "n": 1,
@@ -1052,7 +1618,9 @@
               "title": "後台"
             }
           ],
-          "notes": "Poster brands the night 「Other Solidays」 (sometimes with ?). No separate album of that exact title; tracklist is the 2008 Solidays 新曲+精選 (2CD). New songs: 歌·頌, 後台 (plus rearrangements/selections)."
+          "notes": "Poster brands the night 「Other Solidays」 (sometimes with ?). No separate album of that exact title; tracklist is the 2008 Solidays 新曲+精選 (2CD). New songs: 歌·頌, 後台 (plus rearrangements/selections).",
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/Solidays",
+          "note": "Not available with tracks on iTunes HK; tracklist from Wikipedia (Album exists on iTunes HK but lookup returned 0 tracks (likely not streamable in HK))"
         }
       ],
       "notes": "Poster label is 「Other Solidays」; mapped to Solidays (2008)."
@@ -1067,49 +1635,93 @@
           "title": "天佑愛人",
           "year": 1999,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/%E5%A4%A9%E4%BD%91%E6%84%9B%E4%BA%BA",
           "tracks": [
             {
               "n": 1,
-              "title": "昨日"
+              "title": "昨日",
+              "disc": 1,
+              "trackNumber": 1,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1c/df/af/1cdfaf58-86e6-936c-f1dc-3a4784b9abe7/mzaf_8356630532319851193.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%98%A8%E6%97%A5/892819866?i=892822894&uo=4"
             },
             {
               "n": 2,
-              "title": "今日"
+              "title": "今日",
+              "disc": 1,
+              "trackNumber": 2,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/df/9c/7a/df9c7a2f-ccac-b621-560f-d4f03451f033/mzaf_2756232997194027602.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%BB%8A%E6%97%A5/892819866?i=892822895&uo=4"
             },
             {
               "n": 3,
-              "title": "每一個明天"
+              "title": "每一個明天",
+              "disc": 1,
+              "trackNumber": 3,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fa/8d/1f/fa8d1fe1-6bbf-0bdb-bcc2-7154c12a0227/mzaf_12586864433437072578.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%AF%8F%E4%B8%80%E5%80%8B%E6%98%8E%E5%A4%A9/892819866?i=892822901&uo=4"
             },
             {
               "n": 4,
-              "title": "眼眉調"
+              "title": "眼眉調",
+              "disc": 1,
+              "trackNumber": 4,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/52/d5/63/52d563bb-62fd-4ca6-f7b2-7a7405240478/mzaf_16364338049319481949.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%9C%BC%E7%9C%89%E8%AA%BF/892819866?i=892822902&uo=4"
             },
             {
               "n": 5,
-              "title": "一"
+              "title": "一",
+              "disc": 1,
+              "trackNumber": 5,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/38/ec/81/38ec8158-ae3c-9d9c-481a-781ccd7f1512/mzaf_1408386032983487114.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%B8%80/892819866?i=892822903&uo=4"
             },
             {
               "n": 6,
-              "title": "第五個現代化"
+              "title": "第五個現代化",
+              "disc": 1,
+              "trackNumber": 6,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8e/10/2e/8e102e73-264c-0542-374a-d971bdb6e2f0/mzaf_2339878608348450779.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%AC%AC%E4%BA%94%E5%80%8B%E7%8F%BE%E4%BB%A3%E5%8C%96/892819866?i=892822904&uo=4"
             },
             {
               "n": 7,
-              "title": "快高長大"
+              "title": "快高長大",
+              "disc": 1,
+              "trackNumber": 7,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6f/07/eb/6f07ebd2-91c2-0c3d-8403-d2bc471ad55b/mzaf_8933856737975814821.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%BF%AB%E9%AB%98%E9%95%B7%E5%A4%A7/892819866?i=892822905&uo=4"
             },
             {
               "n": 8,
-              "title": "如果這一秒鐘你跟我講你不愛我"
+              "title": "如果這一秒鐘你跟我講你不愛我",
+              "disc": 1,
+              "trackNumber": 8,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cb/f6/24/cbf624a9-fa75-53bf-df97-ba98fe2e0ec9/mzaf_11133213319654996195.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%A6%82%E6%9E%9C%E9%80%99%E4%B8%80%E7%A7%92%E9%90%98%E4%BD%A0%E8%B7%9F%E6%88%91%E8%AC%9B%E4%BD%A0%E4%B8%8D%E6%84%9B%E6%88%91/892819866?i=892822906&uo=4"
             },
             {
               "n": 9,
-              "title": "我的世界末日"
+              "title": "我的世界末日",
+              "disc": 1,
+              "trackNumber": 9,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2f/5b/ef/2f5befb1-ef5a-4ee2-65d0-937689dc0849/mzaf_18105745155811301403.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E6%9C%AB%E6%97%A5/892819866?i=892822907&uo=4"
             },
             {
               "n": 10,
-              "title": "貝多芬與我"
+              "title": "貝多芬與我",
+              "disc": 1,
+              "trackNumber": 10,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cd/d6/58/cdd6586b-2fe2-4e72-c640-1fdfa5cf9339/mzaf_6069831640320059572.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E8%B2%9D%E5%A4%9A%E8%8A%AC%E8%88%87%E6%88%91/892819866?i=892822908&uo=4"
             }
-          ]
+          ],
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/%E5%A4%A9%E4%BD%91%E6%84%9B%E4%BA%BA",
+          "source": "itunes",
+          "collectionId": 892819866,
+          "collectionViewUrl": "https://music.apple.com/hk/album/%E5%A4%A9%E4%BD%91%E6%84%9B%E4%BA%BA/892819866?uo=4",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/01/0a/c7/010ac75b-cc96-d455-6bcb-33d423c735bf/825646268313.jpg/600x600bb.jpg"
         }
       ],
       "notes": ""
@@ -1124,54 +1736,174 @@
           "title": "Listen To Eason Chan",
           "year": 2007,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/Listen_To_Eason_Chan",
           "tracks": [
             {
               "n": 1,
-              "title": "瑪利奧派對"
+              "title": "瑪利奧派對",
+              "disc": 1,
+              "trackNumber": 1,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/98/6e/4a/986e4a8d-3b50-b59e-d8d3-afdd885f1b4f/mzaf_7706882041894560770.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%91%AA%E5%88%A9%E5%A5%A7%E6%B4%BE%E5%B0%8D/1462039068?i=1462039287&uo=4"
             },
             {
               "n": 2,
-              "title": "熱島小夜曲"
+              "title": "熱島小夜曲",
+              "disc": 1,
+              "trackNumber": 2,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/55/20/2d/55202d9a-2794-795a-4c66-4cbfc0fd1c0d/mzaf_17367179036682247302.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%86%B1%E5%B3%B6%E5%B0%8F%E5%A4%9C%E6%9B%B2/1462039068?i=1462039291&uo=4"
             },
             {
               "n": 3,
-              "title": "閃"
+              "title": "閃",
+              "disc": 1,
+              "trackNumber": 3,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fc/62/97/fc62978e-3438-f8db-30a7-afd9341496bb/mzaf_10036322035763175830.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E9%96%83/1462039068?i=1462039293&uo=4"
             },
             {
               "n": 4,
-              "title": "演唱會"
+              "title": "演唱會",
+              "disc": 1,
+              "trackNumber": 4,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/73/56/72/7356727f-b149-b4da-b203-dd8108255fbd/mzaf_6820919231897810753.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%BC%94%E5%94%B1%E6%9C%83/1462039068?i=1462039298&uo=4"
             },
             {
               "n": 5,
-              "title": "滑鐵盧車站"
+              "title": "滑鐵盧車站",
+              "disc": 1,
+              "trackNumber": 5,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3b/4b/9a/3b4b9acc-fd1a-15ad-5c0a-2714fb799ea4/mzaf_18396556443341371770.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%BB%91%E9%90%B5%E7%9B%A7%E8%BB%8A%E7%AB%99/1462039068?i=1462039304&uo=4"
             },
             {
               "n": 6,
-              "title": "Crying in the Party"
+              "title": "Crying in the Party",
+              "disc": 1,
+              "trackNumber": 6,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4c/29/5a/4c295a1f-9e8b-3523-7d1a-e69284dc38ce/mzaf_3540171183500400505.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/crying-in-the-party/1462039068?i=1462039305&uo=4"
             },
             {
               "n": 7,
-              "title": "狂熱革命"
+              "title": "狂熱革命",
+              "disc": 1,
+              "trackNumber": 7,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f3/98/5a/f3985ade-d628-30aa-5fa1-1d8d5da08513/mzaf_4693706505095482299.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%8B%82%E7%86%B1%E9%9D%A9%E5%91%BD/1462039068?i=1462039306&uo=4"
             },
             {
               "n": 8,
-              "title": "變色龍"
+              "title": "變色龍",
+              "disc": 1,
+              "trackNumber": 8,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/87/f4/60/87f46089-7a44-c17a-574a-7f581dcb9cb1/mzaf_3912459434915742211.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E8%AE%8A%E8%89%B2%E9%BE%8D/1462039068?i=1462039499&uo=4"
             },
             {
               "n": 9,
-              "title": "時代巨輪"
+              "title": "時代巨輪",
+              "disc": 1,
+              "trackNumber": 9,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/72/67/76/72677657-cf2a-a750-2171-78be14a0669c/mzaf_10012224464213498125.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%99%82%E4%BB%A3%E5%B7%A8%E8%BC%AA/1462039068?i=1462039509&uo=4"
             },
             {
               "n": 10,
-              "title": "乜嘢啫"
+              "title": "Mud Yeah Jeah (乜)",
+              "disc": 1,
+              "trackNumber": 10,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/de/e0/23/dee023ff-2520-d819-aca4-14b88d68f674/mzaf_1401310683939021381.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/mud-yeah-jeah-%E4%B9%9C/1462039068?i=1462039513&uo=4"
             },
             {
               "n": 11,
-              "title": "兄弟"
+              "title": "瑪利奧派對 (Soul Seekerz Remix)",
+              "disc": 2,
+              "trackNumber": 1,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ed/79/35/ed793523-28b0-dda7-37e0-7ccfa6b6043c/mzaf_6812400800520535577.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%91%AA%E5%88%A9%E5%A5%A7%E6%B4%BE%E5%B0%8D-soul-seekerz-remix/1462039068?i=1462039514&uo=4"
+            },
+            {
+              "n": 12,
+              "title": "熱島小夜曲 (Wideboys Club Mix)",
+              "disc": 2,
+              "trackNumber": 2,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/28/00/0f/28000f8d-415f-816e-ca0d-1fa62086074d/mzaf_14008435971380984395.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%86%B1%E5%B3%B6%E5%B0%8F%E5%A4%9C%E6%9B%B2-wideboys-club-mix/1462039068?i=1462039517&uo=4"
+            },
+            {
+              "n": 13,
+              "title": "閃 (Digital Dog Remix)",
+              "disc": 2,
+              "trackNumber": 3,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d2/28/78/d2287814-d3c0-423c-a779-9941d0d57236/mzaf_18381357639678484698.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E9%96%83-digital-dog-remix/1462039068?i=1462039520&uo=4"
+            },
+            {
+              "n": 14,
+              "title": "演唱會 (Junior Rotter Remix)",
+              "disc": 2,
+              "trackNumber": 4,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/02/74/6e/02746e97-fc63-db86-9f5e-42347f933cdc/mzaf_15416949177346594993.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%BC%94%E5%94%B1%E6%9C%83-junior-rotter-remix/1462039068?i=1462039521&uo=4"
+            },
+            {
+              "n": 15,
+              "title": "滑鐵盧車站 (Wideboys Club Mix)",
+              "disc": 2,
+              "trackNumber": 5,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3f/d9/21/3fd9218a-fd9d-2652-e5ae-b2f215cfda5e/mzaf_12985808218000587377.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%BB%91%E9%90%B5%E7%9B%A7%E8%BB%8A%E7%AB%99-wideboys-club-mix/1462039068?i=1462039522&uo=4"
+            },
+            {
+              "n": 16,
+              "title": "Crying in the Party (Soul Seekerz Remix)",
+              "disc": 2,
+              "trackNumber": 6,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/65/56/c2/6556c27a-0146-86b2-e16a-aa564494b89f/mzaf_13461686403591473571.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/crying-in-the-party-soul-seekerz-remix/1462039068?i=1462039523&uo=4"
+            },
+            {
+              "n": 17,
+              "title": "狂熱革命 (Junior Rotter Remix)",
+              "disc": 2,
+              "trackNumber": 7,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/af/50/e9/af50e958-2b7e-11fe-3128-aa9271f6cd9d/mzaf_17059539875018905180.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%8B%82%E7%86%B1%E9%9D%A9%E5%91%BD-junior-rotter-remix/1462039068?i=1462039739&uo=4"
+            },
+            {
+              "n": 18,
+              "title": "Been Sick Lung (Section Remix)",
+              "disc": 2,
+              "trackNumber": 8,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ec/c2/d2/ecc2d218-6125-7725-24c2-0e73c749331c/mzaf_10259003523230503526.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/been-sick-lung-section-remix/1462039068?i=1462039742&uo=4"
+            },
+            {
+              "n": 19,
+              "title": "See Doi Gui Lun (Digital Dog Remix)",
+              "disc": 2,
+              "trackNumber": 9,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/74/c6/0a/74c60a25-6501-b4e8-b2f0-316f8656b0f8/mzaf_1106205050342821119.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/see-doi-gui-lun-digital-dog-remix/1462039068?i=1462039745&uo=4"
+            },
+            {
+              "n": 20,
+              "title": "Mud Yeah Jeah (Section Remix)",
+              "disc": 2,
+              "trackNumber": 10,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c2/91/43/c29143ea-4ed8-33ce-f17f-29ee912000c9/mzaf_11963138854712145369.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/mud-yeah-jeah-section-remix/1462039068?i=1462039748&uo=4"
             }
           ],
-          "notes": "Disc 1 + Mandarin bonus 兄弟. Remix disc (Disc 2) omitted."
+          "notes": "Disc 1 + Mandarin bonus 兄弟. Remix disc (Disc 2) omitted.",
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/Listen_To_Eason_Chan",
+          "source": "itunes",
+          "collectionId": 1462039068,
+          "collectionViewUrl": "https://music.apple.com/hk/album/listen-to-eason-chan/1462039068?uo=4",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bf/f2/a5/bff2a5f9-41b6-d649-f2a4-ccc727c5439f/07UMGIM15266.rgb.jpg/600x600bb.jpg"
         }
       ],
       "notes": ""
@@ -1186,49 +1918,93 @@
           "title": "Nothing Really Matters",
           "year": 2000,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/Nothing_Really_Matters",
           "tracks": [
             {
               "n": 1,
-              "title": "送院途中"
+              "title": "送院途中",
+              "disc": 1,
+              "trackNumber": 1,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ae/a1/c4/aea1c4e9-17c9-31ae-28de-5b428761d53a/mzaf_14818638703530987844.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E9%80%81%E9%99%A2%E9%80%94%E4%B8%AD/892669236?i=892669245&uo=4"
             },
             {
               "n": 2,
-              "title": "黑夜不再來"
+              "title": "黑夜不再來 (電影 \"十二夜\" 主題曲)",
+              "disc": 1,
+              "trackNumber": 2,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/55/81/32/5581321e-f24f-1734-a01a-927128fd05a3/mzaf_15554438266975301662.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E9%BB%91%E5%A4%9C%E4%B8%8D%E5%86%8D%E4%BE%86-%E9%9B%BB%E5%BD%B1-%E5%8D%81%E4%BA%8C%E5%A4%9C-%E4%B8%BB%E9%A1%8C%E6%9B%B2/892669236?i=892669246&uo=4"
             },
             {
               "n": 3,
-              "title": "美麗有罪"
+              "title": "美麗有罪",
+              "disc": 1,
+              "trackNumber": 3,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/51/05/28/51052864-3be5-56fc-ddbd-9122f2722205/mzaf_14340984253067256317.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%BE%8E%E9%BA%97%E6%9C%89%E7%BD%AA/892669236?i=892669247&uo=4"
             },
             {
               "n": 4,
-              "title": "戲迷情人"
+              "title": "戲迷情人",
+              "disc": 1,
+              "trackNumber": 4,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c1/2a/a1/c12aa13b-e50d-d5a0-edce-661aee9251cd/mzaf_3518640460645998899.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%88%B2%E8%BF%B7%E6%83%85%E4%BA%BA/892669236?i=892669248&uo=4"
             },
             {
               "n": 5,
-              "title": "和平飯店"
+              "title": "和平飯店",
+              "disc": 1,
+              "trackNumber": 5,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/66/c1/62/66c1629d-9007-5516-8c71-ddef8fe632bc/mzaf_16779430876602414893.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%92%8C%E5%B9%B3%E9%A3%AF%E5%BA%97/892669236?i=892669249&uo=4"
             },
             {
               "n": 6,
-              "title": "我感激"
+              "title": "我感激",
+              "disc": 1,
+              "trackNumber": 6,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8e/63/5c/8e635cfc-b89f-6913-bd6e-101b9c58a01b/mzaf_12899690331974065813.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%88%91%E6%84%9F%E6%BF%80/892669236?i=892669250&uo=4"
             },
             {
               "n": 7,
-              "title": "到此一遊"
+              "title": "到此一遊",
+              "disc": 1,
+              "trackNumber": 7,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a2/a5/a0/a2a5a0ca-e4ce-1f30-063f-2304958ed978/mzaf_78656765127620939.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%88%B0%E6%AD%A4%E4%B8%80%E9%81%8A/892669236?i=892669251&uo=4"
             },
             {
               "n": 8,
-              "title": "當這地球沒有花"
+              "title": "當這地球沒有花",
+              "disc": 1,
+              "trackNumber": 8,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ab/e8/65/abe86527-05cf-d279-446a-9275d091f524/mzaf_14002948187897455006.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%95%B6%E9%80%99%E5%9C%B0%E7%90%83%E6%B2%92%E6%9C%89%E8%8A%B1/892669236?i=892669252&uo=4"
             },
             {
               "n": 9,
-              "title": "Made in Hong Kong"
+              "title": "Made In Hong Kong",
+              "disc": 1,
+              "trackNumber": 9,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f3/28/89/f328893c-c232-3f84-d304-1a14975cad7a/mzaf_5055596446444185637.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/made-in-hong-kong/892669236?i=892669253&uo=4"
             },
             {
               "n": 10,
-              "title": "愛上你是我眼睛的錯"
+              "title": "愛上你是我眼睛的錯",
+              "disc": 1,
+              "trackNumber": 10,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/eb/bf/caebbf58-f141-f0f2-7e5e-8ee6b5f2c718/mzaf_4862525542693489314.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%84%9B%E4%B8%8A%E4%BD%A0%E6%98%AF%E6%88%91%E7%9C%BC%E7%9D%9B%E7%9A%84%E9%8C%AF/892669236?i=892669254&uo=4"
             }
-          ]
+          ],
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/Nothing_Really_Matters",
+          "source": "itunes",
+          "collectionId": 892669236,
+          "collectionViewUrl": "https://music.apple.com/hk/album/nothing-really-matters/892669236?uo=4",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/21/42/8b/21428bcc-bea8-430a-67bd-5e0f7505a6c1/825646273188.jpg/600x600bb.jpg"
         }
       ],
       "notes": ""
@@ -1243,50 +2019,86 @@
           "title": "怎麼樣",
           "year": 2005,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/%E6%80%8E%E9%BA%BC%E6%A8%A3",
           "tracks": [
             {
               "n": 1,
-              "title": "不能再等待"
+              "title": "不能再等待",
+              "disc": 1,
+              "trackNumber": 1,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c2/60/78/c260780b-f193-9cf5-7b4f-0056d4915c05/mzaf_5085307297075247818.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%B8%8D%E8%83%BD%E5%86%8D%E7%AD%89%E5%BE%85/1443938740?i=1443938805&uo=4"
             },
             {
               "n": 2,
-              "title": "對不起 謝謝"
+              "title": "對不起 謝謝",
+              "disc": 1,
+              "trackNumber": 2,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/94/07/d1/9407d155-1f34-2248-f825-8024df4ad182/mzaf_4082199567871632062.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%B0%8D%E4%B8%8D%E8%B5%B7-%E8%AC%9D%E8%AC%9D/1443938740?i=1443938808&uo=4"
             },
             {
               "n": 3,
-              "title": "Hippie"
+              "title": "不然你要我怎麼樣",
+              "disc": 1,
+              "trackNumber": 4,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5b/f5/2d/5bf52d3d-4528-6d27-5c5c-12e61a7f1360/mzaf_14136061429537210280.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%B8%8D%E7%84%B6%E4%BD%A0%E8%A6%81%E6%88%91%E6%80%8E%E9%BA%BC%E6%A8%A3/1443938740?i=1443938813&uo=4"
             },
             {
               "n": 4,
-              "title": "不然你要我怎麼樣"
+              "title": "不睡",
+              "disc": 1,
+              "trackNumber": 5,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ad/bf/f6/adbff656-7b00-73d4-460e-3b1a87565e55/mzaf_16746887345957056086.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%B8%8D%E7%9D%A1/1443938740?i=1443938814&uo=4"
             },
             {
               "n": 5,
-              "title": "不睡"
+              "title": "一夜銷魂",
+              "disc": 1,
+              "trackNumber": 6,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d2/69/86/d26986b9-57eb-bc80-fc04-567112995eec/mzaf_8727167162157932811.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%B8%80%E5%A4%9C%E9%8A%B7%E9%AD%82/1443938740?i=1443938818&uo=4"
             },
             {
               "n": 6,
-              "title": "一夜銷魂"
+              "title": "浮城",
+              "disc": 1,
+              "trackNumber": 7,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1d/18/29/1d182995-d02a-eebe-bf11-bbd09d1328ca/mzaf_3430147396071550866.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%B5%AE%E5%9F%8E/1443938740?i=1443938819&uo=4"
             },
             {
               "n": 7,
-              "title": "浮城"
+              "title": "早開的長途班",
+              "disc": 1,
+              "trackNumber": 8,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b4/98/8f/b4988f69-2d0d-68b9-4e25-4e1a0cfd6daa/mzaf_1397704167400175279.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%97%A9%E9%96%8B%E7%9A%84%E9%95%B7%E9%80%94%E7%8F%AD/1443938740?i=1443938824&uo=4"
             },
             {
               "n": 8,
-              "title": "早開的長途班"
+              "title": "聽聽 (粵)",
+              "disc": 1,
+              "trackNumber": 9,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a4/de/a4/a4dea400-a785-fa29-d288-ad764af4bb39/mzaf_5545773823791405677.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E8%81%BD%E8%81%BD-%E7%B2%B5/1443938740?i=1443939043&uo=4"
             },
             {
               "n": 9,
-              "title": "聽聽"
-            },
-            {
-              "n": 10,
-              "title": "人神鬥"
+              "title": "人神鬥 (粵)",
+              "disc": 1,
+              "trackNumber": 10,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/94/91/4a/94914a81-35f2-e81d-d375-eb90488354a9/mzaf_2807991339534652802.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%BA%BA%E7%A5%9E%E9%AC%A5-%E7%B2%B5/1443938740?i=1443939045&uo=4"
             }
           ],
-          "notes": "Primarily Mandarin; tracks 9–10 are Cantonese."
+          "notes": "Primarily Mandarin; tracks 9–10 are Cantonese.",
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/%E6%80%8E%E9%BA%BC%E6%A8%A3",
+          "source": "itunes",
+          "collectionId": 1443938740,
+          "collectionViewUrl": "https://music.apple.com/hk/album/%E6%80%8E%E9%BA%BC%E6%A8%A3/1443938740?uo=4",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/cc/c6/88/ccc68819-efda-82da-ce75-582595f4a43f/00602498348406.rgb.jpg/600x600bb.jpg"
         }
       ],
       "notes": ""
@@ -1301,50 +2113,94 @@
           "title": "The Line-Up",
           "year": 2002,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/The_Line-Up",
           "tracks": [
             {
               "n": 1,
-              "title": "心裡有鬼"
+              "title": "心裡有鬼",
+              "disc": 1,
+              "trackNumber": 1,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9c/c9/a0/9cc9a071-5706-aa2f-93d6-9219c19836a2/mzaf_10691834157878329432.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%BF%83%E8%A3%A1%E6%9C%89%E9%AC%BC/542611601?i=542611604&uo=4"
             },
             {
               "n": 2,
-              "title": "我有我愛你"
+              "title": "我有我愛你",
+              "disc": 1,
+              "trackNumber": 2,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a0/b7/18/a0b71822-0754-4f9b-f675-b3cadf26c50d/mzaf_13460370723131652053.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%88%91%E6%9C%89%E6%88%91%E6%84%9B%E4%BD%A0/542611601?i=542611605&uo=4"
             },
             {
               "n": 3,
-              "title": "明年今日"
+              "title": "明年今日",
+              "disc": 1,
+              "trackNumber": 3,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c5/70/ef/c570ef6c-0c68-3cd7-3074-635db365b4e6/mzaf_8868612859503622140.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%98%8E%E5%B9%B4%E4%BB%8A%E6%97%A5/542611601?i=542611606&uo=4"
             },
             {
               "n": 4,
-              "title": "人來人往"
+              "title": "人來人往",
+              "disc": 1,
+              "trackNumber": 4,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/aa/66/0a/aa660a82-c723-5a90-df77-4d36826ec8eb/mzaf_15122158772738331078.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%BA%BA%E4%BE%86%E4%BA%BA%E5%BE%80/542611601?i=542611607&uo=4"
             },
             {
               "n": 5,
-              "title": "季軍"
+              "title": "季軍",
+              "disc": 1,
+              "trackNumber": 5,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8b/22/aa/8b22aa4a-ea22-e5c5-1015-1a51125b784d/mzaf_6278369258445977175.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%AD%A3%E8%BB%8D/542611601?i=542611608&uo=4"
             },
             {
               "n": 6,
-              "title": "隨意門"
+              "title": "隨意門",
+              "disc": 1,
+              "trackNumber": 6,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5f/59/1e/5f591eea-b9fb-1ff1-519a-adacf4882ca5/mzaf_12710631848470813081.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E9%9A%A8%E6%84%8F%E9%96%80/542611601?i=542611729&uo=4"
             },
             {
               "n": 7,
-              "title": "1874"
+              "title": "1874",
+              "disc": 1,
+              "trackNumber": 7,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cf/20/d6/cf20d683-4a7d-a1b5-1cf1-f3d7741847ab/mzaf_17469923069184636378.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/1874/542611601?i=542611732&uo=4"
             },
             {
               "n": 8,
-              "title": "防不勝防"
+              "title": "防不勝防",
+              "disc": 1,
+              "trackNumber": 8,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/31/c7/27/31c72721-4a4f-5039-e002-476b7a8467d5/mzaf_11033619282100486569.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E9%98%B2%E4%B8%8D%E5%8B%9D%E9%98%B2/542611601?i=542611733&uo=4"
             },
             {
               "n": 9,
-              "title": "兩名男子街頭相遇"
+              "title": "兩名男子街頭相遇",
+              "disc": 1,
+              "trackNumber": 9,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d8/1f/6e/d81f6e5d-2714-062f-5a27-589f83c2a5d4/mzaf_15933281468335751233.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%85%A9%E5%90%8D%E7%94%B7%E5%AD%90%E8%A1%97%E9%A0%AD%E7%9B%B8%E9%81%87/542611601?i=542611734&uo=4"
             },
             {
               "n": 10,
-              "title": "黑面"
+              "title": "黑面",
+              "disc": 1,
+              "trackNumber": 10,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a2/62/51/a2625115-c7fe-41a4-298e-b6a6aa969ee0/mzaf_8643469829816757816.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E9%BB%91%E9%9D%A2/542611601?i=542611735&uo=4"
             }
           ],
-          "notes": "Originally a 2-disc set (Disc1 夕陽組合 / Disc2 雙Wong); order follows Wikipedia Disc1 then Disc2."
+          "notes": "Originally a 2-disc set (Disc1 夕陽組合 / Disc2 雙Wong); order follows Wikipedia Disc1 then Disc2.",
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/The_Line-Up",
+          "source": "itunes",
+          "collectionId": 542611601,
+          "collectionViewUrl": "https://music.apple.com/hk/album/the-line-up/542611601?uo=4",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e7/fb/65/e7fb65a7-07b6-e47b-d757-461c9e46305b/EEG1067V1-THE_LINE_UP-.jpg/600x600bb.jpg"
         }
       ],
       "notes": ""
@@ -1359,53 +2215,101 @@
           "title": "Live For Today",
           "year": 2003,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/Live_For_Today",
           "tracks": [
             {
               "n": 1,
-              "title": "幸災樂禍"
+              "title": "幸災樂禍",
+              "disc": 1,
+              "trackNumber": 1,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2a/86/d3/2a86d389-4caa-b359-ca23-44abef67e32a/mzaf_17415222871721488210.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%B9%B8%E7%81%BD%E6%A8%82%E7%A6%8D/542676848?i=542677233&uo=4"
             },
             {
               "n": 2,
-              "title": "Katrina"
+              "title": "Katrina",
+              "disc": 1,
+              "trackNumber": 2,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/22/6b/fe/226bfe9f-02db-81c0-1cc9-deb93869d7c2/mzaf_14250355138048643762.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/katrina/542676848?i=542677236&uo=4"
             },
             {
               "n": 3,
-              "title": "十面埋伏"
+              "title": "十面埋伏",
+              "disc": 1,
+              "trackNumber": 3,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/48/55/92/485592d4-1ddc-7ce7-62a1-941af3fcfcbe/mzaf_7888793824058965167.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%8D%81%E9%9D%A2%E5%9F%8B%E4%BC%8F/542676848?i=542677237&uo=4"
             },
             {
               "n": 4,
-              "title": "呀邊個邊個"
+              "title": "呀邊個邊個",
+              "disc": 1,
+              "trackNumber": 4,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/58/e4/b8/58e4b89f-aed6-e8b8-3961-f91918647d9c/mzaf_13988335664000976027.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%91%80%E9%82%8A%E5%80%8B%E9%82%8A%E5%80%8B/542676848?i=542677238&uo=4"
             },
             {
               "n": 5,
-              "title": "小孩不懂怕"
+              "title": "小孩不懂怕",
+              "disc": 1,
+              "trackNumber": 5,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ca/74/ec/ca74ec6f-6b7e-b993-0ee2-7f30adb31886/mzaf_8587487643085272608.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%B0%8F%E5%AD%A9%E4%B8%8D%E6%87%82%E6%80%95/542676848?i=542677243&uo=4"
             },
             {
               "n": 6,
-              "title": "謊言"
+              "title": "謊言",
+              "disc": 1,
+              "trackNumber": 6,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cf/99/64/cf9964c8-e3fe-89fb-1707-bae44bf9e6a8/mzaf_2402410374405192405.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E8%AC%8A%E8%A8%80/542676848?i=542677430&uo=4"
             },
             {
               "n": 7,
-              "title": "真相"
+              "title": "真相",
+              "disc": 1,
+              "trackNumber": 7,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/6c/ac/776cac4f-61b4-c40f-af2e-9e078a868ea3/mzaf_11962538119217100387.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%9C%9F%E7%9B%B8/542676848?i=542677431&uo=4"
             },
             {
               "n": 8,
-              "title": "猜情尋"
+              "title": "猜情尋",
+              "disc": 1,
+              "trackNumber": 8,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8f/87/72/8f877240-f700-fec4-cb8a-53a36bb570df/mzaf_2899488361957945230.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%8C%9C%E6%83%85%E5%B0%8B/542676848?i=542677432&uo=4"
             },
             {
               "n": 9,
-              "title": "忘記歌詞"
+              "title": "忘記歌詞",
+              "disc": 1,
+              "trackNumber": 9,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cc/96/7b/cc967bb9-2aef-aa28-9f26-6c8999e48508/mzaf_4144470144162609510.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%BF%98%E8%A8%98%E6%AD%8C%E8%A9%9E/542676848?i=542677435&uo=4"
             },
             {
               "n": 10,
-              "title": "New Order"
+              "title": "New Order",
+              "disc": 1,
+              "trackNumber": 10,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b5/2d/14/b52d14b6-7a64-d407-5aeb-2b1e988b67f3/mzaf_2636635945669414523.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/new-order/542676848?i=542677436&uo=4"
             },
             {
               "n": 11,
-              "title": "歲月如歌"
+              "title": "歲月如歌",
+              "disc": 1,
+              "trackNumber": 11,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d4/ed/ab/d4edab2c-1cc8-05a3-a3db-4b52c5a7bc56/mzaf_6586276179830073275.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%AD%B2%E6%9C%88%E5%A6%82%E6%AD%8C/542676848?i=542677437&uo=4"
             }
-          ]
+          ],
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/Live_For_Today",
+          "source": "itunes",
+          "collectionId": 542676848,
+          "collectionViewUrl": "https://music.apple.com/hk/album/live-for-today/542676848?uo=4",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/42/56/ce/4256ce96-dae5-cb71-15c8-58a19f5178d9/EEG1090V1-Live_For_Today-.jpg/600x600bb.jpg"
         }
       ],
       "notes": ""
@@ -1420,49 +2324,93 @@
           "title": "打得火熱",
           "year": 2000,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/%E6%89%93%E5%BE%97%E7%81%AB%E7%86%B1_(%E9%99%B3%E5%A5%95%E8%BF%85%E5%B0%88%E8%BC%AF)",
           "tracks": [
             {
               "n": 1,
-              "title": "K歌之王"
+              "title": "K歌之王",
+              "disc": 1,
+              "trackNumber": 1,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3f/cc/a9/3fcca90c-648c-3627-ba7d-08c0c9183f1d/mzaf_8985623907447594504.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/k%E6%AD%8C%E4%B9%8B%E7%8E%8B/542594340?i=542594345&uo=4"
             },
             {
               "n": 2,
-              "title": "打得火熱"
+              "title": "打得火熱",
+              "disc": 1,
+              "trackNumber": 2,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/20/93/8f/20938fa3-d0f1-3a95-acbc-90f327dbe02d/mzaf_5424514448131381065.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%89%93%E5%BE%97%E7%81%AB%E7%86%B1/542594340?i=542594346&uo=4"
             },
             {
               "n": 3,
-              "title": "新廣告歌"
+              "title": "新廣告歌",
+              "disc": 1,
+              "trackNumber": 3,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/39/43/8f/39438f5e-bb3a-daea-6cef-203139b6973e/mzaf_13347013638785608514.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%96%B0%E5%BB%A3%E5%91%8A%E6%AD%8C/542594340?i=542594347&uo=4"
             },
             {
               "n": 4,
-              "title": "低等動物"
+              "title": "低等動物",
+              "disc": 1,
+              "trackNumber": 4,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/08/6f/04/086f0435-f2d7-1eb1-8065-6af0ff955c89/mzaf_6584282722711535902.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%BD%8E%E7%AD%89%E5%8B%95%E7%89%A9/542594340?i=542594348&uo=4"
             },
             {
               "n": 5,
-              "title": "綿綿"
+              "title": "綿綿",
+              "disc": 1,
+              "trackNumber": 5,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cc/3c/4c/cc3c4c75-a332-9a27-8b31-4124d18e8eea/mzaf_3479692522954156633.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%B6%BF%E7%B6%BF/542594340?i=542594352&uo=4"
             },
             {
               "n": 6,
-              "title": "美麗謊言"
+              "title": "美麗謊言",
+              "disc": 1,
+              "trackNumber": 6,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9a/a2/cc/9aa2ccdf-4691-43e2-20e6-c2d2f075ca26/mzaf_16783250728576778768.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%BE%8E%E9%BA%97%E8%AC%8A%E8%A8%80/542594340?i=542594353&uo=4"
             },
             {
               "n": 7,
-              "title": "吹微風"
+              "title": "吹微風",
+              "disc": 1,
+              "trackNumber": 7,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e9/d2/de/e9d2ded6-d25e-2bf9-524b-ced600cf2647/mzaf_16445692580615971659.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%90%B9%E5%BE%AE%E9%A2%A8/542594340?i=542594354&uo=4"
             },
             {
               "n": 8,
-              "title": "溫室效應"
+              "title": "溫室效應",
+              "disc": 1,
+              "trackNumber": 8,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/22/81/b7/2281b798-f845-a76e-6e9e-2685b72fdb8d/mzaf_15673864638208256855.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%BA%AB%E5%AE%A4%E6%95%88%E6%87%89/542594340?i=542594355&uo=4"
             },
             {
               "n": 9,
-              "title": "活躍症"
+              "title": "活躍症",
+              "disc": 1,
+              "trackNumber": 9,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0a/af/39/0aaf3972-a12a-c2a2-30a9-e7ec1c401a03/mzaf_6170758137350075923.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%B4%BB%E8%BA%8D%E7%97%87/542594340?i=542594356&uo=4"
             },
             {
               "n": 10,
-              "title": "下週同樣時間 (再見!)"
+              "title": "下週同樣時間(再見)",
+              "disc": 1,
+              "trackNumber": 10,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8b/cc/6c/8bcc6cc6-f091-09c8-0438-478e42e73825/mzaf_6058501287282337520.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%B8%8B%E9%80%B1%E5%90%8C%E6%A8%A3%E6%99%82%E9%96%93-%E5%86%8D%E8%A6%8B/542594340?i=542594357&uo=4"
             }
-          ]
+          ],
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/%E6%89%93%E5%BE%97%E7%81%AB%E7%86%B1_(%E9%99%B3%E5%A5%95%E8%BF%85%E5%B0%88%E8%BC%AF)",
+          "source": "itunes",
+          "collectionId": 542594340,
+          "collectionViewUrl": "https://music.apple.com/hk/album/%E6%89%93%E5%BE%97%E7%81%AB%E7%86%B1/542594340?uo=4",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/fa/3f/97/fa3f97c5-65a8-84f4-c348-b821e16a82a1/EEG1006V2-_-.jpg/600x600bb.jpg"
         }
       ],
       "notes": ""
@@ -1477,50 +2425,94 @@
           "title": "反正是我",
           "year": 2001,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/%E5%8F%8D%E6%AD%A3%E6%98%AF%E6%88%91",
           "tracks": [
             {
               "n": 1,
-              "title": "Because You're Good To Me"
+              "title": "Because You're Good to Me",
+              "disc": 1,
+              "trackNumber": 1,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e8/9a/40/e89a4014-dfb8-911d-76df-3bcf125502f2/mzaf_13484284929535662568.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/because-youre-good-to-me/542592136?i=542592140&uo=4"
             },
             {
               "n": 2,
-              "title": "低等動物"
+              "title": "低等動物",
+              "disc": 1,
+              "trackNumber": 2,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5c/26/d1/5c26d107-82a9-842d-5797-d4d6768398ef/mzaf_6993717917994638913.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%BD%8E%E7%AD%89%E5%8B%95%E7%89%A9/542592136?i=542592141&uo=4"
             },
             {
               "n": 3,
-              "title": "不如這樣"
+              "title": "不如這樣",
+              "disc": 1,
+              "trackNumber": 3,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/93/e8/9d/93e89da8-056b-4713-a99c-fb6b329c168a/mzaf_17448539731277432043.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%B8%8D%E5%A6%82%E9%80%99%E6%A8%A3/542592136?i=542592142&uo=4"
             },
             {
               "n": 4,
-              "title": "愛是懷疑"
+              "title": "愛是懷疑",
+              "disc": 1,
+              "trackNumber": 4,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2f/5c/07/2f5c0790-b546-d076-2b7a-28f75a45b537/mzaf_5441578043251970724.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%84%9B%E6%98%AF%E6%87%B7%E7%96%91/542592136?i=542592143&uo=4"
             },
             {
               "n": 5,
-              "title": "我也不會那麼做"
+              "title": "我也不會那麼做",
+              "disc": 1,
+              "trackNumber": 5,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2a/58/9e/2a589e48-5bbc-da91-1b5c-8ec3ff54bbd4/mzaf_15245439023204812562.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%88%91%E4%B9%9F%E4%B8%8D%E6%9C%83%E9%82%A3%E9%BA%BC%E5%81%9A/542592136?i=542592144&uo=4"
             },
             {
               "n": 6,
-              "title": "K歌之王"
+              "title": "K歌之王",
+              "disc": 1,
+              "trackNumber": 6,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f6/30/dd/f630dda8-836e-34fc-bf03-be835b03df45/mzaf_4230394624033630863.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/k%E6%AD%8C%E4%B9%8B%E7%8E%8B/542592136?i=542592145&uo=4"
             },
             {
               "n": 7,
-              "title": "沒有你"
+              "title": "沒有你",
+              "disc": 1,
+              "trackNumber": 7,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/34/dd/eb/34ddeb36-00b0-6754-9f83-187b73f972b7/mzaf_7375188879595902543.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%B2%92%E6%9C%89%E4%BD%A0/542592136?i=542592148&uo=4"
             },
             {
               "n": 8,
-              "title": "冤家"
+              "title": "冤家",
+              "disc": 1,
+              "trackNumber": 8,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/26/40/51/264051d3-c3ab-d9f0-9884-6b8cda821bd6/mzaf_12323421730556009711.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%86%A4%E5%AE%B6/542592136?i=542592489&uo=4"
             },
             {
               "n": 9,
-              "title": "全世界失眠"
+              "title": "全世界失眠",
+              "disc": 1,
+              "trackNumber": 9,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a7/95/2d/a7952dcf-9813-8e5c-e954-4b7550d0bd6b/mzaf_11626537682460433034.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%85%A8%E4%B8%96%E7%95%8C%E5%A4%B1%E7%9C%A0/542592136?i=542592490&uo=4"
             },
             {
               "n": 10,
-              "title": "Good Times"
+              "title": "Good Times",
+              "disc": 1,
+              "trackNumber": 10,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0e/d4/74/0ed474df-3e79-a304-575f-774aac16d9ac/mzaf_17293995282104601935.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/good-times/542592136?i=542592491&uo=4"
             }
           ],
-          "notes": "Poster brands as 「It's me 反正是我」; standard album title is 反正是我 (Mandarin)."
+          "notes": "Poster brands as 「It's me 反正是我」; standard album title is 反正是我 (Mandarin).",
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/%E5%8F%8D%E6%AD%A3%E6%98%AF%E6%88%91",
+          "source": "itunes",
+          "collectionId": 542592136,
+          "collectionViewUrl": "https://music.apple.com/hk/album/%E5%8F%8D%E6%AD%A3%E6%98%AF%E6%88%91-%E5%9C%8B/542592136?uo=4",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e2/d8/d8/e2d8d863-c9bb-a62b-23ed-ca18fc12c948/EEG3008-_-.jpg/600x600bb.jpg"
         }
       ],
       "notes": ""
@@ -1535,54 +2527,102 @@
           "title": "上五樓的快活",
           "year": 2009,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/%E4%B8%8A%E4%BA%94%E6%A8%93%E7%9A%84%E5%BF%AB%E6%B4%BB",
           "tracks": [
             {
               "n": 1,
-              "title": "在你身邊"
+              "title": "在你身邊",
+              "disc": 1,
+              "trackNumber": 1,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b7/61/56/b7615668-f3dd-9d9a-4228-fd93826ce670/mzaf_5690722984407160273.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%9C%A8%E4%BD%A0%E8%BA%AB%E9%82%8A/1442260565?i=1442260710&uo=4"
             },
             {
               "n": 2,
-              "title": "這樣的一個麻煩"
+              "title": "這樣的一個麻煩",
+              "disc": 1,
+              "trackNumber": 2,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/dd/9a/f1/dd9af18e-2b48-8680-2db8-d939a3f07670/mzaf_6988945386483478934.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E9%80%99%E6%A8%A3%E7%9A%84%E4%B8%80%E5%80%8B%E9%BA%BB%E7%85%A9/1442260565?i=1442260916&uo=4"
             },
             {
               "n": 3,
-              "title": "多少"
+              "title": "多少",
+              "disc": 1,
+              "trackNumber": 3,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/06/54/7e/06547e73-3745-1fa4-da1f-6495216e065c/mzaf_4870836968053899014.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%A4%9A%E5%B0%91/1442260565?i=1442260925&uo=4"
             },
             {
               "n": 4,
-              "title": "Nothing Ever Happened"
+              "title": "Nothing Ever Happened",
+              "disc": 1,
+              "trackNumber": 4,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0c/be/87/0cbe8758-bad8-1803-fd14-71362735cf2b/mzaf_11087871382481559817.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/nothing-ever-happened/1442260565?i=1442261087&uo=4"
             },
             {
               "n": 5,
-              "title": "你為什麼哭了呢"
+              "title": "你為什麼哭了呢",
+              "disc": 1,
+              "trackNumber": 5,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/89/f6/4b/89f64bdf-66e5-ca0a-0984-84fdbf075d3c/mzaf_10081628409688409751.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%BD%A0%E7%82%BA%E4%BB%80%E9%BA%BC%E5%93%AD%E4%BA%86%E5%91%A2/1442260565?i=1442261095&uo=4"
             },
             {
               "n": 6,
-              "title": "謀情害命"
+              "title": "謀情害命",
+              "disc": 1,
+              "trackNumber": 6,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/33/a0/21/33a0210a-1a1d-2d54-aa0b-d86693020494/mzaf_1914470355511522381.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E8%AC%80%E6%83%85%E5%AE%B3%E5%91%BD/1442260565?i=1442261104&uo=4"
             },
             {
               "n": 7,
-              "title": "我甲你"
+              "title": "我甲你",
+              "disc": 1,
+              "trackNumber": 7,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d2/2f/97/d22f976d-05b1-a1ea-ff7d-44f008530e5f/mzaf_16760250486099949304.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%88%91%E7%94%B2%E4%BD%A0/1442260565?i=1442261108&uo=4"
             },
             {
               "n": 8,
-              "title": "心的距離"
+              "title": "心的距離",
+              "disc": 1,
+              "trackNumber": 8,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/39/d1/a6/39d1a61c-3f8e-5201-ed71-d8596ae2580c/mzaf_12438075823512110568.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%BF%83%E7%9A%84%E8%B7%9D%E9%9B%A2/1442260565?i=1442261385&uo=4"
             },
             {
               "n": 9,
-              "title": "床頭燈"
+              "title": "床頭燈",
+              "disc": 1,
+              "trackNumber": 9,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/32/2b/8c/322b8c61-7138-e458-c783-a12a760b3dc9/mzaf_12903326118308416976.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%BA%8A%E9%A0%AD%E7%87%88/1442260565?i=1442261389&uo=4"
             },
             {
               "n": 10,
-              "title": "給你"
+              "title": "給你",
+              "disc": 1,
+              "trackNumber": 10,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c0/fe/4d/c0fe4dd6-2dd1-9de8-b7f0-7e3e17228806/mzaf_13736985971048998607.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%B5%A6%E4%BD%A0/1442260565?i=1442261399&uo=4"
             },
             {
               "n": 11,
-              "title": "從何說起"
+              "title": "從何說起",
+              "disc": 1,
+              "trackNumber": 11,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/83/05/f1/8305f1e7-925d-4bd5-6190-d8d52f4da2ac/mzaf_15810670408547917345.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%BE%9E%E4%BD%95%E8%AA%AA%E8%B5%B7/1442260565?i=1442261401&uo=4"
             }
           ],
-          "notes": "HK/TW order. Track 7 is Taiwanese (台語); track 4 is English. Some regional editions differ slightly in order."
+          "notes": "HK/TW order. Track 7 is Taiwanese (台語); track 4 is English. Some regional editions differ slightly in order.",
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/%E4%B8%8A%E4%BA%94%E6%A8%93%E7%9A%84%E5%BF%AB%E6%B4%BB",
+          "source": "itunes",
+          "collectionId": 1442260565,
+          "collectionViewUrl": "https://music.apple.com/hk/album/%E4%B8%8A%E4%BA%94%E6%A8%93%E7%9A%84%E5%BF%AB%E6%B4%BB/1442260565?uo=4",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/86/ba/20/86ba2094-8dd0-4625-220e-8eb7f5cd74f8/00602527202747.rgb.jpg/600x600bb.jpg"
         }
       ],
       "notes": ""
@@ -1597,50 +2637,94 @@
           "title": "我的快樂時代",
           "year": 1998,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/%E6%88%91%E7%9A%84%E5%BF%AB%E6%A8%82%E6%99%82%E4%BB%A3",
           "tracks": [
             {
               "n": 1,
-              "title": "我的快樂時代"
+              "title": "我的快樂時代",
+              "disc": 1,
+              "trackNumber": 1,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/82/95/e5/8295e5dd-c8d4-164c-e633-705ed80d3b1d/mzaf_10165941270931453264.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%88%91%E7%9A%84%E5%BF%AB%E6%A8%82%E6%99%82%E4%BB%A3/892745229?i=892745294&uo=4"
             },
             {
               "n": 2,
-              "title": "我甚麼都沒有"
+              "title": "我甚麼都沒有",
+              "disc": 1,
+              "trackNumber": 2,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bd/85/c4/bd85c48c-764f-c009-7d15-5c0cd7abc5c6/mzaf_14166380722715440113.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%88%91%E7%94%9A%E9%BA%BC%E9%83%BD%E6%B2%92%E6%9C%89/892745229?i=892745295&uo=4"
             },
             {
               "n": 3,
-              "title": "天下無雙"
+              "title": "天下無雙",
+              "disc": 1,
+              "trackNumber": 3,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e4/db/c9/e4dbc973-8409-1993-2bc6-2b12d28742d2/mzaf_14736270686815381727.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%A4%A9%E4%B8%8B%E7%84%A1%E9%9B%99/892745229?i=892745296&uo=4"
             },
             {
               "n": 4,
-              "title": "黃金時代"
+              "title": "黃金時代",
+              "disc": 1,
+              "trackNumber": 4,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/15/8a/1a/158a1a08-ff5d-61d5-d564-ab9b71c68843/mzaf_7809227402925952968.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E9%BB%83%E9%87%91%E6%99%82%E4%BB%A3/892745229?i=892745297&uo=4"
             },
             {
               "n": 5,
-              "title": "新曲+精選"
+              "title": "新曲+精選",
+              "disc": 1,
+              "trackNumber": 5,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6b/9d/bc/6b9dbc75-a602-dd0a-9cc6-8a1a85755e24/mzaf_2649935291557314867.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%96%B0%E6%9B%B2-%E7%B2%BE%E9%81%B8/892745229?i=892745299&uo=4"
             },
             {
               "n": 6,
-              "title": "愈想愈無謂"
+              "title": "愈想愈無謂",
+              "disc": 1,
+              "trackNumber": 6,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/dd/de/22/ddde2244-ec4c-f03f-e2d0-268dd9488a7c/mzaf_17374735262136577089.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%84%88%E6%83%B3%E6%84%88%E7%84%A1%E8%AC%82/892745229?i=892745300&uo=4"
             },
             {
               "n": 7,
-              "title": "相信相依"
+              "title": "相信相依",
+              "disc": 1,
+              "trackNumber": 7,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3d/21/77/3d21779c-8043-9c3d-ae2d-18a32641fc0e/mzaf_16830896726758827250.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%9B%B8%E4%BF%A1%E7%9B%B8%E4%BE%9D/892745229?i=892745301&uo=4"
             },
             {
               "n": 8,
-              "title": "兩種講法"
+              "title": "兩種講法",
+              "disc": 1,
+              "trackNumber": 8,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7c/ea/fd/7ceafd09-e352-fb6e-dc75-6b17cd69c131/mzaf_11569683193917109444.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%85%A9%E7%A8%AE%E8%AC%9B%E6%B3%95/892745229?i=892745302&uo=4"
             },
             {
               "n": 9,
-              "title": "請相信我"
+              "title": "請相信我",
+              "disc": 1,
+              "trackNumber": 9,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/45/79/6f/45796fcd-88d4-adc3-5035-ab29b1f7eea7/mzaf_15893641196475489565.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E8%AB%8B%E7%9B%B8%E4%BF%A1%E6%88%91/892745229?i=892745304&uo=4"
             },
             {
               "n": 10,
-              "title": "反高潮"
+              "title": "反高潮",
+              "disc": 1,
+              "trackNumber": 10,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d1/4d/7f/d14d7f42-26ac-740d-8a08-f8b7ba6b60e7/mzaf_5892320489532210017.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%8F%8D%E9%AB%98%E6%BD%AE/892745229?i=892745305&uo=4"
             }
           ],
-          "notes": "Studio CD only; live bonus disc omitted."
+          "notes": "Studio CD only; live bonus disc omitted.",
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/%E6%88%91%E7%9A%84%E5%BF%AB%E6%A8%82%E6%99%82%E4%BB%A3",
+          "source": "itunes",
+          "collectionId": 892745229,
+          "collectionViewUrl": "https://music.apple.com/hk/album/%E6%88%91%E7%9A%84%E5%BF%AB%E6%A8%82%E6%99%82%E4%BB%A3/892745229?uo=4",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a6/b8/20/a6b820e1-aabb-a4c2-e9d1-47637240ca65/825646268146.jpg/600x600bb.jpg"
         }
       ],
       "notes": ""
@@ -1655,62 +2739,118 @@
           "title": "Shall We Dance? Shall We Talk!",
           "year": 2001,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/Shall_We_Dance%3F_Shall_We_Talk!",
           "tracks": [
             {
               "n": 1,
-              "title": "嚟喇"
+              "title": "嚟喇",
+              "disc": 1,
+              "trackNumber": 1,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b1/01/0e/b1010e5b-0730-69f0-e5b3-fc6b2f3acd5d/mzaf_7455322968025717311.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%9A%9F%E5%96%87/542593700?i=542593701&uo=4"
             },
             {
               "n": 2,
-              "title": "Shall We Dance"
+              "title": "Shall We Dance",
+              "disc": 1,
+              "trackNumber": 2,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b8/61/6d/b8616dde-12a1-5b49-9b9c-a201ce9f9776/mzaf_6125855433758551293.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/shall-we-dance/542593700?i=542593702&uo=4"
             },
             {
               "n": 3,
-              "title": "Shall We Talk"
+              "title": "Shall We Talk",
+              "disc": 1,
+              "trackNumber": 3,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bf/25/99/bf259954-53ab-52ab-a84f-da823303cfae/mzaf_15718893069241014521.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/shall-we-talk/542593700?i=542593703&uo=4"
             },
             {
               "n": 4,
-              "title": "2001"
+              "title": "2001",
+              "disc": 1,
+              "trackNumber": 4,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b4/4a/74/b44a7483-9b01-0ab6-d0f9-afc0bf4c48ce/mzaf_15022851428766402831.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/2001/542593700?i=542593704&uo=4"
             },
             {
               "n": 5,
-              "title": "太空漫遊"
+              "title": "太空漫遊",
+              "disc": 1,
+              "trackNumber": 5,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e8/93/79/e8937948-f157-c285-c0f5-94f7082934c4/mzaf_15056031333576411286.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%A4%AA%E7%A9%BA%E6%BC%AB%E9%81%8A/542593700?i=542593706&uo=4"
             },
             {
               "n": 6,
-              "title": "失戀太少"
+              "title": "單車",
+              "disc": 1,
+              "trackNumber": 6,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/85/6e/4e/856e4e16-7f71-2dcd-c034-26bb54d3c2dc/mzaf_12909384631848030465.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%96%AE%E8%BB%8A/542593700?i=542593707&uo=4"
             },
             {
               "n": 7,
-              "title": "單車"
+              "title": "天使的禮物",
+              "disc": 1,
+              "trackNumber": 7,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/22/43/c2/2243c2a7-5df2-d7bf-66c2-64970b91c627/mzaf_8989281428172182743.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%A4%A9%E4%BD%BF%E7%9A%84%E7%A6%AE%E7%89%A9/542593700?i=542593730&uo=4"
             },
             {
               "n": 8,
-              "title": "天使的禮物"
+              "title": "Eason's Angel",
+              "disc": 1,
+              "trackNumber": 8,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b3/1a/c9/b31ac917-7682-29b2-6ba3-2b531e54183f/mzaf_9533705019786723973.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/easons-angel/542593700?i=542593731&uo=4"
             },
             {
               "n": 9,
-              "title": "Eason's Angel"
+              "title": "怪物",
+              "disc": 1,
+              "trackNumber": 9,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d3/e9/61/d3e96107-9629-f788-f22e-1e10cc16a6fc/mzaf_11215417252803876198.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%80%AA%E7%89%A9/542593700?i=542593733&uo=4"
             },
             {
               "n": 10,
-              "title": "怪物"
+              "title": "孤獨探戈",
+              "disc": 1,
+              "trackNumber": 10,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/02/04/41/02044153-f39e-c2b1-45d5-ca8abb4b95fa/mzaf_8486133987749914470.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%AD%A4%E7%8D%A8%E6%8E%A2%E6%88%88/542593700?i=542593734&uo=4"
             },
             {
               "n": 11,
-              "title": "孤獨探戈"
+              "title": "信心花舍",
+              "disc": 1,
+              "trackNumber": 11,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/dc/ef/10/dcef1087-c502-0395-a9d1-373bd841404a/mzaf_7018541368776617469.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%BF%A1%E5%BF%83%E8%8A%B1%E8%88%8D/542593700?i=542593735&uo=4"
             },
             {
               "n": 12,
-              "title": "信心花舍"
+              "title": "黑暗中漫舞",
+              "disc": 1,
+              "trackNumber": 12,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/29/86/ea/2986eab2-bc52-6e6b-2f5b-b73ce4c2abdf/mzaf_166850977921948371.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E9%BB%91%E6%9A%97%E4%B8%AD%E6%BC%AB%E8%88%9E/542593700?i=542593736&uo=4"
             },
             {
               "n": 13,
-              "title": "黑暗中漫舞"
+              "title": "遺失的國度",
+              "disc": 2,
+              "trackNumber": 1,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a7/79/30/a77930ec-7f40-4f52-e89e-506541d5b625/mzaf_5959131585411005638.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E9%81%BA%E5%A4%B1%E7%9A%84%E5%9C%8B%E5%BA%A6/542593700?i=542593737&uo=4"
             }
           ],
-          "notes": "Includes short instrumentals 嚟喇, 2001, Eason's Angel. The hit commonly called 2001太空漫遊 is tracks 4+5. Bonus VCD song 遺失的國度 not included in main CD list."
+          "notes": "Includes short instrumentals 嚟喇, 2001, Eason's Angel. The hit commonly called 2001太空漫遊 is tracks 4+5. Bonus VCD song 遺失的國度 not included in main CD list.",
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/Shall_We_Dance%3F_Shall_We_Talk!",
+          "source": "itunes",
+          "collectionId": 542593700,
+          "collectionViewUrl": "https://music.apple.com/hk/album/shall-we-dance-shall-we-talk/542593700?uo=4",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a9/7e/a2/a97ea2db-0a6e-75a3-c1f8-a9ece883633d/EEG1025S-SHALL_WE_DANCE_SHALL_WE_TALK-.jpg/600x600bb.jpg"
         }
       ],
       "notes": ""
@@ -1725,61 +2865,114 @@
           "title": "U87",
           "year": 2005,
           "verified": true,
-          "source": "https://zh.wikipedia.org/wiki/U87_(%E4%B8%93%E8%BE%91)",
           "tracks": [
             {
               "n": 1,
-              "title": "爛"
+              "title": "爛",
+              "disc": 1,
+              "trackNumber": 1,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/41/3c/cc/413ccc00-aa40-102f-a6d3-4f00c43db54b/mzaf_14928558190492882557.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E7%88%9B/1443374875?i=1443374996&uo=4"
             },
             {
               "n": 2,
-              "title": "阿牛"
+              "title": "阿牛",
+              "disc": 1,
+              "trackNumber": 2,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a9/89/88/a9898869-9ac1-c207-16fc-102eeeea23ac/mzaf_8687609111723724619.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E9%98%BF%E7%89%9B/1443374875?i=1443375157&uo=4"
             },
             {
               "n": 3,
-              "title": "夕陽無限好"
+              "title": "夕陽無限好",
+              "disc": 1,
+              "trackNumber": 3,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/74/33/6f/74336fb6-4fb5-5018-c8f1-4b7cfcf53781/mzaf_6444813244565180853.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%A4%95%E9%99%BD%E7%84%A1%E9%99%90%E5%A5%BD/1443374875?i=1443375265&uo=4"
             },
             {
               "n": 4,
-              "title": "16月6日晴"
+              "title": "16月6日晴",
+              "disc": 1,
+              "trackNumber": 4,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/61/9f/03/619f03c0-629f-bf66-b564-538d957d99a2/mzaf_3619382633578889522.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/16%E6%9C%886%E6%97%A5%E6%99%B4/1443374875?i=1443375373&uo=4"
             },
             {
               "n": 5,
-              "title": "浮誇"
+              "title": "浮誇",
+              "disc": 1,
+              "trackNumber": 5,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cb/11/a2/cb11a2f0-68ab-2a3b-ebb0-3a653a89ee84/mzaf_8788886497054629205.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%B5%AE%E8%AA%87/1443374875?i=1443375396&uo=4"
             },
             {
               "n": 6,
-              "title": "葡萄成熟時"
+              "title": "葡萄成熟時",
+              "disc": 1,
+              "trackNumber": 6,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/16/97/d7/1697d735-4c90-8261-b52a-5766cb021d3d/mzaf_13828170885342169415.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E8%91%A1%E8%90%84%E6%88%90%E7%86%9F%E6%99%82/1443374875?i=1443375474&uo=4"
             },
             {
               "n": 7,
-              "title": "三個人的探戈"
+              "title": "三個人的探戈",
+              "disc": 1,
+              "trackNumber": 7,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cc/82/4b/cc824b5c-28fa-760f-fd20-f607c63e420a/mzaf_3593367222512842266.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%B8%89%E5%80%8B%E4%BA%BA%E7%9A%84%E6%8E%A2%E6%88%88/1443374875?i=1443375611&uo=4"
             },
             {
               "n": 8,
-              "title": "不良嗜好"
+              "title": "不良嗜好",
+              "disc": 1,
+              "trackNumber": 8,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/61/ea/50/61ea5027-609b-6d88-ffdf-42a98c7496c9/mzaf_14800377566512118302.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E4%B8%8D%E8%89%AF%E5%97%9C%E5%A5%BD/1443374875?i=1443375621&uo=4"
             },
             {
               "n": 9,
-              "title": "怕死"
+              "title": "怕死",
+              "disc": 1,
+              "trackNumber": 9,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/85/4e/4f/854e4f7a-62ec-94b5-4bb1-ad33d10c5cb5/mzaf_16632491351579055704.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%80%95%E6%AD%BB/1443374875?i=1443375628&uo=4"
             },
             {
               "n": 10,
-              "title": "大個女"
+              "title": "大個女",
+              "disc": 1,
+              "trackNumber": 10,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9e/ff/84/9eff8476-7463-dccf-6380-7dc4a1545739/mzaf_2049147237953325827.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E5%A4%A7%E5%80%8B%E5%A5%B3/1443374875?i=1443375635&uo=4"
             },
             {
               "n": 11,
-              "title": "新美人主義"
+              "title": "新美人主義 (國)",
+              "disc": 1,
+              "trackNumber": 11,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2b/ee/79/2bee794e-0be5-07da-7ffc-22b611912fad/mzaf_7954080177339261069.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E6%96%B0%E7%BE%8E%E4%BA%BA%E4%B8%BB%E7%BE%A9-%E5%9C%8B/1443374875?i=1443375821&uo=4"
             },
             {
               "n": 12,
-              "title": "遇見了你"
+              "title": "遇見了你 (國)",
+              "disc": 1,
+              "trackNumber": 12,
+              "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c9/da/5e/c9da5eba-5261-8c15-53e6-8d1741ae76ae/mzaf_7250437392779528148.plus.aac.p.m4a",
+              "trackViewUrl": "https://music.apple.com/hk/album/%E9%81%87%E8%A6%8B%E4%BA%86%E4%BD%A0-%E5%9C%8B/1443374875?i=1443375830&uo=4"
             }
           ],
-          "notes": "HK edition includes Mandarin bonus tracks 新美人主義 and 遇見了你 (11–12)."
+          "notes": "HK edition includes Mandarin bonus tracks 新美人主義 and 遇見了你 (11–12).",
+          "wikipedia_source": "https://zh.wikipedia.org/wiki/U87_(%E4%B8%93%E8%BE%91)",
+          "source": "itunes",
+          "collectionId": 1443374875,
+          "collectionViewUrl": "https://music.apple.com/hk/album/u-87/1443374875?uo=4",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/62/52/5c/62525cbe-f9cd-90ee-820e-db3f75d29c80/00602498308905.rgb.jpg/600x600bb.jpg"
         }
       ],
       "notes": ""
     }
-  ]
+  ],
+  "data_source": "iTunes Search API (hk) where available, Wikipedia fallback"
 }
