@@ -2,7 +2,7 @@
    Loads data/shows.json from this origin and stores answers in localStorage.
    Left / 未聽過 = unheard. Right / 聽過 = heard.
    A repeated title keeps the first night. Album names are not shown.
-   Demo / NG / Big Band versions stay.
+   Demo, NG Take, and Big Band versions fold into the main title.
    Horizontal swipe answers. Vertical swipe changes the song. */
 
 (function () {
@@ -49,7 +49,20 @@
     return card.date + "（" + card.weekday + "）";
   }
 
+  var VERSION_SUFFIX = /（(?:Demo Version|NG Take|Big Band Version)）$/;
+
+  function songKey(title) {
+    return title.replace(VERSION_SUFFIX, "").toLowerCase();
+  }
+
+  function isAlternateVersion(title) {
+    return VERSION_SUFFIX.test(title);
+  }
+
   function preferEntry(candidate, current) {
+    var candidateAlt = isAlternateVersion(candidate.title);
+    var currentAlt = isAlternateVersion(current.title);
+    if (candidateAlt !== currentAlt) return !candidateAlt;
     if (candidate.date !== current.date) return candidate.date < current.date;
     return candidate.index < current.index;
   }
@@ -80,13 +93,14 @@
 
     var groups = {};
     entries.forEach(function (entry) {
-      if (!groups[entry.title]) groups[entry.title] = [];
-      groups[entry.title].push(entry);
+      var key = songKey(entry.title);
+      if (!groups[key]) groups[key] = [];
+      groups[key].push(entry);
     });
 
     var keptByIndex = {};
-    Object.keys(groups).forEach(function (title) {
-      var list = groups[title];
+    Object.keys(groups).forEach(function (key) {
+      var list = groups[key];
       var best = list[0];
       var i;
       for (i = 1; i < list.length; i += 1) {
