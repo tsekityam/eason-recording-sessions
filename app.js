@@ -1,8 +1,9 @@
 /* Eason Chan recording-session swipe deck.
    Loads data/shows.json from this origin and stores answers in localStorage.
    Left / 未聽過 = unheard. Right / 聽過 = heard.
-   Same song under Demo / NG / Live / Remix / 國粵 etc. keeps one card
-   (prefer studio / untagged, then earlier night). Album names are not shown.
+   Same song under Demo / NG / Live / Remix / Big Band etc. keeps one card
+   (prefer studio / untagged, then earlier night). 國 / 粵 / 英 stay separate.
+   Album names are not shown.
    Horizontal swipe answers. Vertical swipe changes the song.
    A card with previewUrl starts its 30s preview on its own.
    ▶ 試聽 pauses, resumes, or restarts that preview. */
@@ -230,7 +231,8 @@
 
   function isVersionTag(inner) {
     var s = String(inner || "").replace(/^\s+|\s+$/g, "");
-    if (/^(國|粵|英|乜)$/.test(s)) return true;
+    // 國 / 粵 / 英 mark different songs — do not strip.
+    if (/^乜$/.test(s)) return true;
     if (/^bonus\s*track$/i.test(s)) return true;
     if (/^(demo(\s+version)?|ng\s*take|live(\s+version)?|big\s*band(\s+version)?)$/i.test(s)) {
       return true;
@@ -248,7 +250,7 @@
     if (bracket.test(text)) penalty = Math.max(penalty, 2);
     while ((match = paren.exec(text))) {
       var inner = match[1].replace(/^\s+|\s+$/g, "");
-      if (/^(國|粵|英|乜)$/.test(inner)) {
+      if (/^乜$/.test(inner)) {
         penalty = Math.max(penalty, 1);
       } else if (/^bonus\s*track$/i.test(inner)) {
         penalty = Math.max(penalty, 2);
