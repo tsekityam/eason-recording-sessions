@@ -274,6 +274,8 @@
     var stage = el("div", "stage");
     var cardEl = el("article", "card");
     cardEl.id = "song-card";
+    if (answerFor(card) === "heard") cardEl.classList.add("is-saved-heard");
+    else if (answerFor(card) === "unheard") cardEl.classList.add("is-saved-miss");
 
     var heardStamp = el("span", "stamp stamp-heard", "聽過");
     var missStamp = el("span", "stamp stamp-miss", "未聽過");
