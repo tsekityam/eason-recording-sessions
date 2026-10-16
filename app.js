@@ -287,12 +287,6 @@
     title.id = "song-title";
     var meta = el("div", "meta");
     meta.appendChild(el("p", "when", formatWhen(card)));
-    var chosen = answerFor(card);
-    if (chosen) {
-      var mark = el("p", "mark", chosen === "heard" ? "已選 聽過" : "已選 未聽過");
-      if (chosen === "unheard") mark.classList.add("is-miss");
-      meta.appendChild(mark);
-    }
     body.appendChild(title);
     body.appendChild(meta);
 
@@ -464,8 +458,16 @@
     var missStamp = cardEl.querySelector(".stamp-miss");
 
     function setStamp(delta) {
-      heardStamp.style.opacity = delta > 0 ? "1" : "0";
-      missStamp.style.opacity = delta < 0 ? "1" : "0";
+      if (delta > 0) {
+        heardStamp.style.opacity = "1";
+        missStamp.style.opacity = "0";
+      } else if (delta < 0) {
+        heardStamp.style.opacity = "0";
+        missStamp.style.opacity = "1";
+      } else {
+        heardStamp.style.opacity = "";
+        missStamp.style.opacity = "";
+      }
     }
 
     function snapBack() {

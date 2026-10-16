@@ -219,16 +219,17 @@ button:focus-visible {
   color: rgba(255, 255, 255, 0.88);
 }
 
-.card.is-saved-heard .mark,
-.card.is-heard .mark,
-.card.is-saved-miss .mark,
-.card.is-miss .mark,
 .card.is-saved-heard .stamp-heard,
 .card.is-heard .stamp-heard,
 .card.is-saved-miss .stamp-miss,
 .card.is-miss .stamp-miss {
-  color: var(--lamp-ink);
-  border-color: var(--lamp-ink);
+  color: #fff;
+  border-color: #fff;
+}
+
+.card.is-saved-heard .stamp-heard,
+.card.is-saved-miss .stamp-miss {
+  opacity: 1;
 }
 
 .card::before {
@@ -268,17 +269,6 @@ button:focus-visible {
   color: rgba(28, 20, 12, 0.72);
   font-size: 0.95rem;
   font-variant-numeric: tabular-nums;
-}
-
-.mark {
-  margin: 12px 0 0;
-  font-size: 0.9rem;
-  letter-spacing: 0.04em;
-  color: var(--heard);
-}
-
-.mark.is-miss {
-  color: var(--miss);
 }
 
 .stamp {
