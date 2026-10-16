@@ -2,7 +2,8 @@
    Loads data/shows.json from this origin and stores answers in localStorage.
    Left / 未聽過 = unheard. Right / 聽過 = heard.
    A repeated title keeps the first night. Album names are not shown.
-   Demo / NG / Big Band versions stay. */
+   Demo / NG / Big Band versions stay.
+   Horizontal swipe answers. Vertical swipe changes the song. */
 
 (function () {
   "use strict";
@@ -284,6 +285,12 @@
     title.id = "song-title";
     var meta = el("div", "meta");
     meta.appendChild(el("p", "when", formatWhen(card)));
+    var chosen = answerFor(card);
+    if (chosen) {
+      var mark = el("p", "mark", chosen === "heard" ? "已選 聽過" : "已選 未聽過");
+      if (chosen === "unheard") mark.classList.add("is-miss");
+      meta.appendChild(mark);
+    }
     body.appendChild(title);
     body.appendChild(meta);
 
@@ -304,7 +311,7 @@
     actions.appendChild(miss);
     actions.appendChild(heard);
 
-    var hint = el("p", "hint", "左滑或按 ← 未聽過，右滑或按 → 聽過");
+    var hint = el("p", "hint", "左滑未聽過，右滑聽過。上滑下一首，下滑上一首。");
 
     app.appendChild(stage);
     app.appendChild(actions);
@@ -401,6 +408,34 @@
     }, 170);
   }
 
+  function moveSong(delta) {
+    if (state.busy) return false;
+    if (state.cursor < 0 || state.cursor >= state.cards.length) return false;
+    var next = state.cursor + delta;
+    if (next < 0 || next >= state.cards.length) return false;
+
+    setBusy(true);
+    state.cursor = next;
+    var token = generation + 1;
+    generation = token;
+    var cardEl = document.getElementById("song-card");
+    var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reduce || !cardEl) {
+      setBusy(false);
+      render();
+      return true;
+    }
+
+    cardEl.style.transition = "transform 180ms ease";
+    cardEl.style.transform = delta > 0 ? "translateY(-120%)" : "translateY(120%)";
+    window.setTimeout(function () {
+      if (token !== generation) return;
+      setBusy(false);
+      render();
+    }, 170);
+    return true;
+  }
+
   function onReset() {
     if (!window.confirm("清除所有紀錄並重新開始？")) return;
     generation += 1;
@@ -420,8 +455,9 @@
     var startX = 0;
     var startY = 0;
     var dx = 0;
+    var dy = 0;
     var active = false;
-    var horizontal = false;
+    var axis = "";
     var heardStamp = cardEl.querySelector(".stamp-heard");
     var missStamp = cardEl.querySelector(".stamp-miss");
 
@@ -444,42 +480,57 @@
       startX = event.clientX;
       startY = event.clientY;
       dx = 0;
+      dy = 0;
       active = true;
-      horizontal = false;
+      axis = "";
       cardEl.setPointerCapture(pointerId);
       cardEl.style.transition = "none";
     });
 
     cardEl.addEventListener("pointermove", function (event) {
       if (!active || event.pointerId !== pointerId || state.busy) return;
-      var x = event.clientX - startX;
-      var y = event.clientY - startY;
-      if (!horizontal) {
-        if (Math.abs(x) < 8 && Math.abs(y) < 8) return;
-        if (Math.abs(y) > Math.abs(x)) {
-          active = false;
-          snapBack();
-          return;
-        }
-        horizontal = true;
+      dx = event.clientX - startX;
+      dy = event.clientY - startY;
+      if (!axis) {
+        if (Math.abs(dx) < 8 && Math.abs(dy) < 8) return;
+        axis = Math.abs(dx) >= Math.abs(dy) ? "x" : "y";
       }
-      dx = x;
-      var rot = Math.max(-10, Math.min(10, x / 22));
-      cardEl.style.transform = "translateX(" + x + "px) rotate(" + rot + "deg)";
-      cardEl.classList.toggle("is-heard", x > 36);
-      cardEl.classList.toggle("is-miss", x < -36);
-      setStamp(x);
+      if (axis === "y") {
+        cardEl.style.transform = "translateY(" + dy + "px)";
+        cardEl.classList.remove("is-heard", "is-miss");
+        setStamp(0);
+        return;
+      }
+      var rot = Math.max(-10, Math.min(10, dx / 22));
+      cardEl.style.transform = "translateX(" + dx + "px) rotate(" + rot + "deg)";
+      cardEl.classList.toggle("is-heard", dx > 36);
+      cardEl.classList.toggle("is-miss", dx < -36);
+      setStamp(dx);
     });
 
     function finish(event) {
       if (!active || event.pointerId !== pointerId) return;
       active = false;
-      var width = cardEl.offsetWidth || 1;
-      var threshold = Math.min(96, width * 0.26);
-      if (!horizontal || state.busy) {
+      if (!axis || state.busy) {
         snapBack();
         return;
       }
+      if (axis === "y") {
+        var height = cardEl.offsetHeight || 1;
+        var yThreshold = Math.min(90, height * 0.22);
+        if (dy <= -yThreshold) {
+          if (!moveSong(1)) snapBack();
+          return;
+        }
+        if (dy >= yThreshold) {
+          if (!moveSong(-1)) snapBack();
+          return;
+        }
+        snapBack();
+        return;
+      }
+      var width = cardEl.offsetWidth || 1;
+      var threshold = Math.min(96, width * 0.26);
       if (dx >= threshold) {
         settle("heard");
         return;
@@ -501,12 +552,19 @@
 
   document.addEventListener("keydown", function (event) {
     if (event.repeat || event.metaKey || event.ctrlKey || event.altKey) return;
+    if (state.cursor >= state.cards.length) return;
     if (event.key === "ArrowLeft") {
       event.preventDefault();
       settle("unheard");
     } else if (event.key === "ArrowRight") {
       event.preventDefault();
       settle("heard");
+    } else if (event.key === "ArrowUp") {
+      event.preventDefault();
+      moveSong(-1);
+    } else if (event.key === "ArrowDown") {
+      event.preventDefault();
+      moveSong(1);
     }
   });
 

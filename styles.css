@@ -227,6 +227,17 @@ button:focus-visible {
   font-variant-numeric: tabular-nums;
 }
 
+.mark {
+  margin: 12px 0 0;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  color: var(--heard);
+}
+
+.mark.is-miss {
+  color: var(--miss);
+}
+
 .stamp {
   position: absolute;
   top: 22px;
