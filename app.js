@@ -1,8 +1,8 @@
 /* Eason Chan recording-session swipe deck.
    Loads data/shows.json from this origin and stores answers in localStorage.
    Left / 未聽過 = unheard. Right / 聽過 = heard.
-   A repeated title keeps the first night. Album names are not shown.
-   Demo / NG / Big Band versions stay.
+   Same song under Demo / NG / Live / Remix / 國粵 etc. keeps one card
+   (prefer studio / untagged, then earlier night). Album names are not shown.
    Horizontal swipe answers. Vertical swipe changes the song.
    A card with previewUrl starts its 30s preview on its own.
    ▶ 試聽 pauses, resumes, or restarts that preview. */
@@ -228,7 +228,52 @@
     return card.date + "（" + card.weekday + "）";
   }
 
+  function isVersionTag(inner) {
+    var s = String(inner || "").replace(/^\s+|\s+$/g, "");
+    if (/^(國|粵|英|乜)$/.test(s)) return true;
+    if (/^bonus\s*track$/i.test(s)) return true;
+    if (/^(demo(\s+version)?|ng\s*take|live(\s+version)?|big\s*band(\s+version)?)$/i.test(s)) {
+      return true;
+    }
+    if (/\b(remix|club\s*mix)\b/i.test(s)) return true;
+    return false;
+  }
+
+  function versionPenalty(title) {
+    var text = String(title || "");
+    var penalty = 0;
+    var match;
+    var bracket = /\[(Live|Demo)[^\]]*\]/gi;
+    var paren = /[\(（]([^\)）]*)[\)）]/g;
+    if (bracket.test(text)) penalty = Math.max(penalty, 2);
+    while ((match = paren.exec(text))) {
+      var inner = match[1].replace(/^\s+|\s+$/g, "");
+      if (/^(國|粵|英|乜)$/.test(inner)) {
+        penalty = Math.max(penalty, 1);
+      } else if (/^bonus\s*track$/i.test(inner)) {
+        penalty = Math.max(penalty, 2);
+      } else if (/^(demo(\s+version)?|ng\s*take|live(\s+version)?|big\s*band(\s+version)?)$/i.test(inner)) {
+        penalty = Math.max(penalty, 2);
+      } else if (/\b(remix|club\s*mix)\b/i.test(inner)) {
+        penalty = Math.max(penalty, 3);
+      }
+    }
+    return penalty;
+  }
+
+  function canonicalTitle(title) {
+    var text = String(title || "");
+    text = text.replace(/\s*\[(Live|Demo)[^\]]*\]\s*/gi, " ");
+    text = text.replace(/\s*[\(（]([^\)）]*)[\)）]/g, function (full, inner) {
+      return isVersionTag(inner) ? " " : full;
+    });
+    return text.replace(/\s+/g, " ").replace(/^\s+|\s+$/g, "").toLowerCase();
+  }
+
   function preferEntry(candidate, current) {
+    var candidatePenalty = versionPenalty(candidate.title);
+    var currentPenalty = versionPenalty(current.title);
+    if (candidatePenalty !== currentPenalty) return candidatePenalty < currentPenalty;
     if (candidate.date !== current.date) return candidate.date < current.date;
     return candidate.index < current.index;
   }
@@ -261,13 +306,14 @@
 
     var groups = {};
     entries.forEach(function (entry) {
-      if (!groups[entry.title]) groups[entry.title] = [];
-      groups[entry.title].push(entry);
+      var key = canonicalTitle(entry.title);
+      if (!groups[key]) groups[key] = [];
+      groups[key].push(entry);
     });
 
     var keptByIndex = {};
-    Object.keys(groups).forEach(function (title) {
-      var list = groups[title];
+    Object.keys(groups).forEach(function (key) {
+      var list = groups[key];
       var best = list[0];
       var i;
       for (i = 1; i < list.length; i += 1) {
