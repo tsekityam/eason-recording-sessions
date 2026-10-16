@@ -300,6 +300,7 @@
             n: track.n,
             title: track.title,
             previewUrl: track.previewUrl || "",
+            appleMusicUrl: track.appleMusicUrl || album.albumUrl || "",
             artworkUrl: album.artworkUrl || ""
           });
         });
@@ -339,6 +340,7 @@
         n: entry.n,
         title: entry.title,
         previewUrl: entry.previewUrl,
+        appleMusicUrl: entry.appleMusicUrl,
         artworkUrl: entry.artworkUrl
       };
       if (best === entry) {
@@ -546,6 +548,26 @@
       else startPreview(card.previewUrl, playBtn);
     } else {
       stopPreview();
+    }
+    if (card.appleMusicUrl) {
+      var badgeLink = el("a", "apple-music-badge");
+      badgeLink.href = card.appleMusicUrl;
+      badgeLink.target = "_blank";
+      badgeLink.rel = "noopener";
+      badgeLink.setAttribute("aria-label", "在 Apple Music 收聽 " + card.title);
+      badgeLink.addEventListener("pointerdown", function (e) { e.stopPropagation(); });
+      badgeLink.addEventListener("click", function (e) { e.stopPropagation(); });
+      var badgeImg = el("img");
+      badgeImg.src = "assets/listen-on-apple-music-zh-hk.svg";
+      badgeImg.alt = "Listen on Apple Music";
+      badgeImg.width = 140;
+      badgeImg.height = 40;
+      badgeImg.draggable = false;
+      badgeLink.appendChild(badgeImg);
+      body.appendChild(badgeLink);
+    }
+    if (card.previewUrl) {
+      body.appendChild(el("p", "itunes-credit", "Preview provided courtesy of iTunes"));
     }
 
     cardEl.appendChild(heardStamp);
